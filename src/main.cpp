@@ -237,8 +237,8 @@ void setup()
     int humidityValue=sensor.getHumidityPercent();
     float bat= getBatVoltage();
     tempValue=tempValue/100;
-    Serial.printf("\nBatterie: %f V\n",bat);
-    Serial.printf("\nTemperatur: %f , Feuchte: %i\n",tempValue,humidityValue);
+    Serial.printf("\nBat. Voltage: %f V\n",bat);
+    Serial.printf("\nTemperature: %f , Humidity: %i\n",tempValue,humidityValue);
     drawTemperature(tempValue,humidityValue);
     drawBattState(bat,MIN_BAT_VOLTAGE);
     drawIpAddress(WiFi.localIP());
