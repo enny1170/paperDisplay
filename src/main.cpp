@@ -54,6 +54,10 @@ const unsigned char lilygo[] = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 #define SCL_PIN 22
 #define VBAT_PIN 35
 
+#define MAX_BAT_VOLTAGE 3.8
+#define MIN_BAT_VOLTAGE 2.3
+#define ROUND_2_INT(f) ((int)(f >= 0.0 ? (f + 0.5) : (f - 0.5))) 
+
 GxIO_Class io(SPI, /*CS=5*/ ELINK_SS, /*DC=*/ ELINK_DC, /*RST=*/ ELINK_RESET);
 GxEPD_Class display(io, /*RST=*/ ELINK_RESET, /*BUSY=*/ ELINK_BUSY);
 
@@ -100,22 +104,23 @@ void drawBattState(float value,float minValue)
     display.drawLine(xMin+5,yMin-3,xMax-5,yMin-3,GxEPD_BLACK);
 
     int maxLines=yMax-yMin;
-    float loadFactor=3.7-minValue;
+    float loadFactor=MAX_BAT_VOLTAGE-minValue;
     float valueFactor=value-minValue;
-    int missingPercent=(int)(loadFactor/valueFactor)*100;
-    Serial.printf("\nLoad Factor: %f, Value Factor: %f, Bat Percent: %i\n",loadFactor,valueFactor,100-missingPercent);
-    int runLines=((float)maxLines/100)*(100-missingPercent);
-    Serial.printf("Max Lines: %i, Percent Lines: %i",maxLines,runLines);
+    float batPercent=(valueFactor/loadFactor)*100;
+    int missingPercent=ROUND_2_INT(batPercent);
+    Serial.printf("\nLoad Factor: %f, Value Factor: %f, Bat Percent: %f\n",loadFactor,valueFactor,batPercent);
+    int runLines=((float)maxLines/100)*(missingPercent);
+    Serial.printf("Max Lines: %i, Percent Lines: %i, Bat Percent: %i",maxLines,runLines,missingPercent);
     //fill Bat
     for (size_t i = 0; i < runLines; i++)
     {
       display.drawLine(xMin,yMax-i,xMax,yMax-i,GxEPD_BLACK);
     }
     // Set Markers
-    int _25percentLine=((float)maxLines/100)*(100-75);
-    int _50percentLine=((float)maxLines/100)*(100-50);
-    int _75percentLine=((float)maxLines/100)*(100-25);
-    if(missingPercent>75)
+    int _25percentLine=((float)maxLines/100)*(25);
+    int _50percentLine=((float)maxLines/100)*(50);
+    int _75percentLine=((float)maxLines/100)*(75);
+    if(missingPercent<25)
     {
       display.drawLine(xMin+2,yMax-_25percentLine,xMax-2,yMax-_25percentLine,GxEPD_BLACK);
       display.drawLine(xMin+2,yMax-_50percentLine,xMax-2,yMax-_50percentLine,GxEPD_BLACK);
@@ -124,7 +129,7 @@ void drawBattState(float value,float minValue)
       display.drawLine(xMin+2,yMax-_50percentLine-1,xMax-2,yMax-_50percentLine-1,GxEPD_BLACK);
       display.drawLine(xMin+2,yMax-_75percentLine-1,xMax-2,yMax-_75percentLine-1,GxEPD_BLACK);
     }
-    else if(missingPercent<75 && missingPercent>50)
+    else if(missingPercent>25 && missingPercent<50)
     {
       display.drawLine(xMin+2,yMax-_25percentLine,xMax-2,yMax-_25percentLine,GxEPD_WHITE);
       display.drawLine(xMin+2,yMax-_50percentLine,xMax-2,yMax-_50percentLine,GxEPD_BLACK);
@@ -133,7 +138,7 @@ void drawBattState(float value,float minValue)
       display.drawLine(xMin+2,yMax-_50percentLine-1,xMax-2,yMax-_50percentLine-1,GxEPD_BLACK);
       display.drawLine(xMin+2,yMax-_75percentLine-1,xMax-2,yMax-_75percentLine-1,GxEPD_BLACK);
     }
-    else if(missingPercent<50 && missingPercent>25)
+    else if(missingPercent>50 && missingPercent<75)
     {
       display.drawLine(xMin+2,yMax-_25percentLine,xMax-2,yMax-_25percentLine,GxEPD_WHITE);
       display.drawLine(xMin+2,yMax-_50percentLine,xMax-2,yMax-_50percentLine,GxEPD_WHITE);
@@ -235,7 +240,7 @@ void setup()
     Serial.printf("\nBatterie: %f V\n",bat);
     Serial.printf("\nTemperatur: %f , Feuchte: %i\n",tempValue,humidityValue);
     drawTemperature(tempValue,humidityValue);
-    drawBattState(bat,2.1);
+    drawBattState(bat,MIN_BAT_VOLTAGE);
     drawIpAddress(WiFi.localIP());
     recordCounter++;
     drawCounter();
