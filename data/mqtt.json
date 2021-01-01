@@ -1,0 +1,7 @@
+{
+    "mqttServer":"195.147.158.201",
+    "mqttPort":1883,
+    "mqttPrefix":"TempWZ",
+    "mqttUser":"",
+    "mqttPass":""
+}

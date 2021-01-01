@@ -4,9 +4,16 @@
 #include "SD.h"
 #include "SPI.h"
 #include <Adafruit_I2CDevice.h>
-#include <SI7021.h>
+//#include <SI7021.h>
 #include <WiFi.h>
-
+#include <PubSubClient.h>
+#include <WiFiClient.h>
+#include <tools.h>
+#include <config.h>
+#include <mqttconf.h>
+#include <ESPAsyncWebServer.h>
+#include <WebServerImpl.h>
+#include <measurment.h>
 //! There are three versions of the 2.13 screen,
 //  if you are not sure which version, please test each one,
 //  if it is successful then it belongs to the model of the file name
@@ -16,21 +23,14 @@
 //#include <GxGDEH0213B72/GxGDEH0213B72.h>  // 2.13" b/w new panel
 #include <GxGDEH0213B73/GxGDEH0213B73.h>  // 2.13" b/w newer panel
 
-int bmpWidth = 150, bmpHeight = 39;
-//width:150,height:39
-const unsigned char lilygo[] = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0xf7, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x31, 0x80, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x0f, 0xfc, 0xc0, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x0d, 0xfe, 0x60, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x19, 0xff, 0x20, 0x7f, 0xc0, 0x03, 0xfc, 0x7f, 0x80, 0x07, 0xf8, 0x0f, 0xf0, 0x00, 0xfe, 0x00, 0x03, 0xff, 0x80, 0x19, 0xe7, 0x30, 0x7f, 0xc0, 0x03, 0xfc, 0x7f, 0x80, 0x07, 0xfc, 0x0f, 0xf0, 0x07, 0xff, 0xc0, 0x0f, 0xff, 0xe0, 0x19, 0xe7, 0xb0, 0x7f, 0xc0, 0x03, 0xfc, 0x7f, 0x80, 0x03, 0xfc, 0x1f, 0xe0, 0x0f, 0xff, 0xe0, 0x1f, 0xff, 0xf8, 0x19, 0xff, 0x10, 0x7f, 0xc0, 0x03, 0xfc, 0x7f, 0x80, 0x03, 0xfe, 0x1f, 0xe0, 0x1f, 0xff, 0xf0, 0x3f, 0xff, 0xfc, 0x19, 0xff, 0x10, 0x3f, 0xc0, 0x03, 0xfc, 0x7f, 0x80, 0x03, 0xfe, 0x1f, 0xc0, 0x3f, 0xff, 0xf0, 0x7f, 0xff, 0xfe, 0x19, 0xfe, 0x10, 0x3f, 0xc0, 0x03, 0xfc, 0x7f, 0x80, 0x01, 0xfe, 0x3f, 0xc0, 0x7f, 0xff, 0xe0, 0x7f, 0xff, 0xfe, 0x19, 0xfe, 0x10, 0x3f, 0xc0, 0x03, 0xfc, 0x7f, 0x80, 0x01, 0xff, 0x3f, 0x80, 0xff, 0xc7, 0xc0, 0xff, 0xff, 0xff, 0x1d, 0xfe, 0x10, 0x3f, 0xc0, 0x03, 0xfc, 0x7f, 0x80, 0x00, 0xff, 0x7f, 0x80, 0xff, 0x81, 0x80, 0xff, 0xef, 0xff, 0x1d, 0xef, 0x00, 0x3f, 0xc0, 0x03, 0xfc, 0x7f, 0x80, 0x00, 0xff, 0xff, 0x00, 0xff, 0x00, 0x00, 0xff, 0xc3, 0xff, 0x8f, 0xef, 0x00, 0x3f, 0xc0, 0x03, 0xfc, 0x7f, 0x80, 0x00, 0x7f, 0xff, 0x01, 0xff, 0x00, 0x01, 0xff, 0xc3, 0xff, 0x8f, 0x87, 0x80, 0x3f, 0xc0, 0x03, 0xfc, 0x7f, 0x80, 0x00, 0x7f, 0xfe, 0x01, 0xfe, 0x00, 0x01, 0xff, 0xc1, 0xff, 0x87, 0x81, 0xc0, 0x3f, 0xc0, 0x03, 0xfc, 0x7f, 0x80, 0x00, 0x7f, 0xfe, 0x01, 0xfe, 0x1f, 0x81, 0xff, 0x81, 0xff, 0x83, 0xff, 0x80, 0x3f, 0xc0, 0x03, 0xfc, 0x7f, 0x80, 0x00, 0x3f, 0xfc, 0x01, 0xfe, 0x3f, 0xf9, 0xff, 0x81, 0xff, 0x80, 0xfe, 0x00, 0x3f, 0xc0, 0x03, 0xfc, 0x7f, 0x80, 0x00, 0x3f, 0xfc, 0x01, 0xfe, 0x3f, 0xf9, 0xff, 0x81, 0xff, 0x80, 0x00, 0x00, 0x3f, 0xc0, 0x03, 0xfc, 0x7f, 0x80, 0x00, 0x1f, 0xf8, 0x01, 0xfe, 0x3f, 0xf9, 0xff, 0x81, 0xff, 0x80, 0x00, 0x00, 0x3f, 0xc0, 0x03, 0xfc, 0x7f, 0x80, 0x00, 0x1f, 0xf0, 0x01, 0xff, 0x3f, 0xf9, 0xff, 0xc1, 0xff, 0x80, 0x00, 0x00, 0x3f, 0xc0, 0x03, 0xfc, 0x7f, 0x80, 0x00, 0x0f, 0xf0, 0x01, 0xff, 0x3f, 0xf8, 0xff, 0xc1, 0xff, 0x80, 0x00, 0x00, 0x3f, 0xc0, 0x03, 0xfc, 0x7f, 0x80, 0x00, 0x0f, 0xf0, 0x00, 0xff, 0x9f, 0xf8, 0xff, 0xc1, 0xff, 0x80, 0x00, 0x00, 0x3f, 0xc0, 0x03, 0xfc, 0x7f, 0x80, 0x00, 0x0f, 0xf0, 0x00, 0xff, 0x83, 0xf0, 0xff, 0xe1, 0xff, 0x00, 0x00, 0x00, 0x3f, 0xfc, 0x03, 0xfc, 0x7f, 0xf8, 0x00, 0x0f, 0xf0, 0x00, 0xff, 0xe3, 0xf0, 0x7f, 0xff, 0xff, 0x00, 0x00, 0x00, 0x3f, 0xff, 0xe3, 0xfc, 0x7f, 0xff, 0xc0, 0x0f, 0xf0, 0x00, 0x7f, 0xff, 0xf0, 0x7f, 0xff, 0xfe, 0x00, 0x00, 0x00, 0x3f, 0xff, 0xe3, 0xfc, 0x7f, 0xff, 0xc0, 0x0f, 0xf0, 0x00, 0x7f, 0xff, 0xf0, 0x3f, 0xff, 0xfe, 0x00, 0x00, 0x00, 0x3f, 0xff, 0xe3, 0xfc, 0x7f, 0xff, 0xc0, 0x0f, 0xf0, 0x00, 0x3f, 0xff, 0xf0, 0x3f, 0xff, 0xfc, 0x00, 0x00, 0x00, 0x3f, 0xff, 0xe3, 0xfc, 0x7f, 0xff, 0xc0, 0x0f, 0xf0, 0x00, 0x1f, 0xff, 0xf0, 0x1f, 0xff, 0xfc, 0x00, 0x00, 0x00, 0x3f, 0xff, 0xe3, 0xf8, 0x7f, 0xff, 0xc0, 0x0f, 0xf0, 0x00, 0x0f, 0xff, 0xf0, 0x0f, 0xff, 0xf8, 0x00, 0x00, 0x00, 0x1f, 0xff, 0xc3, 0xf8, 0x1f, 0xff, 0xc0, 0x0f, 0xe0, 0x00, 0x03, 0xff, 0xe0, 0x03, 0xff, 0xe0, 0x00, 0x00, 0x00, 0x00, 0x3f, 0xc0, 0xf0, 0x00, 0x3f, 0x80, 0x07, 0xe0, 0x00, 0x00, 0xff, 0x80, 0x01, 0xff, 0xc0, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x3e, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
-
-
 // FreeFonts from Adafruit_GFX
 #include <Fonts/FreeSansBold9pt7b.h>
 #include <Fonts/FreeSansBold12pt7b.h>
 #include <Fonts/FreeSansBold18pt7b.h>
 #include <Fonts/FreeSansBold24pt7b.h>
 #include <Fonts/FreeSans9pt7b.h>
-#include <Fonts/FreeMono9pt7b.h>
-#include <OpenSans48Bold.h>
-#include <OpenSans72Bold.h>
 #include <SansSerifBold72.h>
+#include <gear.h>
 
 #include <GxIO/GxIO_SPI/GxIO_SPI.h>
 #include <GxIO/GxIO.h>
@@ -54,7 +54,7 @@ const unsigned char lilygo[] = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 #define SCL_PIN 22
 #define VBAT_PIN 35
 
-#define MAX_BAT_VOLTAGE 3.8
+#define MAX_BAT_VOLTAGE 3.7
 #define MIN_BAT_VOLTAGE 2.3
 #define ROUND_2_INT(f) ((int)(f >= 0.0 ? (f + 0.5) : (f - 0.5))) 
 
@@ -63,15 +63,14 @@ GxEPD_Class display(io, /*RST=*/ ELINK_RESET, /*BUSY=*/ ELINK_BUSY);
 
 SPIClass sdSPI(VSPI);
 
-SI7021 sensor;
-
-const char *skuNum = "SKU:H239";
-bool sdOK = false;
-int startX = 40, startY = 10;
-const char *ssid="WLAN2";
-const char *passwd="altes-rumpel-2";
+WiFiClient wifiClient;
+PubSubClient mqttClient(wifiClient);
 
 RTC_DATA_ATTR int recordCounter = 0;
+RTC_DATA_ATTR float setPoint=0;
+RTC_DATA_ATTR float maxVoltage=0;
+int wifiConnectCounter=0;
+bool configMode;
 
 void drawTemperature(float tempValue,int humidityPercent)
 {
@@ -87,10 +86,25 @@ void drawTemperature(float tempValue,int humidityPercent)
 float getBatVoltage()
 {
     int measurment=analogRead(VBAT_PIN);
-    return (3.3/4096)*measurment*2;
+    float volts=(3.3/4096)*measurment*2;
+    if(volts>maxVoltage && volts > MAX_BAT_VOLTAGE)
+    {
+      maxVoltage=volts;
+    }
+    return volts;
 }
 
-void drawBattState(float value,float minValue)
+int calcBatPercent(float value)
+{
+    float loadFactor=maxVoltage-MIN_BAT_VOLTAGE;
+    float valueFactor=value-MIN_BAT_VOLTAGE;
+    float fbatPercent=(valueFactor/loadFactor)*100;
+    int batPercent=ROUND_2_INT(fbatPercent);
+    Serial.printf("\nLoad Factor: %f, Value Factor: %f, Bat Percent: %f\n",loadFactor,valueFactor,fbatPercent);
+    return batPercent;
+}
+
+void drawBattState(float value,int batPercent)
 {
     //draw outline
     // calculate Border points
@@ -102,15 +116,10 @@ void drawBattState(float value,float minValue)
     display.drawLine(xMin+5,yMin-1,xMax-5,yMin-1,GxEPD_BLACK);
     display.drawLine(xMin+5,yMin-2,xMax-5,yMin-2,GxEPD_BLACK);
     display.drawLine(xMin+5,yMin-3,xMax-5,yMin-3,GxEPD_BLACK);
-
+    
     int maxLines=yMax-yMin;
-    float loadFactor=MAX_BAT_VOLTAGE-minValue;
-    float valueFactor=value-minValue;
-    float batPercent=(valueFactor/loadFactor)*100;
-    int missingPercent=ROUND_2_INT(batPercent);
-    Serial.printf("\nLoad Factor: %f, Value Factor: %f, Bat Percent: %f\n",loadFactor,valueFactor,batPercent);
-    int runLines=((float)maxLines/100)*(missingPercent);
-    Serial.printf("Max Lines: %i, Percent Lines: %i, Bat Percent: %i",maxLines,runLines,missingPercent);
+    int runLines=((float)maxLines/100)*(batPercent);
+    Serial.printf("Max Lines: %i, Percent Lines: %i, Bat Percent: %i",maxLines,runLines,batPercent);
     //fill Bat
     for (size_t i = 0; i < runLines; i++)
     {
@@ -120,7 +129,7 @@ void drawBattState(float value,float minValue)
     int _25percentLine=((float)maxLines/100)*(25);
     int _50percentLine=((float)maxLines/100)*(50);
     int _75percentLine=((float)maxLines/100)*(75);
-    if(missingPercent<25)
+    if(batPercent<25)
     {
       display.drawLine(xMin+2,yMax-_25percentLine,xMax-2,yMax-_25percentLine,GxEPD_BLACK);
       display.drawLine(xMin+2,yMax-_50percentLine,xMax-2,yMax-_50percentLine,GxEPD_BLACK);
@@ -129,7 +138,7 @@ void drawBattState(float value,float minValue)
       display.drawLine(xMin+2,yMax-_50percentLine-1,xMax-2,yMax-_50percentLine-1,GxEPD_BLACK);
       display.drawLine(xMin+2,yMax-_75percentLine-1,xMax-2,yMax-_75percentLine-1,GxEPD_BLACK);
     }
-    else if(missingPercent>25 && missingPercent<50)
+    else if(batPercent>25 && batPercent<50)
     {
       display.drawLine(xMin+2,yMax-_25percentLine,xMax-2,yMax-_25percentLine,GxEPD_WHITE);
       display.drawLine(xMin+2,yMax-_50percentLine,xMax-2,yMax-_50percentLine,GxEPD_BLACK);
@@ -138,7 +147,7 @@ void drawBattState(float value,float minValue)
       display.drawLine(xMin+2,yMax-_50percentLine-1,xMax-2,yMax-_50percentLine-1,GxEPD_BLACK);
       display.drawLine(xMin+2,yMax-_75percentLine-1,xMax-2,yMax-_75percentLine-1,GxEPD_BLACK);
     }
-    else if(missingPercent>50 && missingPercent<75)
+    else if(batPercent>50 && batPercent<75)
     {
       display.drawLine(xMin+2,yMax-_25percentLine,xMax-2,yMax-_25percentLine,GxEPD_WHITE);
       display.drawLine(xMin+2,yMax-_50percentLine,xMax-2,yMax-_50percentLine,GxEPD_WHITE);
@@ -171,88 +180,267 @@ void drawIpAddress(IPAddress address)
     display.print(address.toString());   
 }
 
-void drawCounter()
+void drawBottomLine(char * content)
+{
+    display.setFont(&FreeSans9pt7b);
+    display.setCursor(2,display.height()-1);
+    display.print(content);   
+}
+
+void drawBottomLine(const char * content)
+{
+    display.setFont(&FreeSans9pt7b);
+    display.setCursor(2,display.height()-1);
+    display.print(content);   
+}
+
+void drawInfoLine(char * content)
 {
     display.setFont(&FreeSans9pt7b);
     display.setCursor(1,display.height()-20);
-    display.printf("Wakeup: %i",recordCounter);   
+    display.printf(content);   
+}
+
+void drawInfoLine(const char * content)
+{
+    display.setFont(&FreeSans9pt7b);
+    display.setCursor(1,display.height()-20);
+    display.printf(content);   
+}
+
+void connectMqtt() {
+  String prefix=mqttPrefix;
+  // Loop until we're reconnected
+  while (!mqttClient.connected()) {
+    Serial.print("Attempting MQTT connection...");
+    // Attempt to connect
+    if (mqttClient.connect(getESPDevName().c_str())) {
+      Serial.println("connected");
+      // Once connected, publish an announcement...
+      mqttClient.publish((prefix+"/id").c_str(),getESPDevName().c_str());
+      mqttClient.publish((prefix+"/ip").c_str(),WiFi.localIP().toString().c_str());
+      // this will be used as Output to the Heater Device
+      mqttClient.publish((prefix+"/output").c_str(),0);
+      // ... and resubscribe
+      // this value will be used as Destination Temperature
+      mqttClient.subscribe((prefix+"/input").c_str());
+    } else {
+      Serial.print("failed, rc=");
+      Serial.print(mqttClient.state());
+      Serial.println(" try again in 5 seconds");
+      // Wait 5 seconds before retrying
+      delay(1000);
+    }
+  }
+}
+
+void publishMqttValues(float temp,int humidity,float batVoltage,int batPercent)
+{
+  String prefix=mqttPrefix;
+  if(mqttClient.connected())
+  {
+      Serial.printf("\nMQTT pub %f to %s\n",temp,(prefix+"/temperature").c_str());
+      mqttClient.publish((prefix+"/temperature").c_str(),String(temp).c_str());
+      Serial.printf("MQTT pub %i to %s\n",humidity,(prefix+"/humidity").c_str());
+      mqttClient.publish((prefix+"/humidity").c_str(),String(humidity).c_str());
+      Serial.printf("MQTT pub %f to %s\n",batVoltage,(prefix+"/voltage").c_str());
+      mqttClient.publish((prefix+"/voltage").c_str(),String(batVoltage).c_str());
+      Serial.printf("MQTT pub %i to %s\n",batPercent,(prefix+"/battery").c_str());
+      mqttClient.publish((prefix+"/battery").c_str(),String(batPercent).c_str());
+  }
+}
+
+void onMqttMessage(char* topic, byte* payload, unsigned int length) {
+  Serial.print("Message arrived [");
+  Serial.print(topic);
+  Serial.print("] ");
+  String value;
+  for (int i=0;i<length;i++) {
+    value=value+(char)payload[i];
+  }
+  Serial.println(value);
+  setPoint=value.toFloat();
+}
+
+bool detectConfigMode()
+{
+   bool btnPressed;
+   if(digitalRead(BUTTON_PIN)==LOW)
+   {
+     btnPressed=true;
+     delay(1000);
+     if(digitalRead(BUTTON_PIN)==LOW)
+     {
+       Serial.println("Config Button pressed more than 1s");
+       btnPressed=true;
+     }
+     else
+     {
+       btnPressed=false;
+     }
+   }
+   else
+   {
+     btnPressed=false;
+   }
+   return btnPressed;
+}
+
+void refreshDisplay()
+{
+    char tmpString[35];
+
+    display.setTextColor(GxEPD_BLACK);
+    display.fillScreen(GxEPD_WHITE);
+    if(configMode)
+    {
+      display.drawBitmap(image_data_Gear,display.width()-30-32-5,2,32,32,GxEPD_WHITE);
+    }
+    tempValue=(float)sensor.getCelsiusHundredths();
+    humidityValue=sensor.getHumidityPercent();
+    bat= getBatVoltage();
+    Serial.printf("\nBat. Voltage: %f V\n",bat);
+    ibat=calcBatPercent(bat);
+    tempValue=tempValue/100;
+    Serial.printf("\nTemperature: %f , Humidity: %i\n",tempValue,humidityValue);
+    publishMqttValues(tempValue,humidityValue,bat,ibat);
+    drawTemperature(tempValue,humidityValue);
+    drawBattState(bat,ibat);
+    if(WiFi.getMode()==WIFI_AP_STA)
+    {
+      sprintf(tmpString,"AP: %s",getESPDevName().c_str());
+      drawInfoLine(IPAddress(192,168,0,4).toString().c_str());
+      drawBottomLine(tmpString);
+    }
+    else
+    {
+      sprintf(tmpString,"Wakeups: %i",recordCounter);
+      drawInfoLine(tmpString);
+      drawIpAddress(WiFi.localIP());
+    }
+    
+    display.update();
+}
+
+void setupAP(void)
+{
+  WiFi.mode(WIFI_AP_STA);
+
+  //serial_print_Networks();
+
+  Serial.println("Setup Soft AP...");
+  IPAddress apIP(192, 168, 0, 4);
+  WiFi.softAPConfig(apIP, apIP, IPAddress(255, 255, 255, 0));
+  WiFi.softAP(getESPDevName().c_str());
+  //WiFi.softAP(ssidAP, passwordAP, 3, false);
+  delay(100);
+#ifdef LED_BUILTIN
+  digitalWrite(LED_BUILTIN, LOW);
+#endif
+  Serial.printf("Soft AP '%s' online\n",getESPDevName().c_str());
 }
 
 void setup()
 {
+    recordCounter++;
     Serial.begin(115200);
     Serial.println();
     Serial.println("setup");
     sensor.begin(SDA_PIN,SCL_PIN);
     pinMode(VBAT_PIN,INPUT);
+    pinMode(BUTTON_PIN,INPUT);
     SPI.begin(SPI_CLK, SPI_MISO, SPI_MOSI, ELINK_SS);
+    initFileSystem();
+    checkConfig();
+    checkMqttConfig();
+    readConfig();
+    readMqttConfig();
+    configMode=detectConfigMode();
     Serial.println("Start WiFi");
-    WiFi.begin(ssid,passwd);
-    // while (WiFi.waitForConnectResult()!= WL_CONNECTED)
-    // {
-    //   Serial.print("-");
-    //   delay(500);
-    // }
+    if(!ssid.equals("."))
+    {
+      WiFi.mode(WIFI_STA);
+      WiFi.begin(ssid.c_str(),passwd.c_str());
+      while (WiFi.status()!= WL_CONNECTED)
+      {
+        if(!configMode)
+        {
+          if(wifiConnectCounter<10)
+          {
+            Serial.print("-");
+            wifiConnectCounter++;
+            delay(500);
+          }
+          else
+          {
+            //to much trys reboot
+            ESP.restart();
+          }
+        }
+        else 
+        {
+          if(wifiConnectCounter<10)
+          {
+            Serial.print("-");
+            wifiConnectCounter++;
+            delay(500);
+          }
+          else
+          {
+          //setup Ap configured Wifi not available
+          setupAP();
+          break;
+          }
+        }
+      }
+    }
+    else
+    {
+      setupAP();
+    }
+    
+    mqttClient.setServer(mqttServer.c_str(),mqttPort);
+    mqttClient.setCallback(onMqttMessage);
+    if(WiFi.isConnected() && WiFi.getMode()==WIFI_STA)
+    {
+      connectMqtt();
+    }
+    else
+    {
+      Serial.println("No Wifi suppress MQTT");
+    }
     
     display.init(); // enable diagnostic output on Serial
 
     display.setRotation(1);
-    display.setTextColor(GxEPD_BLACK);
-    //display.setFont(&FreeSansBold24pt7b);
-    display.setFont(&FreeSansBold9pt7b);
-    display.setCursor(0,display.height());
-    // display.setFont(&FreeMonoBold9pt7b);
-    // display.setCursor(0, 0);
 
-    // sdSPI.begin(SDCARD_CLK, SDCARD_MISO, SDCARD_MOSI, SDCARD_SS);
+    refreshDisplay();
 
-    // if (!SD.begin(SDCARD_SS, sdSPI)) {
-    //     sdOK = false;
-    // } else {
-    //     sdOK = true;
-    // }
-
-    // display.fillScreen(GxEPD_WHITE);
-
-    // display.drawBitmap(lilygo, startX, startY,  bmpWidth, bmpHeight, GxEPD_BLACK);
-
-    // display.setCursor(display.width()  - display.width() / 2, display.height() - 35);
-
-    // display.println(skuNum);
-
-    // display.setTextColor(GxEPD_BLACK);
-
-    // display.setCursor(display.width()   / 2 - 40, display.height() - 10);
-
-
-    // if (sdOK) {
-    //     uint32_t cardSize = SD.cardSize() / (1024 * 1024);
-    //     display.println("SDCard:" + String(cardSize) + "MB");
-    // } else {
-    //     display.println("SDCard  None");
-    // }
-    //display.update();
-    display.fillScreen(GxEPD_WHITE);
-    float tempValue=(float)sensor.getCelsiusHundredths();
-    int humidityValue=sensor.getHumidityPercent();
-    float bat= getBatVoltage();
-    tempValue=tempValue/100;
-    Serial.printf("\nBat. Voltage: %f V\n",bat);
-    Serial.printf("\nTemperature: %f , Humidity: %i\n",tempValue,humidityValue);
-    drawTemperature(tempValue,humidityValue);
-    drawBattState(bat,MIN_BAT_VOLTAGE);
-    drawIpAddress(WiFi.localIP());
-    recordCounter++;
-    drawCounter();
-    display.update();
     // goto sleep
-    WiFi.disconnect();
-    esp_sleep_enable_ext0_wakeup((gpio_num_t)BUTTON_PIN, LOW);
-    esp_sleep_enable_timer_wakeup(600000000);
-    esp_deep_sleep_start();
+    if(!configMode)
+    {
+      Serial.println("\nGo to sleep");
+      mqttClient.disconnect();
+      WiFi.disconnect();
+      esp_sleep_enable_ext0_wakeup((gpio_num_t)BUTTON_PIN, LOW);
+      esp_sleep_enable_timer_wakeup(600000000);
+      esp_deep_sleep_start();
+    }
+    else
+    {
+      Serial.println("\nConfig Mode active");
+      //configure Web-Server
+      configureWebServer();
+    }
+    
 }
 
 
 void loop()
 {
+  delay(30000);
+  if(WiFi.getMode()==WIFI_STA && mqttClient.connected())
+  {
+    refreshDisplay();
+  }
 }
