@@ -1,0 +1,68 @@
+setup
+Mounting SPIFFS...
+Try to load WiFi-Config from file
+Try to load MQTT-Config from file
+Start WiFi
+--Attempting MQTT connection...connected
+
+Bat. Voltage: 3.681885 V
+
+Load Factor: -2.300000, Value Factor: 1.381885, Bat Percent: -60.081947
+
+Temperature: 24.650000 , Humidity: 43
+
+MQTT pub 24.650000 to TempWZ/temperature
+MQTT pub 43 to TempWZ/humidity
+MQTT pub 3.681885 to TempWZ/voltage
+MQTT pub -60 to TempWZ/battery
+Max Lines: 100, Percent Lines: -60, Bat Percent: -60ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x17 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0018,len:4
+load:0x3fff001c,len:1044
+load:0x40078000,len:8896
+load:0x40080400,len:5828
+entry 0x400806ac
+
+setup
+Mounting SPIFFS...
+Try to load WiFi-Config from file
+Try to load MQTT-Config from file
+Start WiFi
+----------ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x17 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0018,len:4
+load:0x3fff001c,len:1044
+load:0x40078000,len:8896
+load:0x40080400,len:5828
+entry 0x400806ac
+
+setup
+Mounting SPIFFS...
+Try to load WiFi-Config from file
+Try to load MQTT-Config from file
+Start WiFi
+-Attempting MQTT connection...connected
+
+Bat. Voltage: 3.781787 V
+
+Load Factor: 1.481787, Value Factor: 1.481787, Bat Percent: 100.000000
+
+Temperature: 26.480000 , Humidity: 35
+
+MQTT pub 26.480000 to TempWZ/temperature
+MQTT pub 35 to TempWZ/humidity
+MQTT pub 3.781787 to TempWZ/voltage
+MQTT pub 100 to TempWZ/battery
+Max Lines: 100, Percent Lines: 100, Bat Percent: 100
+Go to sleep
+
+Wenn der ins minus kommt wird der Sleep nicht ausgelöst.
+Warum ?

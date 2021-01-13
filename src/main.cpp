@@ -91,6 +91,12 @@ float getBatVoltage()
     {
       maxVoltage=volts;
     }
+    else
+    {
+      if(maxVoltage<MAX_BAT_VOLTAGE)
+        maxVoltage=MAX_BAT_VOLTAGE;
+    }
+    Serial.printf("Max Voltage: %f \n",maxVoltage);
     return volts;
 }
 
