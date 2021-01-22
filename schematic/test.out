@@ -1,0 +1,4750 @@
+edge meshing
+nvertices = 126
+nedges = 202
+different vertices = 126
+faces = 80
+edge nr 1
+add meshpoint (38.9163, 2.55327, 0)
+add meshpoint (38.6133, 5.47865, 0)
+add meshpoint (38.2474, 7.62451, 0)
+add meshpoint (37.7302, 9.87093, 0)
+add meshpoint (37.0096, 12.3, 0)
+add meshpoint (36.162, 14.6052, 0)
+add meshpoint (35.1957, 16.8007, 0)
+add meshpoint (34.4465, 18.2877, 0)
+add meshpoint (33.8464, 19.3758, 0)
+add meshpoint (33.2233, 20.4258, 0)
+add meshpoint (32.5611, 21.4657, 0)
+add meshpoint (31.6317, 22.8131, 0)
+add meshpoint (30.3899, 24.4429, 0)
+add meshpoint (29.0211, 26.0533, 0)
+add meshpoint (27.5898, 27.5645, 0)
+add meshpoint (26.1419, 28.9413, 0)
+add meshpoint (24.518, 30.3294, 0)
+add meshpoint (22.745, 31.6807, 0)
+add meshpoint (20.9022, 32.9257, 0)
+add meshpoint (19.0709, 34.0191, 0)
+add meshpoint (17.182, 35.0111, 0)
+add meshpoint (15.2657, 35.8882, 0)
+add meshpoint (13.3547, 36.6422, 0)
+add meshpoint (11.2756, 37.3344, 0)
+add meshpoint (9.11377, 37.9202, 0)
+add meshpoint (6.82275, 38.3986, 0)
+add meshpoint (4.49072, 38.7406, 0)
+add meshpoint (2.33741, 38.9299, 0)
+add meshpoint (-0.0395548, 39, 0)
+add meshpoint (-2.90286, 38.8918, 0)
+add meshpoint (-6.1632, 38.5099, 0)
+add meshpoint (-8.85128, 37.9823, 0)
+add meshpoint (-10.8334, 37.4652, 0)
+add meshpoint (-12.8771, 36.8128, 0)
+add meshpoint (-15.077, 35.9678, 0)
+add meshpoint (-17.5734, 34.8163, 0)
+add meshpoint (-19.6078, 33.7125, 0)
+add meshpoint (-21.5272, 32.5205, 0)
+add meshpoint (-23.4625, 31.1531, 0)
+add meshpoint (-25.3455, 29.6413, 0)
+add meshpoint (-27.2006, 27.9487, 0)
+add meshpoint (-29.0744, 25.9938, 0)
+add meshpoint (-31.1642, 23.4477, 0)
+add meshpoint (-32.5757, 21.4435, 0)
+add meshpoint (-33.6341, 19.742, 0)
+add meshpoint (-34.3326, 18.5007, 0)
+add meshpoint (-34.9626, 17.2805, 0)
+add meshpoint (-35.4663, 16.2217, 0)
+add meshpoint (-35.937, 15.1504, 0)
+add meshpoint (-36.3801, 14.053, 0)
+add meshpoint (-36.9143, 12.5831, 0)
+add meshpoint (-37.5954, 10.3724, 0)
+add meshpoint (-38.3182, 7.26061, 0)
+add meshpoint (-38.9116, 2.62378, 0)
+add meshpoint (-38.9489, -1.99523, 0)
+add meshpoint (-38.5398, -5.97355, 0)
+add meshpoint (-37.9089, -9.16066, 0)
+add meshpoint (-37.2853, -11.4369, 0)
+add meshpoint (-36.6973, -13.2025, 0)
+add meshpoint (-36.239, -14.413, 0)
+add meshpoint (-35.8223, -15.4197, 0)
+add meshpoint (-35.334, -16.5079, 0)
+add meshpoint (-34.7462, -17.7116, 0)
+add meshpoint (-34.0697, -18.9805, 0)
+add meshpoint (-33.1686, -20.5145, 0)
+add meshpoint (-31.7571, -22.6381, 0)
+add meshpoint (-30.1619, -24.7237, 0)
+add meshpoint (-28.0543, -27.0916, 0)
+add meshpoint (-25.2106, -29.7561, 0)
+add meshpoint (-22.1073, -32.1289, 0)
+add meshpoint (-19.731, -33.6406, 0)
+add meshpoint (-17.312, -34.947, 0)
+add meshpoint (-15.1948, -35.9182, 0)
+add meshpoint (-13.0161, -36.7639, 0)
+add meshpoint (-11.072, -37.3953, 0)
+add meshpoint (-8.8075, -37.9925, 0)
+add meshpoint (-6.04421, -38.5288, 0)
+add meshpoint (-2.7348, -38.904, 0)
+add meshpoint (0.0817806, -38.9999, 0)
+add meshpoint (2.29252, -38.9326, 0)
+add meshpoint (3.90238, -38.8043, 0)
+add meshpoint (5.20234, -38.6515, 0)
+add meshpoint (6.3349, -38.4821, 0)
+add meshpoint (7.38801, -38.2938, 0)
+add meshpoint (8.51036, -38.0601, 0)
+add meshpoint (9.57457, -37.8065, 0)
+add meshpoint (10.6817, -37.5087, 0)
+add meshpoint (11.7717, -37.181, 0)
+add meshpoint (12.8673, -36.8162, 0)
+add meshpoint (13.8219, -36.4685, 0)
+add meshpoint (14.8585, -36.0586, 0)
+add meshpoint (15.9041, -35.6098, 0)
+add meshpoint (17.138, -35.0327, 0)
+add meshpoint (18.82, -34.1586, 0)
+add meshpoint (20.7827, -33.0012, 0)
+add meshpoint (22.614, -31.7743, 0)
+add meshpoint (24.3448, -30.4685, 0)
+add meshpoint (26.4053, -28.7013, 0)
+add meshpoint (28.3008, -26.834, 0)
+add meshpoint (29.8926, -25.0486, 0)
+add meshpoint (31.1486, -23.4684, 0)
+add meshpoint (32.0496, -22.2221, 0)
+add meshpoint (32.6612, -21.313, 0)
+add meshpoint (33.1899, -20.48, 0)
+add meshpoint (33.5796, -19.8346, 0)
+add meshpoint (33.9368, -19.217, 0)
+add meshpoint (34.2507, -18.6517, 0)
+add meshpoint (34.5793, -18.0353, 0)
+add meshpoint (35.0132, -17.1779, 0)
+add meshpoint (35.5697, -15.9937, 0)
+add meshpoint (36.2305, -14.4345, 0)
+add meshpoint (36.9673, -12.4264, 0)
+add meshpoint (37.5896, -10.3934, 0)
+add meshpoint (38.0676, -8.47701, 0)
+add meshpoint (38.376, -6.94871, 0)
+add meshpoint (38.61, -5.50161, 0)
+add meshpoint (38.8181, -3.76278, 0)
+add meshpoint (38.9422, -2.12199, 0)
+NP = 244
+edge nr 2
+add meshpoint (39, 0, 2.0153)
+add meshpoint (39, 0, 3.66777)
+add meshpoint (39, 0, 5.04447)
+add meshpoint (39, 0, 6.65779)
+add meshpoint (39, 0, 8.67065)
+add meshpoint (39, 0, 10.6333)
+add meshpoint (39, 0, 12.2489)
+add meshpoint (39, 0, 13.5915)
+add meshpoint (39, 0, 14.6878)
+add meshpoint (39, 0, 15.5327)
+add meshpoint (39, 0, 16.2346)
+add meshpoint (39, 0, 17.0185)
+NP = 256
+edge nr 3
+add meshpoint (38.9865, 1.02712, 18)
+add meshpoint (38.9364, 2.22648, 18)
+add meshpoint (38.864, 3.2536, 18)
+add meshpoint (38.7649, 4.27601, 18)
+add meshpoint (38.6304, 5.35658, 18)
+add meshpoint (38.4932, 6.26707, 18)
+add meshpoint (38.3606, 7.03294, 18)
+add meshpoint (38.2354, 7.68469, 18)
+add meshpoint (38.0679, 8.47535, 18)
+add meshpoint (37.8326, 9.47064, 18)
+add meshpoint (37.5639, 10.4858, 18)
+add meshpoint (37.2683, 11.4923, 18)
+add meshpoint (36.9252, 12.551, 18)
+add meshpoint (36.5384, 13.6362, 18)
+add meshpoint (36.1876, 14.5417, 18)
+add meshpoint (35.8225, 15.419, 18)
+add meshpoint (35.459, 16.2376, 18)
+add meshpoint (35.0925, 17.0151, 18)
+add meshpoint (34.7954, 17.6147, 18)
+add meshpoint (34.5262, 18.1367, 18)
+add meshpoint (34.3398, 18.4872, 18)
+add meshpoint (34.1893, 18.7642, 18)
+add meshpoint (34.0208, 19.0679, 18)
+add meshpoint (33.8255, 19.4123, 18)
+add meshpoint (33.6266, 19.7548, 18)
+add meshpoint (33.3953, 20.1434, 18)
+add meshpoint (33.0629, 20.6844, 18)
+add meshpoint (32.6695, 21.3003, 18)
+add meshpoint (32.1091, 22.1361, 18)
+add meshpoint (31.5337, 22.9483, 18)
+add meshpoint (30.89, 23.8077, 18)
+add meshpoint (30.2518, 24.6136, 18)
+add meshpoint (29.5843, 25.412, 18)
+add meshpoint (28.9428, 26.1403, 18)
+add meshpoint (28.2381, 26.9, 18)
+add meshpoint (27.5353, 27.619, 18)
+add meshpoint (26.7767, 28.3551, 18)
+add meshpoint (25.9984, 29.0703, 18)
+add meshpoint (25.2433, 29.7284, 18)
+add meshpoint (24.4917, 30.3505, 18)
+add meshpoint (23.7454, 30.9379, 18)
+add meshpoint (22.9448, 31.5363, 18)
+add meshpoint (22.1312, 32.1124, 18)
+add meshpoint (21.3196, 32.6569, 18)
+add meshpoint (20.354, 33.2673, 18)
+add meshpoint (19.4763, 33.7886, 18)
+add meshpoint (18.584, 34.2876, 18)
+add meshpoint (17.6947, 34.7548, 18)
+add meshpoint (16.7947, 35.1985, 18)
+add meshpoint (15.8454, 35.636, 18)
+add meshpoint (14.9068, 36.0387, 18)
+add meshpoint (13.9615, 36.4153, 18)
+add meshpoint (12.9976, 36.7704, 18)
+add meshpoint (12.042, 37.0943, 18)
+add meshpoint (11.0567, 37.3999, 18)
+add meshpoint (10.0933, 37.6713, 18)
+add meshpoint (9.10532, 37.9222, 18)
+add meshpoint (8.1167, 38.146, 18)
+add meshpoint (7.02444, 38.3622, 18)
+add meshpoint (6.02466, 38.5319, 18)
+add meshpoint (5.0208, 38.6755, 18)
+add meshpoint (3.82004, 38.8125, 18)
+add meshpoint (2.77761, 38.901, 18)
+add meshpoint (1.76383, 38.9601, 18)
+add meshpoint (0.709137, 38.9936, 18)
+add meshpoint (-0.372691, 38.9982, 18)
+add meshpoint (-1.37372, 38.9758, 18)
+add meshpoint (-2.42068, 38.9248, 18)
+add meshpoint (-3.4874, 38.8438, 18)
+add meshpoint (-4.63695, 38.7234, 18)
+add meshpoint (-5.6696, 38.5857, 18)
+add meshpoint (-6.6305, 38.4322, 18)
+add meshpoint (-7.71569, 38.2292, 18)
+add meshpoint (-8.77589, 37.9998, 18)
+add meshpoint (-9.85009, 37.7356, 18)
+add meshpoint (-10.8864, 37.4498, 18)
+add meshpoint (-11.9293, 37.1307, 18)
+add meshpoint (-12.8495, 36.8224, 18)
+add meshpoint (-13.8488, 36.4583, 18)
+add meshpoint (-14.8145, 36.0767, 18)
+add meshpoint (-15.9534, 35.5877, 18)
+add meshpoint (-16.9091, 35.1437, 18)
+add meshpoint (-17.8747, 34.6626, 18)
+add meshpoint (-18.7802, 34.1805, 18)
+add meshpoint (-19.8587, 33.5654, 18)
+add meshpoint (-20.7693, 33.0096, 18)
+add meshpoint (-21.6097, 32.4657, 18)
+add meshpoint (-22.5019, 31.8538, 18)
+add meshpoint (-23.312, 31.2658, 18)
+add meshpoint (-24.1726, 30.6053, 18)
+add meshpoint (-24.9672, 29.9607, 18)
+add meshpoint (-25.7597, 29.2821, 18)
+add meshpoint (-26.5832, 28.5365, 18)
+add meshpoint (-27.3616, 27.791, 18)
+add meshpoint (-28.1672, 26.9742, 18)
+add meshpoint (-28.8603, 26.2313, 18)
+add meshpoint (-29.531, 25.4739, 18)
+add meshpoint (-30.2267, 24.6444, 18)
+add meshpoint (-30.931, 23.7544, 18)
+add meshpoint (-31.583, 22.8805, 18)
+add meshpoint (-32.2026, 21.9998, 18)
+add meshpoint (-32.6591, 21.3163, 18)
+add meshpoint (-32.9977, 20.7882, 18)
+add meshpoint (-33.3087, 20.2861, 18)
+add meshpoint (-33.5562, 19.8742, 18)
+add meshpoint (-33.7665, 19.5147, 18)
+add meshpoint (-33.9687, 19.1606, 18)
+add meshpoint (-34.1333, 18.8657, 18)
+add meshpoint (-34.3075, 18.5471, 18)
+add meshpoint (-34.5259, 18.1374, 18)
+add meshpoint (-34.8302, 17.5459, 18)
+add meshpoint (-35.2409, 16.7057, 18)
+add meshpoint (-35.6637, 15.7828, 18)
+add meshpoint (-36.1018, 14.7533, 18)
+add meshpoint (-36.5075, 13.7186, 18)
+add meshpoint (-36.8762, 12.6944, 18)
+add meshpoint (-37.2111, 11.6762, 18)
+add meshpoint (-37.5211, 10.6379, 18)
+add meshpoint (-37.8214, 9.51515, 18)
+add meshpoint (-38.0691, 8.47007, 18)
+add meshpoint (-38.2855, 7.43106, 18)
+add meshpoint (-38.4851, 6.31651, 18)
+add meshpoint (-38.6421, 5.27122, 18)
+add meshpoint (-38.7632, 4.29141, 18)
+add meshpoint (-38.8743, 3.12922, 18)
+add meshpoint (-38.9475, 2.02322, 18)
+add meshpoint (-38.9896, 0.90243, 18)
+add meshpoint (-38.9997, -0.154836, 18)
+add meshpoint (-38.9821, -1.18286, 18)
+add meshpoint (-38.935, -2.25115, 18)
+add meshpoint (-38.8514, -3.40096, 18)
+add meshpoint (-38.744, -4.46114, 18)
+add meshpoint (-38.6201, -5.43022, 18)
+add meshpoint (-38.4629, -6.45051, 18)
+add meshpoint (-38.2775, -7.4721, 18)
+add meshpoint (-38.0696, -8.46802, 18)
+add meshpoint (-37.8163, -9.53569, 18)
+add meshpoint (-37.5664, -10.477, 18)
+add meshpoint (-37.2739, -11.4741, 18)
+add meshpoint (-36.9856, -12.372, 18)
+add meshpoint (-36.6446, -13.3481, 18)
+add meshpoint (-36.2612, -14.3571, 18)
+add meshpoint (-35.8637, -15.3231, 18)
+add meshpoint (-35.4276, -16.306, 18)
+add meshpoint (-35.0434, -17.1161, 18)
+add meshpoint (-34.7255, -17.7522, 18)
+add meshpoint (-34.4549, -18.2718, 18)
+add meshpoint (-34.2621, -18.6309, 18)
+add meshpoint (-34.0569, -19.0033, 18)
+add meshpoint (-33.852, -19.366, 18)
+add meshpoint (-33.6106, -19.782, 18)
+add meshpoint (-33.3484, -20.2208, 18)
+add meshpoint (-33.0598, -20.6894, 18)
+add meshpoint (-32.6658, -21.3059, 18)
+add meshpoint (-32.1607, -22.061, 18)
+add meshpoint (-31.6186, -22.8312, 18)
+add meshpoint (-31.0658, -23.5779, 18)
+add meshpoint (-30.4119, -24.4154, 18)
+add meshpoint (-29.7581, -25.2083, 18)
+add meshpoint (-29.0527, -26.0181, 18)
+add meshpoint (-28.3385, -26.7942, 18)
+add meshpoint (-27.6998, -27.454, 18)
+add meshpoint (-27.0277, -28.1159, 18)
+add meshpoint (-26.362, -28.741, 18)
+add meshpoint (-25.6288, -29.3966, 18)
+add meshpoint (-24.9067, -30.0109, 18)
+add meshpoint (-24.1886, -30.5927, 18)
+add meshpoint (-23.4369, -31.1723, 18)
+add meshpoint (-22.6645, -31.7383, 18)
+add meshpoint (-21.8737, -32.2884, 18)
+add meshpoint (-21.0954, -32.8022, 18)
+add meshpoint (-20.3236, -33.2859, 18)
+add meshpoint (-19.5501, -33.746, 18)
+add meshpoint (-18.6486, -34.2525, 18)
+add meshpoint (-17.7856, -34.7084, 18)
+add meshpoint (-16.9553, -35.1215, 18)
+add meshpoint (-15.9831, -35.5744, 18)
+add meshpoint (-15.1679, -35.9296, 18)
+add meshpoint (-14.354, -36.2624, 18)
+add meshpoint (-13.521, -36.5812, 18)
+add meshpoint (-12.6649, -36.8863, 18)
+add meshpoint (-11.7853, -37.1767, 18)
+add meshpoint (-10.8549, -37.4589, 18)
+add meshpoint (-9.91316, -37.7191, 18)
+add meshpoint (-8.97266, -37.9538, 18)
+add meshpoint (-8.02661, -38.1651, 18)
+add meshpoint (-7.09608, -38.349, 18)
+add meshpoint (-6.21315, -38.5019, 18)
+add meshpoint (-5.19902, -38.6519, 18)
+add meshpoint (-4.22944, -38.77, 18)
+add meshpoint (-3.287, -38.8612, 18)
+add meshpoint (-2.32638, -38.9306, 18)
+add meshpoint (-1.4076, -38.9746, 18)
+add meshpoint (-0.494231, -38.9969, 18)
+add meshpoint (0.442867, -38.9975, 18)
+add meshpoint (1.43618, -38.9735, 18)
+add meshpoint (2.33575, -38.93, 18)
+add meshpoint (3.23828, -38.8653, 18)
+add meshpoint (4.11409, -38.7824, 18)
+add meshpoint (5.05487, -38.671, 18)
+add meshpoint (6.0182, -38.5329, 18)
+add meshpoint (6.91875, -38.3814, 18)
+add meshpoint (7.81528, -38.2089, 18)
+add meshpoint (8.67441, -38.0231, 18)
+add meshpoint (9.61272, -37.7968, 18)
+add meshpoint (10.5895, -37.5348, 18)
+add meshpoint (11.47, -37.2752, 18)
+add meshpoint (12.3592, -36.9899, 18)
+add meshpoint (13.2413, -36.6834, 18)
+add meshpoint (14.106, -36.3596, 18)
+add meshpoint (14.9003, -36.0414, 18)
+add meshpoint (15.7949, -35.6584, 18)
+add meshpoint (16.6796, -35.2532, 18)
+add meshpoint (17.5128, -34.8468, 18)
+add meshpoint (18.306, -34.4368, 18)
+add meshpoint (19.1406, -33.98, 18)
+add meshpoint (19.937, -33.5189, 18)
+add meshpoint (20.7188, -33.0414, 18)
+add meshpoint (21.4509, -32.5708, 18)
+add meshpoint (22.1675, -32.0874, 18)
+add meshpoint (22.8958, -31.5718, 18)
+add meshpoint (23.6519, -31.0095, 18)
+add meshpoint (24.3334, -30.4776, 18)
+add meshpoint (25.0243, -29.9129, 18)
+add meshpoint (25.7143, -29.3219, 18)
+add meshpoint (26.4348, -28.6741, 18)
+add meshpoint (27.1036, -28.0428, 18)
+add meshpoint (27.7193, -27.4343, 18)
+add meshpoint (28.305, -26.8296, 18)
+add meshpoint (28.9871, -26.0912, 18)
+add meshpoint (29.6049, -25.3879, 18)
+add meshpoint (30.1857, -24.6946, 18)
+add meshpoint (30.7405, -24.0005, 18)
+add meshpoint (31.2436, -23.3418, 18)
+add meshpoint (31.7326, -22.6725, 18)
+add meshpoint (32.2518, -21.9277, 18)
+add meshpoint (32.6987, -21.2555, 18)
+add meshpoint (33.0828, -20.6526, 18)
+add meshpoint (33.3683, -20.188, 18)
+add meshpoint (33.6429, -19.727, 18)
+add meshpoint (33.8779, -19.3207, 18)
+add meshpoint (34.0703, -18.9793, 18)
+add meshpoint (34.2356, -18.6795, 18)
+add meshpoint (34.4164, -18.3442, 18)
+add meshpoint (34.6665, -17.8671, 18)
+add meshpoint (34.9502, -17.3056, 18)
+add meshpoint (35.2975, -16.5858, 18)
+add meshpoint (35.6898, -15.7238, 18)
+add meshpoint (36.0832, -14.7988, 18)
+add meshpoint (36.4671, -13.8256, 18)
+add meshpoint (36.8098, -12.8856, 18)
+add meshpoint (37.1216, -11.9578, 18)
+add meshpoint (37.4215, -10.9832, 18)
+add meshpoint (37.6734, -10.0852, 18)
+add meshpoint (37.9295, -9.07471, 18)
+add meshpoint (38.1469, -8.11268, 18)
+add meshpoint (38.3121, -7.2929, 18)
+add meshpoint (38.4337, -6.62209, 18)
+add meshpoint (38.5647, -5.81093, 18)
+add meshpoint (38.7024, -4.80853, 18)
+add meshpoint (38.8015, -3.92988, 18)
+add meshpoint (38.8816, -3.03643, 18)
+add meshpoint (38.9423, -2.12088, 18)
+add meshpoint (38.9864, -1.03159, 18)
+NP = 520
+edge nr 4
+NP = 520
+edge nr 5
+add meshpoint (15.6, -35.7441, 15.3971)
+add meshpoint (15.6, -35.7441, 14.666)
+add meshpoint (15.6, -35.7441, 13.7643)
+add meshpoint (15.6, -35.7441, 12.7105)
+add meshpoint (15.6, -35.7441, 11.4545)
+add meshpoint (15.6, -35.7441, 9.90024)
+add meshpoint (15.6, -35.7441, 7.9827)
+add meshpoint (15.6, -35.7441, 5.71194)
+add meshpoint (15.6, -35.7441, 3.74091)
+add meshpoint (15.6, -35.7441, 2.12545)
+NP = 530
+edge nr 6
+add meshpoint (14.6534, -36.1425, 1)
+add meshpoint (13.7079, -36.5115, 1)
+add meshpoint (12.6947, -36.8761, 1)
+add meshpoint (11.6972, -37.2045, 1)
+add meshpoint (10.7583, -37.4868, 1)
+add meshpoint (9.70383, -37.7735, 1)
+add meshpoint (8.65822, -38.0268, 1)
+add meshpoint (7.67105, -38.2381, 1)
+add meshpoint (6.64032, -38.4305, 1)
+add meshpoint (5.6277, -38.5918, 1)
+NP = 540
+edge nr 7
+add meshpoint (4.6, -38.7278, 15.4689)
+add meshpoint (4.6, -38.7278, 14.851)
+add meshpoint (4.6, -38.7278, 14.0962)
+add meshpoint (4.6, -38.7278, 13.1713)
+add meshpoint (4.6, -38.7278, 11.7829)
+add meshpoint (4.6, -38.7278, 10.0164)
+add meshpoint (4.6, -38.7278, 7.56788)
+add meshpoint (4.6, -38.7278, 5.26139)
+add meshpoint (4.6, -38.7278, 3.55804)
+add meshpoint (4.6, -38.7278, 2.15344)
+NP = 550
+edge nr 8
+add meshpoint (15.0266, -35.9889, 16)
+add meshpoint (14.2635, -36.2981, 16)
+add meshpoint (13.4155, -36.62, 16)
+add meshpoint (12.5075, -36.94, 16)
+add meshpoint (11.537, -37.2545, 16)
+add meshpoint (10.6454, -37.519, 16)
+add meshpoint (9.68536, -37.7782, 16)
+add meshpoint (8.74138, -38.0077, 16)
+add meshpoint (7.68422, -38.2355, 16)
+add meshpoint (6.64996, -38.4289, 16)
+add meshpoint (5.74534, -38.5745, 16)
+add meshpoint (5.12328, -38.662, 16)
+NP = 562
+edge nr 9
+add meshpoint (38.906, -2.70676, 16)
+add meshpoint (38.8579, -3.32617, 16)
+add meshpoint (38.7751, -4.18202, 16)
+add meshpoint (38.689, -4.91579, 16)
+add meshpoint (38.6218, -5.4181, 16)
+add meshpoint (38.5617, -5.83034, 16)
+NP = 568
+edge nr 10
+add meshpoint (38.939, -2.18, 15.454)
+add meshpoint (38.939, -2.18, 14.8949)
+add meshpoint (38.939, -2.18, 14.1839)
+add meshpoint (38.939, -2.18, 13.242)
+add meshpoint (38.939, -2.18, 11.847)
+add meshpoint (38.939, -2.18, 10.043)
+add meshpoint (38.939, -2.18, 8.10672)
+add meshpoint (38.939, -2.18, 6.58628)
+add meshpoint (38.939, -2.18, 5.38371)
+NP = 577
+edge nr 11
+add meshpoint (38.5072, -6.18, 15.5919)
+add meshpoint (38.5072, -6.18, 15.0596)
+add meshpoint (38.5072, -6.18, 14.4344)
+add meshpoint (38.5072, -6.18, 13.5787)
+add meshpoint (38.5072, -6.18, 12.5249)
+add meshpoint (38.5072, -6.18, 10.9237)
+add meshpoint (38.5072, -6.18, 9.1973)
+add meshpoint (38.5072, -6.18, 7.75169)
+add meshpoint (38.5072, -6.18, 6.58176)
+add meshpoint (38.5072, -6.18, 5.74981)
+add meshpoint (38.5072, -6.18, 5.06006)
+NP = 588
+edge nr 12
+add meshpoint (38.8911, -2.9122, 4.5)
+add meshpoint (38.8153, -3.79089, 4.5)
+add meshpoint (38.7027, -4.80667, 4.5)
+add meshpoint (38.5952, -5.60437, 4.5)
+NP = 592
+edge nr 13
+add meshpoint (2.5, 38.9198, 15.4826)
+add meshpoint (2.5, 38.9198, 14.8817)
+add meshpoint (2.5, 38.9198, 14.1575)
+add meshpoint (2.5, 38.9198, 13.2199)
+add meshpoint (2.5, 38.9198, 12.0763)
+add meshpoint (2.5, 38.9198, 10.6919)
+add meshpoint (2.5, 38.9198, 9.00137)
+add meshpoint (2.5, 38.9198, 6.63786)
+add meshpoint (2.5, 38.9198, 4.05782)
+NP = 601
+edge nr 14
+add meshpoint (3.05451, 38.8802, 16)
+add meshpoint (3.72945, 38.8213, 16)
+add meshpoint (4.54202, 38.7346, 16)
+add meshpoint (5.50842, 38.609, 16)
+add meshpoint (6.40252, 38.4709, 16)
+add meshpoint (7.28808, 38.313, 16)
+add meshpoint (8.27707, 38.1115, 16)
+add meshpoint (9.13539, 37.915, 16)
+add meshpoint (9.99283, 37.6981, 16)
+add meshpoint (10.8486, 37.4607, 16)
+add meshpoint (11.85, 37.1561, 16)
+add meshpoint (12.6998, 36.8743, 16)
+add meshpoint (13.5846, 36.5576, 16)
+add meshpoint (14.4559, 36.2219, 16)
+add meshpoint (15.3186, 35.8656, 16)
+add meshpoint (16.1862, 35.4825, 16)
+add meshpoint (17.0095, 35.0953, 16)
+add meshpoint (17.8406, 34.6802, 16)
+add meshpoint (18.6058, 34.2757, 16)
+add meshpoint (19.4102, 33.8267, 16)
+add meshpoint (20.1854, 33.3699, 16)
+add meshpoint (20.9823, 32.8747, 16)
+add meshpoint (21.7384, 32.3797, 16)
+add meshpoint (22.4543, 31.8873, 16)
+add meshpoint (23.215, 31.3379, 16)
+add meshpoint (23.9012, 30.8177, 16)
+add meshpoint (24.5878, 30.2728, 16)
+add meshpoint (25.2854, 29.6925, 16)
+add meshpoint (25.98, 29.0868, 16)
+add meshpoint (26.6703, 28.4551, 16)
+add meshpoint (27.2955, 27.8559, 16)
+add meshpoint (27.9068, 27.2435, 16)
+add meshpoint (28.5085, 26.6132, 16)
+add meshpoint (29.1052, 25.9593, 16)
+add meshpoint (29.739, 25.2308, 16)
+add meshpoint (30.317, 24.5332, 16)
+add meshpoint (30.8787, 23.8224, 16)
+add meshpoint (31.4088, 23.119, 16)
+add meshpoint (31.9256, 22.3999, 16)
+add meshpoint (32.472, 21.6003, 16)
+add meshpoint (32.8969, 20.9474, 16)
+add meshpoint (33.2454, 20.3899, 16)
+NP = 643
+edge nr 15
+add meshpoint (4.70337, 38.7153, 2)
+add meshpoint (6.77935, 38.4063, 2)
+add meshpoint (8.94313, 37.9608, 2)
+add meshpoint (10.9759, 37.4236, 2)
+add meshpoint (12.958, 36.7844, 2)
+add meshpoint (14.987, 36.0054, 2)
+add meshpoint (16.9477, 35.1251, 2)
+add meshpoint (18.9111, 34.1082, 2)
+add meshpoint (20.7525, 33.0202, 2)
+add meshpoint (22.7518, 31.6758, 2)
+add meshpoint (24.6158, 30.25, 2)
+add meshpoint (26.2548, 28.8389, 2)
+add meshpoint (27.7957, 27.3569, 2)
+add meshpoint (29.3489, 25.6835, 2)
+add meshpoint (30.7529, 23.9846, 2)
+add meshpoint (31.7926, 22.5883, 2)
+add meshpoint (32.6065, 21.3966, 2)
+add meshpoint (33.1275, 20.5808, 2)
+NP = 661
+edge nr 16
+add meshpoint (33.5, 19.9687, 15.4849)
+add meshpoint (33.5, 19.9687, 14.8545)
+add meshpoint (33.5, 19.9687, 14.0827)
+add meshpoint (33.5, 19.9687, 13.0792)
+add meshpoint (33.5, 19.9687, 11.8519)
+add meshpoint (33.5, 19.9687, 10.3571)
+add meshpoint (33.5, 19.9687, 8.50106)
+add meshpoint (33.5, 19.9687, 6.57827)
+add meshpoint (33.5, 19.9687, 4.97168)
+add meshpoint (33.5, 19.9687, 3.68107)
+add meshpoint (33.5, 19.9687, 2.74564)
+NP = 672
+edge nr 17
+NP = 672
+edge nr 18
+add meshpoint (-30.5, -12.3648, 3.9968e-15)
+add meshpoint (-30.5, -11.731, 3.9968e-15)
+add meshpoint (-30.5, -10.9423, 3.9968e-15)
+add meshpoint (-30.5, -9.99495, 3.9968e-15)
+add meshpoint (-30.5, -8.89855, 3.9968e-15)
+add meshpoint (-30.5, -7.55456, 3.9968e-15)
+add meshpoint (-30.5, -5.94206, 3.9968e-15)
+add meshpoint (-30.5, -3.83866, 3.9968e-15)
+add meshpoint (-30.5, -1.24732, 3.9968e-15)
+add meshpoint (-30.5, 1.94942, 3.9968e-15)
+add meshpoint (-30.5, 4.60715, 3.9968e-15)
+add meshpoint (-30.5, 6.61766, 3.9968e-15)
+add meshpoint (-30.5, 8.15384, 3.9968e-15)
+add meshpoint (-30.5, 9.39398, 3.9968e-15)
+add meshpoint (-30.5, 10.5031, 3.9968e-15)
+add meshpoint (-30.5, 11.5146, 3.9968e-15)
+add meshpoint (-30.5, 12.3122, 3.9968e-15)
+NP = 689
+edge nr 19
+add meshpoint (19.2796, -12.9, 3.9968e-15)
+add meshpoint (18.398, -12.9, 3.9968e-15)
+add meshpoint (17.3466, -12.9, 3.9968e-15)
+add meshpoint (16.1075, -12.9, 3.9968e-15)
+add meshpoint (15.0026, -12.9, 3.9968e-15)
+add meshpoint (13.7116, -12.9, 3.9968e-15)
+add meshpoint (12.1317, -12.9, 3.9968e-15)
+add meshpoint (10.1121, -12.9, 3.9968e-15)
+add meshpoint (7.85607, -12.9, 3.9968e-15)
+add meshpoint (6.25392, -12.9, 3.9968e-15)
+add meshpoint (5.00885, -12.9, 3.9968e-15)
+add meshpoint (3.886, -12.9, 3.9968e-15)
+add meshpoint (2.51206, -12.9, 3.9968e-15)
+add meshpoint (0.837847, -12.9, 3.9968e-15)
+add meshpoint (-1.08599, -12.9, 3.9968e-15)
+add meshpoint (-2.93738, -12.9, 3.9968e-15)
+add meshpoint (-4.89173, -12.9, 3.9968e-15)
+add meshpoint (-6.74313, -12.9, 3.9968e-15)
+add meshpoint (-8.67602, -12.9, 3.9968e-15)
+add meshpoint (-10.5001, -12.9, 3.9968e-15)
+add meshpoint (-12.35, -12.9, 3.9968e-15)
+add meshpoint (-14.235, -12.9, 3.9968e-15)
+add meshpoint (-16.0703, -12.9, 3.9968e-15)
+add meshpoint (-18.0147, -12.9, 3.9968e-15)
+add meshpoint (-19.8661, -12.9, 3.9968e-15)
+add meshpoint (-21.8039, -12.9, 3.9968e-15)
+add meshpoint (-23.6374, -12.9, 3.9968e-15)
+add meshpoint (-25.3021, -12.9, 3.9968e-15)
+add meshpoint (-26.6806, -12.9, 3.9968e-15)
+add meshpoint (-27.8079, -12.9, 3.9968e-15)
+add meshpoint (-28.9406, -12.9, 3.9968e-15)
+add meshpoint (-29.8067, -12.9, 3.9968e-15)
+NP = 721
+edge nr 20
+add meshpoint (20, 12.2761, 3.9968e-15)
+add meshpoint (20, 11.4443, 3.9968e-15)
+add meshpoint (20, 10.3478, 3.9968e-15)
+add meshpoint (20, 9.23675, 3.9968e-15)
+add meshpoint (20, 7.889, 3.9968e-15)
+add meshpoint (20, 6.25147, 3.9968e-15)
+add meshpoint (20, 3.97149, 3.9968e-15)
+add meshpoint (20, 0.882792, 3.9968e-15)
+add meshpoint (20, -2.10853, 3.9968e-15)
+add meshpoint (20, -4.55347, 3.9968e-15)
+add meshpoint (20, -6.65062, 3.9968e-15)
+add meshpoint (20, -8.37349, 3.9968e-15)
+add meshpoint (20, -9.78551, 3.9968e-15)
+add meshpoint (20, -10.8853, 3.9968e-15)
+add meshpoint (20, -11.7002, 3.9968e-15)
+add meshpoint (20, -12.3515, 3.9968e-15)
+NP = 737
+edge nr 21
+add meshpoint (-29.7635, 12.9, 3.9968e-15)
+add meshpoint (-28.8507, 12.9, 3.9968e-15)
+add meshpoint (-27.6799, 12.9, 3.9968e-15)
+add meshpoint (-26.4901, 12.9, 3.9968e-15)
+add meshpoint (-25.0402, 12.9, 3.9968e-15)
+add meshpoint (-23.1873, 12.9, 3.9968e-15)
+add meshpoint (-21.2107, 12.9, 3.9968e-15)
+add meshpoint (-19.2197, 12.9, 3.9968e-15)
+add meshpoint (-17.3317, 12.9, 3.9968e-15)
+add meshpoint (-15.3756, 12.9, 3.9968e-15)
+add meshpoint (-13.4987, 12.9, 3.9968e-15)
+add meshpoint (-11.598, 12.9, 3.9968e-15)
+add meshpoint (-9.6704, 12.9, 3.9968e-15)
+add meshpoint (-7.8015, 12.9, 3.9968e-15)
+add meshpoint (-5.81052, 12.9, 3.9968e-15)
+add meshpoint (-3.82948, 12.9, 3.9968e-15)
+add meshpoint (-1.94146, 12.9, 3.9968e-15)
+add meshpoint (0.0395755, 12.9, 3.9968e-15)
+add meshpoint (1.92222, 12.9, 3.9968e-15)
+add meshpoint (3.86355, 12.9, 3.9968e-15)
+add meshpoint (5.73936, 12.9, 3.9968e-15)
+add meshpoint (7.62878, 12.9, 3.9968e-15)
+add meshpoint (9.55651, 12.9, 3.9968e-15)
+add meshpoint (11.4379, 12.9, 3.9968e-15)
+add meshpoint (13.4123, 12.9, 3.9968e-15)
+add meshpoint (15.3423, 12.9, 3.9968e-15)
+add meshpoint (17.1254, 12.9, 3.9968e-15)
+add meshpoint (18.386, 12.9, 3.9968e-15)
+add meshpoint (19.2907, 12.9, 3.9968e-15)
+NP = 766
+edge nr 22
+NP = 766
+edge nr 23
+add meshpoint (-33.3233, -18.6, 18)
+NP = 767
+edge nr 24
+add meshpoint (-33.0374, -18.7757, 18)
+add meshpoint (-32.8904, -19.0322, 18)
+add meshpoint (-32.7076, -19.3445, 18)
+add meshpoint (-32.4676, -19.7447, 18)
+add meshpoint (-32.1292, -20.2908, 18)
+add meshpoint (-31.6766, -20.9903, 18)
+add meshpoint (-31.0179, -21.9519, 18)
+add meshpoint (-30.3594, -22.854, 18)
+add meshpoint (-29.678, -23.7322, 18)
+add meshpoint (-28.9997, -24.5565, 18)
+add meshpoint (-28.2905, -25.3702, 18)
+add meshpoint (-27.557, -26.1651, 18)
+add meshpoint (-26.7059, -27.0332, 18)
+add meshpoint (-25.9072, -27.7996, 18)
+add meshpoint (-25.0884, -28.5407, 18)
+add meshpoint (-24.2484, -29.2577, 18)
+add meshpoint (-23.3569, -29.9743, 18)
+add meshpoint (-22.4654, -30.6481, 18)
+add meshpoint (-21.5503, -31.2983, 18)
+add meshpoint (-20.5562, -31.96, 18)
+add meshpoint (-19.451, -32.6444, 18)
+add meshpoint (-18.499, -33.1932, 18)
+add meshpoint (-17.5324, -33.7137, 18)
+add meshpoint (-16.5669, -34.1985, 18)
+add meshpoint (-15.432, -34.7254, 18)
+add meshpoint (-14.223, -35.2379, 18)
+add meshpoint (-13.1857, -35.639, 18)
+add meshpoint (-12.0532, -36.0378, 18)
+add meshpoint (-10.8355, -36.4224, 18)
+add meshpoint (-9.76883, -36.7229, 18)
+add meshpoint (-8.58037, -37.0186, 18)
+add meshpoint (-7.46178, -37.2602, 18)
+add meshpoint (-6.39047, -37.4588, 18)
+add meshpoint (-5.34054, -37.6228, 18)
+add meshpoint (-4.25619, -37.7609, 18)
+add meshpoint (-2.96241, -37.8844, 18)
+add meshpoint (-1.7759, -37.9585, 18)
+add meshpoint (-0.573791, -37.9957, 18)
+add meshpoint (0.578945, -37.9956, 18)
+add meshpoint (1.70181, -37.9619, 18)
+add meshpoint (2.97671, -37.8832, 18)
+add meshpoint (4.08202, -37.7801, 18)
+add meshpoint (5.21045, -37.6411, 18)
+add meshpoint (6.29408, -37.4751, 18)
+add meshpoint (7.36845, -37.2788, 18)
+add meshpoint (8.48363, -37.0409, 18)
+add meshpoint (9.52687, -36.7864, 18)
+add meshpoint (10.5052, -36.5191, 18)
+add meshpoint (11.6182, -36.1803, 18)
+add meshpoint (12.6295, -35.8399, 18)
+add meshpoint (13.6791, -35.4526, 18)
+add meshpoint (14.7623, -35.0154, 18)
+add meshpoint (15.753, -34.581, 18)
+add meshpoint (16.7227, -34.1226, 18)
+add meshpoint (17.7505, -33.5994, 18)
+add meshpoint (18.6731, -33.0955, 18)
+add meshpoint (19.5912, -32.5605, 18)
+add meshpoint (20.6493, -31.8999, 18)
+add meshpoint (21.5841, -31.275, 18)
+add meshpoint (22.4358, -30.6698, 18)
+add meshpoint (23.2577, -30.0513, 18)
+add meshpoint (24.1583, -29.3322, 18)
+add meshpoint (24.9809, -28.6348, 18)
+add meshpoint (25.7387, -27.9556, 18)
+add meshpoint (26.5938, -27.1435, 18)
+add meshpoint (27.4215, -26.3071, 18)
+add meshpoint (28.1311, -25.5468, 18)
+add meshpoint (28.8173, -24.7702, 18)
+add meshpoint (29.511, -23.9395, 18)
+add meshpoint (30.2138, -23.0461, 18)
+add meshpoint (30.9618, -22.031, 18)
+add meshpoint (31.646, -21.0364, 18)
+add meshpoint (32.1205, -20.3045, 18)
+add meshpoint (32.4607, -19.756, 18)
+add meshpoint (32.7139, -19.334, 18)
+add meshpoint (32.907, -19.0034, 18)
+add meshpoint (33.0374, -18.7757, 18)
+NP = 844
+edge nr 25
+add meshpoint (33.3168, -18.6, 18)
+NP = 845
+edge nr 26
+add meshpoint (33.5, -18.2098, 18)
+add meshpoint (33.5, -18.4258, 18)
+NP = 847
+edge nr 27
+add meshpoint (33.6896, -17.5787, 18)
+add meshpoint (33.9327, -17.1047, 18)
+add meshpoint (34.2365, -16.4882, 18)
+add meshpoint (34.6506, -15.5993, 18)
+add meshpoint (35.0777, -14.6136, 18)
+add meshpoint (35.499, -13.5581, 18)
+add meshpoint (35.8845, -12.5022, 18)
+add meshpoint (36.2474, -11.4074, 18)
+add meshpoint (36.5717, -10.3205, 18)
+add meshpoint (36.8541, -9.26139, 18)
+add meshpoint (37.1011, -8.2165, 18)
+add meshpoint (37.2829, -7.34753, 18)
+add meshpoint (37.4153, -6.64053, 18)
+add meshpoint (37.5162, -6.04466, 18)
+add meshpoint (37.6262, -5.31716, 18)
+add meshpoint (37.7436, -4.40716, 18)
+add meshpoint (37.847, -3.40704, 18)
+add meshpoint (37.9102, -2.61042, 18)
+add meshpoint (37.951, -1.92989, 18)
+add meshpoint (37.9879, -0.960442, 18)
+NP = 867
+edge nr 28
+add meshpoint (37.9815, 1.18702, 18)
+add meshpoint (37.9271, 2.35226, 18)
+add meshpoint (37.847, 3.40634, 18)
+add meshpoint (37.7313, 4.5111, 18)
+add meshpoint (37.6047, 5.46675, 18)
+add meshpoint (37.5088, 6.08992, 18)
+add meshpoint (37.4205, 6.61089, 18)
+add meshpoint (37.322, 7.14617, 18)
+add meshpoint (37.1763, 7.86898, 18)
+add meshpoint (36.9577, 8.83922, 18)
+add meshpoint (36.689, 9.89519, 18)
+add meshpoint (36.3485, 11.081, 18)
+add meshpoint (36.0372, 12.0549, 18)
+add meshpoint (35.6881, 13.0523, 18)
+add meshpoint (35.3224, 14.0116, 18)
+add meshpoint (34.9287, 14.9661, 18)
+add meshpoint (34.5015, 15.9262, 18)
+add meshpoint (34.1586, 16.649, 18)
+add meshpoint (33.9021, 17.1652, 18)
+add meshpoint (33.6708, 17.6147, 18)
+NP = 887
+edge nr 29
+add meshpoint (33.5, 18.344, 18)
+NP = 888
+edge nr 30
+add meshpoint (33.3168, 18.6, 18)
+NP = 889
+edge nr 31
+add meshpoint (33.0256, 18.7965, 18)
+add meshpoint (32.8509, 19.1003, 18)
+add meshpoint (32.6129, 19.5038, 18)
+add meshpoint (32.2505, 20.0974, 18)
+add meshpoint (31.7754, 20.8404, 18)
+add meshpoint (31.1724, 21.732, 18)
+add meshpoint (30.4983, 22.6684, 18)
+add meshpoint (29.8146, 23.5603, 18)
+add meshpoint (29.1011, 24.4362, 18)
+add meshpoint (28.3643, 25.2877, 18)
+add meshpoint (27.5379, 26.1852, 18)
+add meshpoint (26.6985, 27.0405, 18)
+add meshpoint (25.9097, 27.7972, 18)
+add meshpoint (25.1026, 28.5282, 18)
+add meshpoint (24.2132, 29.2869, 18)
+add meshpoint (23.2486, 30.0583, 18)
+add meshpoint (22.2997, 30.7689, 18)
+add meshpoint (21.2541, 31.5002, 18)
+add meshpoint (20.1843, 32.1962, 18)
+add meshpoint (19.1809, 32.8039, 18)
+add meshpoint (18.1591, 33.3803, 18)
+add meshpoint (17.1937, 33.8877, 18)
+add meshpoint (16.2164, 34.3661, 18)
+add meshpoint (15.1492, 34.8497, 18)
+add meshpoint (14.0626, 35.3022, 18)
+add meshpoint (13.0124, 35.7026, 18)
+add meshpoint (11.9234, 36.0809, 18)
+add meshpoint (10.8207, 36.4268, 18)
+add meshpoint (9.76025, 36.7252, 18)
+add meshpoint (8.62025, 37.0093, 18)
+add meshpoint (7.47513, 37.2575, 18)
+add meshpoint (6.42397, 37.4531, 18)
+add meshpoint (5.26983, 37.6328, 18)
+add meshpoint (4.03336, 37.7853, 18)
+add meshpoint (2.99177, 37.882, 18)
+add meshpoint (1.87695, 37.9536, 18)
+add meshpoint (0.739932, 37.9928, 18)
+add meshpoint (-0.399144, 37.9979, 18)
+add meshpoint (-1.48875, 37.9708, 18)
+add meshpoint (-2.57712, 37.9125, 18)
+add meshpoint (-3.76361, 37.8132, 18)
+add meshpoint (-4.89876, 37.6829, 18)
+add meshpoint (-6.01665, 37.5207, 18)
+add meshpoint (-7.17048, 37.3173, 18)
+add meshpoint (-8.21693, 37.101, 18)
+add meshpoint (-9.34753, 36.8324, 18)
+add meshpoint (-10.4902, 36.5233, 18)
+add meshpoint (-11.5876, 36.1902, 18)
+add meshpoint (-12.6559, 35.8305, 18)
+add meshpoint (-13.7494, 35.4253, 18)
+add meshpoint (-14.7373, 35.0259, 18)
+add meshpoint (-15.7109, 34.6001, 18)
+add meshpoint (-16.6672, 34.1497, 18)
+add meshpoint (-17.5993, 33.6788, 18)
+add meshpoint (-18.6194, 33.1258, 18)
+add meshpoint (-19.5374, 32.5928, 18)
+add meshpoint (-20.4611, 32.021, 18)
+add meshpoint (-21.4104, 31.3942, 18)
+add meshpoint (-22.2906, 30.7755, 18)
+add meshpoint (-23.2772, 30.0362, 18)
+add meshpoint (-24.1817, 29.3129, 18)
+add meshpoint (-25.0125, 28.6072, 18)
+add meshpoint (-25.8403, 27.8617, 18)
+add meshpoint (-26.6501, 27.0882, 18)
+add meshpoint (-27.416, 26.3128, 18)
+add meshpoint (-28.1932, 25.4783, 18)
+add meshpoint (-28.9218, 24.6481, 18)
+add meshpoint (-29.5832, 23.8502, 18)
+add meshpoint (-30.2234, 23.0336, 18)
+add meshpoint (-30.9274, 22.0794, 18)
+add meshpoint (-31.5239, 21.219, 18)
+add meshpoint (-31.9898, 20.5099, 18)
+add meshpoint (-32.3406, 19.9521, 18)
+add meshpoint (-32.5925, 19.5378, 18)
+add meshpoint (-32.778, 19.225, 18)
+add meshpoint (-32.9267, 18.9692, 18)
+add meshpoint (-33.0456, 18.7614, 18)
+NP = 966
+edge nr 32
+add meshpoint (-33.3273, 18.6, 18)
+NP = 967
+edge nr 33
+add meshpoint (-33.5, 18.1971, 18)
+add meshpoint (-33.5, 18.42, 18)
+NP = 969
+edge nr 34
+add meshpoint (-33.6699, 17.6165, 18)
+add meshpoint (-33.9165, 17.1369, 18)
+add meshpoint (-34.2658, 16.4272, 18)
+add meshpoint (-34.7151, 15.4551, 18)
+add meshpoint (-35.138, 14.468, 18)
+add meshpoint (-35.5493, 13.4255, 18)
+add meshpoint (-35.9187, 12.4034, 18)
+add meshpoint (-36.2594, 11.3691, 18)
+add meshpoint (-36.5789, 10.295, 18)
+add meshpoint (-36.8487, 9.28305, 18)
+add meshpoint (-37.0977, 8.23147, 18)
+add meshpoint (-37.3307, 7.10076, 18)
+add meshpoint (-37.511, 6.0765, 18)
+add meshpoint (-37.6738, 4.96816, 18)
+add meshpoint (-37.7999, 3.89445, 18)
+add meshpoint (-37.8956, 2.81515, 18)
+add meshpoint (-37.9562, 1.82465, 18)
+add meshpoint (-37.9926, 0.752091, 18)
+add meshpoint (-37.9984, -0.34716, 18)
+add meshpoint (-37.9724, -1.44721, 18)
+add meshpoint (-37.9129, -2.57178, 18)
+add meshpoint (-37.8201, -3.69323, 18)
+add meshpoint (-37.6961, -4.79663, 18)
+add meshpoint (-37.5304, -5.95578, 18)
+add meshpoint (-37.3522, -6.98663, 18)
+add meshpoint (-37.1309, -8.08067, 18)
+add meshpoint (-36.8892, -9.12052, 18)
+add meshpoint (-36.5995, -10.2212, 18)
+add meshpoint (-36.2673, -11.3439, 18)
+add meshpoint (-35.9048, -12.4438, 18)
+add meshpoint (-35.5415, -13.4463, 18)
+add meshpoint (-35.1123, -14.5303, 18)
+add meshpoint (-34.6546, -15.5902, 18)
+add meshpoint (-34.2486, -16.4632, 18)
+add meshpoint (-33.9212, -17.1275, 18)
+add meshpoint (-33.6812, -17.5948, 18)
+NP = 1005
+edge nr 35
+add meshpoint (-33.5, -18.3028, 18)
+NP = 1006
+edge nr 36
+add meshpoint (15.6, -21.1739, 16)
+add meshpoint (15.6, -23.0159, 16)
+add meshpoint (15.6, -24.5552, 16)
+add meshpoint (15.6, -26.4006, 16)
+add meshpoint (15.6, -28.4888, 16)
+add meshpoint (15.6, -30.0973, 16)
+add meshpoint (15.6, -31.4349, 16)
+add meshpoint (15.6, -32.5266, 16)
+add meshpoint (15.6, -33.3844, 16)
+add meshpoint (15.6, -34.0785, 16)
+NP = 1016
+edge nr 37
+add meshpoint (15.6, -35.218, 16)
+NP = 1017
+edge nr 38
+NP = 1017
+edge nr 39
+add meshpoint (15.6, -15.6662, 1)
+add meshpoint (15.6, -16.3662, 1)
+add meshpoint (15.6, -17.039, 1)
+add meshpoint (15.6, -17.5871, 1)
+add meshpoint (15.6, -18.0577, 1)
+add meshpoint (15.6, -18.4488, 1)
+add meshpoint (15.6, -18.7824, 1)
+add meshpoint (15.6, -19.1849, 1)
+add meshpoint (15.6, -19.7064, 1)
+add meshpoint (15.6, -20.337, 1)
+add meshpoint (15.6, -21.1208, 1)
+add meshpoint (15.6, -22.0647, 1)
+add meshpoint (15.6, -23.1627, 1)
+add meshpoint (15.6, -24.5711, 1)
+add meshpoint (15.6, -26.4257, 1)
+add meshpoint (15.6, -28.4697, 1)
+add meshpoint (15.6, -30.8431, 1)
+add meshpoint (15.6, -33.0398, 1)
+add meshpoint (15.6, -34.656, 1)
+NP = 1036
+edge nr 40
+add meshpoint (15.6, -15.1, 1.48035)
+NP = 1037
+edge nr 41
+add meshpoint (15.6, -18.5358, 2)
+add meshpoint (15.6, -18.4308, 2)
+add meshpoint (15.6, -18.3086, 2)
+add meshpoint (15.6, -18.1721, 2)
+add meshpoint (15.6, -18.0054, 2)
+add meshpoint (15.6, -17.8047, 2)
+add meshpoint (15.6, -17.5245, 2)
+add meshpoint (15.6, -17.1772, 2)
+add meshpoint (15.6, -16.7532, 2)
+add meshpoint (15.6, -16.244, 2)
+add meshpoint (15.6, -15.651, 2)
+NP = 1048
+edge nr 42
+add meshpoint (15.6, -18.6467, 2)
+NP = 1049
+edge nr 43
+add meshpoint (15.6, -18.7, 2.05516)
+add meshpoint (15.6, -18.7, 2.13346)
+add meshpoint (15.6, -18.7, 2.22821)
+add meshpoint (15.6, -18.7, 2.34476)
+add meshpoint (15.6, -18.7, 2.48224)
+add meshpoint (15.6, -18.7, 2.65064)
+add meshpoint (15.6, -18.7, 2.85487)
+add meshpoint (15.6, -18.7, 3.12017)
+add meshpoint (15.6, -18.7, 3.50371)
+add meshpoint (15.6, -18.7, 3.97016)
+add meshpoint (15.6, -18.7, 4.51466)
+add meshpoint (15.6, -18.7, 5.18691)
+add meshpoint (15.6, -18.7, 5.99947)
+add meshpoint (15.6, -18.7, 7.06371)
+add meshpoint (15.6, -18.7, 8.60244)
+add meshpoint (15.6, -18.7, 10.4727)
+add meshpoint (15.6, -18.7, 13.3324)
+NP = 1066
+edge nr 44
+add meshpoint (4.6, -37.5465, 1)
+add meshpoint (4.6, -36.3319, 1)
+add meshpoint (4.6, -35.2187, 1)
+add meshpoint (4.6, -34.0928, 1)
+add meshpoint (4.6, -32.9833, 1)
+add meshpoint (4.6, -31.8538, 1)
+add meshpoint (4.6, -30.7478, 1)
+add meshpoint (4.6, -29.6148, 1)
+add meshpoint (4.6, -28.5123, 1)
+add meshpoint (4.6, -27.3748, 1)
+add meshpoint (4.6, -26.0658, 1)
+add meshpoint (4.6, -24.8787, 1)
+add meshpoint (4.6, -23.6147, 1)
+add meshpoint (4.6, -22.3716, 1)
+add meshpoint (4.6, -21.1636, 1)
+add meshpoint (4.6, -20.0215, 1)
+add meshpoint (4.6, -18.758, 1)
+add meshpoint (4.6, -17.6749, 1)
+add meshpoint (4.6, -16.5675, 1)
+add meshpoint (4.6, -15.7426, 1)
+NP = 1086
+edge nr 45
+NP = 1086
+edge nr 46
+NP = 1086
+edge nr 47
+add meshpoint (15.0229, -15.1, 1)
+add meshpoint (14.2986, -15.1, 1)
+add meshpoint (13.4109, -15.1, 1)
+add meshpoint (12.2912, -15.1, 1)
+add meshpoint (11.1565, -15.1, 1)
+add meshpoint (9.78517, -15.1, 1)
+add meshpoint (8.48722, -15.1, 1)
+add meshpoint (7.42782, -15.1, 1)
+add meshpoint (6.51139, -15.1, 1)
+add meshpoint (5.7454, -15.1, 1)
+add meshpoint (5.12557, -15.1, 1)
+NP = 1097
+edge nr 48
+add meshpoint (4.6, -38.2506, 16)
+NP = 1098
+edge nr 49
+add meshpoint (4.6, -37.2305, 16)
+add meshpoint (4.6, -36.6692, 16)
+add meshpoint (4.6, -35.9968, 16)
+NP = 1101
+edge nr 50
+add meshpoint (4.6, -35.1823, 3.09143)
+add meshpoint (4.6, -35.1823, 4.47319)
+add meshpoint (4.6, -35.1823, 6.13358)
+add meshpoint (4.6, -35.1823, 8.21679)
+add meshpoint (4.6, -35.1823, 10.2709)
+add meshpoint (4.6, -35.1823, 12.1388)
+add meshpoint (4.6, -35.1823, 13.6908)
+add meshpoint (4.6, -35.1823, 14.9402)
+NP = 1109
+edge nr 51
+add meshpoint (4.6, -28.5836, 2)
+add meshpoint (4.6, -29.6704, 2)
+add meshpoint (4.6, -30.7866, 2)
+add meshpoint (4.6, -31.8726, 2)
+add meshpoint (4.6, -32.9896, 2)
+add meshpoint (4.6, -34.0764, 2)
+NP = 1115
+edge nr 52
+add meshpoint (4.6, -27.4777, 3.22133)
+add meshpoint (4.6, -27.4777, 5.00608)
+add meshpoint (4.6, -27.4777, 7.09967)
+add meshpoint (4.6, -27.4777, 9.4059)
+add meshpoint (4.6, -27.4777, 11.5031)
+add meshpoint (4.6, -27.4777, 13.8629)
+NP = 1121
+edge nr 53
+add meshpoint (4.6, -25.6335, 16)
+NP = 1122
+edge nr 54
+add meshpoint (4.6, -23.7, 13.7711)
+add meshpoint (4.6, -23.7, 11.2121)
+add meshpoint (4.6, -23.7, 8.77014)
+add meshpoint (4.6, -23.7, 6.63919)
+add meshpoint (4.6, -23.7, 4.69808)
+add meshpoint (4.6, -23.7, 3.08248)
+NP = 1128
+edge nr 55
+add meshpoint (4.6, -19.6362, 2)
+add meshpoint (4.6, -20.6275, 2)
+add meshpoint (4.6, -21.6495, 2)
+add meshpoint (4.6, -22.6676, 2)
+NP = 1132
+edge nr 56
+add meshpoint (4.6, -15.6858, 2)
+add meshpoint (4.6, -16.5148, 2)
+add meshpoint (4.6, -17.5945, 2)
+NP = 1135
+edge nr 57
+add meshpoint (4.6, -15.1, 1.53009)
+NP = 1136
+edge nr 58
+NP = 1136
+edge nr 59
+NP = 1136
+edge nr 60
+NP = 1136
+edge nr 61
+NP = 1136
+edge nr 62
+NP = 1136
+edge nr 63
+add meshpoint (5.15211, -37.6491, 16)
+add meshpoint (5.81796, -37.552, 16)
+add meshpoint (6.70489, -37.4038, 16)
+add meshpoint (7.96686, -37.1555, 16)
+add meshpoint (9.1292, -36.8871, 16)
+add meshpoint (10.2771, -36.5839, 16)
+add meshpoint (11.3283, -36.2722, 16)
+add meshpoint (12.2954, -35.9559, 16)
+add meshpoint (13.2491, -35.6155, 16)
+add meshpoint (14.1831, -35.2539, 16)
+add meshpoint (15.0054, -34.9119, 16)
+NP = 1147
+edge nr 64
+NP = 1147
+edge nr 65
+add meshpoint (38.2031, -2.18, 16)
+add meshpoint (38.5231, -2.18, 16)
+NP = 1149
+edge nr 66
+add meshpoint (37.4196, -6.6163, 16)
+add meshpoint (37.4313, -6.54945, 16)
+add meshpoint (37.4434, -6.47998, 16)
+add meshpoint (37.4559, -6.40761, 16)
+add meshpoint (37.4683, -6.33447, 16)
+add meshpoint (37.4809, -6.25982, 16)
+add meshpoint (37.4924, -6.19036, 16)
+add meshpoint (37.5031, -6.12511, 16)
+add meshpoint (37.5155, -6.04881, 16)
+add meshpoint (37.5304, -5.95553, 16)
+add meshpoint (37.5492, -5.83566, 16)
+add meshpoint (37.5774, -5.65177, 16)
+add meshpoint (37.6131, -5.40855, 16)
+add meshpoint (37.6588, -5.08099, 16)
+add meshpoint (37.7115, -4.67364, 16)
+add meshpoint (37.7694, -4.18009, 16)
+add meshpoint (37.8323, -3.56584, 16)
+add meshpoint (37.8721, -3.11499, 16)
+add meshpoint (37.8996, -2.76047, 16)
+add meshpoint (37.9198, -2.46772, 16)
+NP = 1169
+edge nr 67
+add meshpoint (37.4529, -6.68, 16)
+NP = 1170
+edge nr 68
+add meshpoint (37.5, -6.24243, 16)
+add meshpoint (37.5, -6.30429, 16)
+add meshpoint (37.5, -6.3718, 16)
+add meshpoint (37.5, -6.43416, 16)
+add meshpoint (37.5, -6.5019, 16)
+add meshpoint (37.5, -6.56744, 16)
+add meshpoint (37.5, -6.63048, 16)
+NP = 1177
+edge nr 69
+add meshpoint (38.2301, -6.18, 16)
+add meshpoint (38.0105, -6.18, 16)
+add meshpoint (37.8294, -6.18, 16)
+add meshpoint (37.685, -6.18, 16)
+add meshpoint (37.5752, -6.18, 16)
+NP = 1182
+edge nr 70
+add meshpoint (37.725, -2.18, 16)
+NP = 1183
+edge nr 71
+NP = 1183
+edge nr 72
+NP = 1183
+edge nr 73
+add meshpoint (38.2183, -2.18, 4.5)
+NP = 1184
+edge nr 74
+add meshpoint (37.5, -2.18, 15.7373)
+add meshpoint (37.5, -2.18, 15.39)
+add meshpoint (37.5, -2.18, 14.9676)
+add meshpoint (37.5, -2.18, 14.4213)
+add meshpoint (37.5, -2.18, 13.8139)
+add meshpoint (37.5, -2.18, 13.0758)
+add meshpoint (37.5, -2.18, 12.1124)
+add meshpoint (37.5, -2.18, 10.8314)
+add meshpoint (37.5, -2.18, 9.15468)
+add meshpoint (37.5, -2.18, 7.65711)
+add meshpoint (37.5, -2.18, 6.42496)
+add meshpoint (37.5, -2.18, 5.37005)
+NP = 1196
+edge nr 75
+NP = 1196
+edge nr 76
+add meshpoint (37.5, -6.18, 15.9338)
+add meshpoint (37.5, -6.18, 15.8559)
+add meshpoint (37.5, -6.18, 15.7589)
+add meshpoint (37.5, -6.18, 15.6303)
+add meshpoint (37.5, -6.18, 15.4635)
+add meshpoint (37.5, -6.18, 15.262)
+add meshpoint (37.5, -6.18, 15.0153)
+add meshpoint (37.5, -6.18, 14.6456)
+add meshpoint (37.5, -6.18, 14.1645)
+add meshpoint (37.5, -6.18, 13.6361)
+add meshpoint (37.5, -6.18, 12.8669)
+add meshpoint (37.5, -6.18, 11.8833)
+add meshpoint (37.5, -6.18, 10.5539)
+add meshpoint (37.5, -6.18, 8.98916)
+add meshpoint (37.5, -6.18, 7.8022)
+add meshpoint (37.5, -6.18, 6.97238)
+add meshpoint (37.5, -6.18, 6.29072)
+add meshpoint (37.5, -6.18, 5.73001)
+add meshpoint (37.5, -6.18, 5.22063)
+add meshpoint (37.5, -6.18, 4.82448)
+NP = 1216
+edge nr 77
+add meshpoint (38.1057, -6.18, 4.5)
+add meshpoint (37.7704, -6.18, 4.5)
+NP = 1218
+edge nr 78
+NP = 1218
+edge nr 79
+NP = 1218
+edge nr 80
+NP = 1218
+edge nr 81
+add meshpoint (37.5, 5.42367, 4.5)
+add meshpoint (37.5, 4.1016, 4.5)
+add meshpoint (37.5, 2.42086, 4.5)
+add meshpoint (37.5, 0.931471, 4.5)
+add meshpoint (37.5, -0.289144, 4.5)
+add meshpoint (37.5, -1.32882, 4.5)
+NP = 1224
+edge nr 82
+add meshpoint (34.31, 6.62, 4.5)
+add meshpoint (34.7065, 6.62, 4.5)
+add meshpoint (35.2209, 6.62, 4.5)
+add meshpoint (35.8385, 6.62, 4.5)
+add meshpoint (36.5957, 6.62, 4.5)
+NP = 1229
+edge nr 83
+add meshpoint (34, 6.36885, 4.5)
+NP = 1230
+edge nr 84
+add meshpoint (33.7481, 6.12, 4.5)
+NP = 1231
+edge nr 85
+add meshpoint (33.5, -5.91209, 4.5)
+add meshpoint (33.5, -5.5976, 4.5)
+add meshpoint (33.5, -5.20798, 4.5)
+add meshpoint (33.5, -4.69529, 4.5)
+add meshpoint (33.5, -4.01553, 4.5)
+add meshpoint (33.5, -3.19652, 4.5)
+add meshpoint (33.5, -2.03273, 4.5)
+add meshpoint (33.5, -0.434968, 4.5)
+add meshpoint (33.5, 1.11705, 4.5)
+add meshpoint (33.5, 2.28841, 4.5)
+add meshpoint (33.5, 3.30381, 4.5)
+add meshpoint (33.5, 4.12495, 4.5)
+add meshpoint (33.5, 4.80857, 4.5)
+add meshpoint (33.5, 5.36728, 4.5)
+add meshpoint (33.5, 5.80215, 4.5)
+NP = 1246
+edge nr 86
+add meshpoint (33.7628, -6.18, 4.5)
+NP = 1247
+edge nr 87
+add meshpoint (34, -6.44016, 4.5)
+NP = 1248
+edge nr 88
+add meshpoint (37.2141, -6.68, 4.5)
+add meshpoint (36.8586, -6.68, 4.5)
+add meshpoint (36.405, -6.68, 4.5)
+add meshpoint (35.8, -6.68, 4.5)
+add meshpoint (35.1398, -6.68, 4.5)
+add meshpoint (34.6491, -6.68, 4.5)
+add meshpoint (34.2663, -6.68, 4.5)
+NP = 1255
+edge nr 89
+add meshpoint (37.5, -6.42017, 4.5)
+NP = 1256
+edge nr 90
+NP = 1256
+edge nr 91
+add meshpoint (2.5, 23.5836, 16)
+add meshpoint (2.5, 25.4258, 16)
+add meshpoint (2.5, 27.0284, 16)
+add meshpoint (2.5, 28.6143, 16)
+add meshpoint (2.5, 30.4397, 16)
+add meshpoint (2.5, 32.3859, 16)
+add meshpoint (2.5, 33.927, 16)
+add meshpoint (2.5, 35.1701, 16)
+add meshpoint (2.5, 36.0887, 16)
+add meshpoint (2.5, 36.8072, 16)
+add meshpoint (2.5, 37.4007, 16)
+NP = 1267
+edge nr 92
+add meshpoint (2.5, 38.4147, 16)
+NP = 1268
+edge nr 93
+NP = 1268
+edge nr 94
+add meshpoint (2.5, 23.682, 2)
+add meshpoint (2.5, 25.5648, 2)
+add meshpoint (2.5, 27.2657, 2)
+add meshpoint (2.5, 28.9298, 2)
+add meshpoint (2.5, 30.905, 2)
+add meshpoint (2.5, 33.2294, 2)
+add meshpoint (2.5, 36.2342, 2)
+NP = 1275
+edge nr 95
+add meshpoint (2.5, 21.3, 13.8391)
+add meshpoint (2.5, 21.3, 11.3593)
+add meshpoint (2.5, 21.3, 9.20982)
+add meshpoint (2.5, 21.3, 6.66667)
+add meshpoint (2.5, 21.3, 4.27562)
+NP = 1280
+edge nr 96
+add meshpoint (33.3168, 18.6, 16)
+NP = 1281
+edge nr 97
+add meshpoint (33.5, 19.5891, 16)
+add meshpoint (33.5, 19.2765, 16)
+add meshpoint (33.5, 19.0062, 16)
+add meshpoint (33.5, 18.785, 16)
+NP = 1285
+edge nr 98
+NP = 1285
+edge nr 99
+NP = 1285
+edge nr 100
+add meshpoint (33.0271, 18.7939, 16)
+add meshpoint (32.8702, 19.0669, 16)
+add meshpoint (32.6718, 19.405, 16)
+add meshpoint (32.3971, 19.8602, 16)
+add meshpoint (32.0474, 20.4197, 16)
+add meshpoint (31.4875, 21.273, 16)
+add meshpoint (30.8463, 22.1925, 16)
+add meshpoint (30.1927, 23.0738, 16)
+add meshpoint (29.4747, 23.9843, 16)
+add meshpoint (28.6966, 24.9099, 16)
+add meshpoint (27.9419, 25.7536, 16)
+add meshpoint (27.1452, 26.592, 16)
+add meshpoint (26.3206, 27.4085, 16)
+add meshpoint (25.4851, 28.187, 16)
+add meshpoint (24.6335, 28.9343, 16)
+add meshpoint (23.7263, 29.6827, 16)
+add meshpoint (22.8115, 30.3914, 16)
+add meshpoint (21.9124, 31.0459, 16)
+add meshpoint (20.9549, 31.7, 16)
+add meshpoint (20.0447, 32.2833, 16)
+add meshpoint (19.1137, 32.8431, 16)
+add meshpoint (18.1147, 33.4044, 16)
+add meshpoint (17.1354, 33.9172, 16)
+add meshpoint (16.0436, 34.4471, 16)
+add meshpoint (14.9868, 34.9199, 16)
+add meshpoint (13.8966, 35.3678, 16)
+add meshpoint (12.9185, 35.7367, 16)
+add meshpoint (11.8442, 36.107, 16)
+add meshpoint (10.8583, 36.4156, 16)
+add meshpoint (9.83158, 36.7061, 16)
+add meshpoint (8.71553, 36.987, 16)
+add meshpoint (7.59366, 37.2335, 16)
+add meshpoint (6.56477, 37.4286, 16)
+add meshpoint (5.5912, 37.5864, 16)
+add meshpoint (4.55028, 37.7266, 16)
+add meshpoint (3.73067, 37.8164, 16)
+add meshpoint (3.05373, 37.8771, 16)
+NP = 1322
+edge nr 101
+add meshpoint (33.5, 19.2659, 2)
+NP = 1323
+edge nr 102
+NP = 1323
+edge nr 103
+NP = 1323
+edge nr 104
+add meshpoint (-20.8593, 21.3, 2)
+add meshpoint (-19.4806, 21.3, 2)
+add meshpoint (-18.1343, 21.3, 2)
+add meshpoint (-16.7191, 21.3, 2)
+add meshpoint (-15.2735, 21.3, 2)
+add meshpoint (-13.4839, 21.3, 2)
+add meshpoint (-11.2239, 21.3, 2)
+add meshpoint (-8.95862, 21.3, 2)
+add meshpoint (-6.90675, 21.3, 2)
+add meshpoint (-4.90007, 21.3, 2)
+add meshpoint (-3.30832, 21.3, 2)
+add meshpoint (-1.65973, 21.3, 2)
+add meshpoint (0.0728762, 21.3, 2)
+NP = 1336
+edge nr 105
+add meshpoint (-22.5, 20.0037, 2)
+NP = 1337
+edge nr 106
+add meshpoint (-21.0642, 18.6, 2)
+add meshpoint (-19.3047, 18.6, 2)
+add meshpoint (-17.3833, 18.6, 2)
+add meshpoint (-15.5102, 18.6, 2)
+add meshpoint (-13.6371, 18.6, 2)
+add meshpoint (-11.6597, 18.6, 2)
+add meshpoint (-9.78667, 18.6, 2)
+add meshpoint (-7.84586, 18.6, 2)
+add meshpoint (-5.99127, 18.6, 2)
+add meshpoint (-4.11286, 18.6, 2)
+add meshpoint (-2.18249, 18.6, 2)
+add meshpoint (-0.247128, 18.6, 2)
+add meshpoint (1.73028, 18.6, 2)
+add meshpoint (3.60334, 18.6, 2)
+add meshpoint (5.56971, 18.6, 2)
+add meshpoint (7.44277, 18.6, 2)
+add meshpoint (9.39276, 18.6, 2)
+add meshpoint (11.2428, 18.6, 2)
+add meshpoint (13.0777, 18.6, 2)
+add meshpoint (14.9269, 18.6, 2)
+add meshpoint (16.8785, 18.6, 2)
+add meshpoint (18.9183, 18.6, 2)
+add meshpoint (20.7663, 18.6, 2)
+add meshpoint (22.6285, 18.6, 2)
+add meshpoint (24.5204, 18.6, 2)
+add meshpoint (25.9827, 18.6, 2)
+add meshpoint (27.1893, 18.6, 2)
+add meshpoint (28.3916, 18.6, 2)
+add meshpoint (29.9958, 18.6, 2)
+add meshpoint (31.4653, 18.6, 2)
+add meshpoint (32.6514, 18.6, 2)
+NP = 1368
+edge nr 107
+NP = 1368
+edge nr 108
+add meshpoint (33.5, 18.6, 15.7956)
+add meshpoint (33.5, 18.6, 15.5429)
+add meshpoint (33.5, 18.6, 15.245)
+add meshpoint (33.5, 18.6, 14.8785)
+add meshpoint (33.5, 18.6, 14.4364)
+add meshpoint (33.5, 18.6, 13.8894)
+add meshpoint (33.5, 18.6, 13.2511)
+add meshpoint (33.5, 18.6, 12.4671)
+add meshpoint (33.5, 18.6, 11.5028)
+add meshpoint (33.5, 18.6, 10.3665)
+add meshpoint (33.5, 18.6, 8.96355)
+add meshpoint (33.5, 18.6, 7.27003)
+add meshpoint (33.5, 18.6, 5.44832)
+add meshpoint (33.5, 18.6, 4.02452)
+add meshpoint (33.5, 18.6, 2.87685)
+NP = 1383
+edge nr 109
+NP = 1383
+edge nr 110
+NP = 1383
+edge nr 111
+add meshpoint (-30.5, -12.9, 0.501825)
+NP = 1384
+edge nr 112
+add meshpoint (-30.5, 12.9, 0.501825)
+NP = 1385
+edge nr 113
+add meshpoint (-30.5, -12.3488, 1)
+add meshpoint (-30.5, -11.6868, 1)
+add meshpoint (-30.5, -10.8667, 1)
+add meshpoint (-30.5, -9.7454, 1)
+add meshpoint (-30.5, -8.32295, 1)
+add meshpoint (-30.5, -6.5421, 1)
+add meshpoint (-30.5, -4.05731, 1)
+add meshpoint (-30.5, -0.925769, 1)
+add meshpoint (-30.5, 2.73106, 1)
+add meshpoint (-30.5, 5.66069, 1)
+add meshpoint (-30.5, 7.63198, 1)
+add meshpoint (-30.5, 9.22015, 1)
+add meshpoint (-30.5, 10.4945, 1)
+add meshpoint (-30.5, 11.5432, 1)
+add meshpoint (-30.5, 12.3595, 1)
+NP = 1400
+edge nr 114
+NP = 1400
+edge nr 115
+add meshpoint (20, -12.9, 0.501825)
+NP = 1401
+edge nr 116
+NP = 1401
+edge nr 117
+add meshpoint (19.4341, -12.9, 1)
+add meshpoint (18.6801, -12.9, 1)
+add meshpoint (17.6294, -12.9, 1)
+add meshpoint (16.5458, -12.9, 1)
+NP = 1405
+edge nr 118
+add meshpoint (14.4687, -12.9, 1)
+add meshpoint (13.3188, -12.9, 1)
+add meshpoint (11.925, -12.9, 1)
+add meshpoint (10.2207, -12.9, 1)
+add meshpoint (8.22882, -12.9, 1)
+add meshpoint (6.73377, -12.9, 1)
+add meshpoint (5.59184, -12.9, 1)
+NP = 1412
+edge nr 119
+add meshpoint (3.64147, -12.9, 1)
+add meshpoint (2.46872, -12.9, 1)
+add meshpoint (1.05343, -12.9, 1)
+add meshpoint (-0.57805, -12.9, 1)
+add meshpoint (-2.2067, -12.9, 1)
+add meshpoint (-3.77393, -12.9, 1)
+add meshpoint (-5.36171, -12.9, 1)
+add meshpoint (-7.0036, -12.9, 1)
+add meshpoint (-8.63257, -12.9, 1)
+add meshpoint (-10.2047, -12.9, 1)
+add meshpoint (-11.7959, -12.9, 1)
+add meshpoint (-13.4335, -12.9, 1)
+add meshpoint (-15.0584, -12.9, 1)
+add meshpoint (-16.6257, -12.9, 1)
+add meshpoint (-18.2214, -12.9, 1)
+add meshpoint (-19.8633, -12.9, 1)
+add meshpoint (-21.4892, -12.9, 1)
+add meshpoint (-23.0613, -12.9, 1)
+add meshpoint (-24.9868, -12.9, 1)
+add meshpoint (-26.592, -12.9, 1)
+add meshpoint (-27.9294, -12.9, 1)
+add meshpoint (-29.0185, -12.9, 1)
+add meshpoint (-29.8706, -12.9, 1)
+NP = 1435
+edge nr 120
+NP = 1435
+edge nr 121
+add meshpoint (20, 12.9, 0.501825)
+NP = 1436
+edge nr 122
+NP = 1436
+edge nr 123
+add meshpoint (20, 12.3575, 1)
+add meshpoint (20, 11.5509, 1)
+add meshpoint (20, 10.5145, 1)
+add meshpoint (20, 9.25915, 1)
+add meshpoint (20, 7.7021, 1)
+add meshpoint (20, 5.79277, 1)
+add meshpoint (20, 2.92785, 1)
+add meshpoint (20, -0.483879, 1)
+add meshpoint (20, -3.62118, 1)
+add meshpoint (20, -5.84359, 1)
+add meshpoint (20, -7.48539, 1)
+add meshpoint (20, -8.85294, 1)
+add meshpoint (20, -9.96716, 1)
+add meshpoint (20, -10.9266, 1)
+add meshpoint (20, -11.7228, 1)
+add meshpoint (20, -12.3602, 1)
+NP = 1452
+edge nr 124
+NP = 1452
+edge nr 125
+NP = 1452
+edge nr 126
+NP = 1452
+edge nr 127
+add meshpoint (-29.8306, 12.9, 1)
+add meshpoint (-28.9079, 12.9, 1)
+add meshpoint (-27.7497, 12.9, 1)
+add meshpoint (-26.3309, 12.9, 1)
+add meshpoint (-24.5937, 12.9, 1)
+add meshpoint (-22.5351, 12.9, 1)
+add meshpoint (-20.8715, 12.9, 1)
+add meshpoint (-19.1787, 12.9, 1)
+add meshpoint (-17.5091, 12.9, 1)
+add meshpoint (-15.8831, 12.9, 1)
+add meshpoint (-14.2426, 12.9, 1)
+add meshpoint (-12.5559, 12.9, 1)
+add meshpoint (-10.8631, 12.9, 1)
+add meshpoint (-9.23112, 12.9, 1)
+add meshpoint (-7.60516, 12.9, 1)
+add meshpoint (-5.92695, 12.9, 1)
+add meshpoint (-4.2403, 12.9, 1)
+add meshpoint (-2.58616, 12.9, 1)
+add meshpoint (-0.960207, 12.9, 1)
+add meshpoint (0.689625, 12.9, 1)
+add meshpoint (2.37627, 12.9, 1)
+add meshpoint (4.05879, 12.9, 1)
+add meshpoint (5.67769, 12.9, 1)
+add meshpoint (7.3062, 12.9, 1)
+add meshpoint (8.99285, 12.9, 1)
+add meshpoint (10.6795, 12.9, 1)
+add meshpoint (12.3226, 12.9, 1)
+add meshpoint (13.9415, 12.9, 1)
+add meshpoint (15.7074, 12.9, 1)
+add meshpoint (17.2364, 12.9, 1)
+add meshpoint (18.48, 12.9, 1)
+add meshpoint (19.3577, 12.9, 1)
+NP = 1484
+edge nr 128
+NP = 1484
+edge nr 129
+add meshpoint (-32.769, -18.6, 16)
+add meshpoint (-32.328, -18.6, 16)
+add meshpoint (-31.7874, -18.6, 16)
+add meshpoint (-31.1025, -18.6, 16)
+add meshpoint (-30.2833, -18.6, 16)
+add meshpoint (-29.2427, -18.6, 16)
+add meshpoint (-27.9878, -18.6, 16)
+add meshpoint (-26.4551, -18.6, 16)
+add meshpoint (-24.6183, -18.6, 16)
+NP = 1493
+edge nr 130
+add meshpoint (-33.1367, -18.6, 16.4139)
+add meshpoint (-33.1367, -18.6, 16.8236)
+add meshpoint (-33.1367, -18.6, 17.2025)
+add meshpoint (-33.1367, -18.6, 17.5332)
+add meshpoint (-33.1367, -18.6, 17.7922)
+NP = 1498
+edge nr 131
+NP = 1498
+edge nr 132
+add meshpoint (-33.5, -18.6, 17.7642)
+add meshpoint (-33.5, -18.6, 17.4392)
+add meshpoint (-33.5, -18.6, 17.0347)
+add meshpoint (-33.5, -18.6, 16.5166)
+add meshpoint (-33.5, -18.6, 15.9879)
+add meshpoint (-33.5, -18.6, 15.4531)
+add meshpoint (-33.5, -18.6, 14.8041)
+add meshpoint (-33.5, -18.6, 14.0018)
+add meshpoint (-33.5, -18.6, 13.0138)
+add meshpoint (-33.5, -18.6, 11.5701)
+add meshpoint (-33.5, -18.6, 9.70686)
+add meshpoint (-33.5, -18.6, 7.18883)
+add meshpoint (-33.5, -18.6, 5.02655)
+add meshpoint (-33.5, -18.6, 3.37373)
+NP = 1512
+edge nr 133
+add meshpoint (-24.5682, -18.6, 2)
+add meshpoint (-27.1462, -18.6, 2)
+add meshpoint (-29.3214, -18.6, 2)
+add meshpoint (-30.9914, -18.6, 2)
+add meshpoint (-32.371, -18.6, 2)
+NP = 1517
+edge nr 134
+add meshpoint (-22.5, -18.6, 12.8366)
+add meshpoint (-22.5, -18.6, 9.09782)
+add meshpoint (-22.5, -18.6, 6.15917)
+add meshpoint (-22.5, -18.6, 3.79143)
+NP = 1521
+edge nr 135
+add meshpoint (33.1367, -18.6, 16.0682)
+add meshpoint (33.1367, -18.6, 16.1562)
+add meshpoint (33.1367, -18.6, 16.2626)
+add meshpoint (33.1367, -18.6, 16.392)
+add meshpoint (33.1367, -18.6, 16.5418)
+add meshpoint (33.1367, -18.6, 16.7224)
+add meshpoint (33.1367, -18.6, 16.9568)
+add meshpoint (33.1367, -18.6, 17.25)
+add meshpoint (33.1367, -18.6, 17.5561)
+add meshpoint (33.1367, -18.6, 17.8056)
+NP = 1531
+edge nr 136
+add meshpoint (-32.9401, -18.9459, 16)
+add meshpoint (-32.6306, -19.4742, 16)
+add meshpoint (-32.2249, -20.1385, 16)
+add meshpoint (-31.6312, -21.0587, 16)
+add meshpoint (-30.8424, -22.1978, 16)
+add meshpoint (-29.9804, -23.349, 16)
+add meshpoint (-28.9717, -24.5894, 16)
+add meshpoint (-28.0207, -25.6679, 16)
+add meshpoint (-27.0337, -26.7054, 16)
+add meshpoint (-26.0042, -27.7088, 16)
+add meshpoint (-24.9297, -28.6794, 16)
+add meshpoint (-23.8022, -29.6218, 16)
+add meshpoint (-22.5793, -30.5642, 16)
+add meshpoint (-21.2834, -31.4804, 16)
+add meshpoint (-19.8931, -32.3769, 16)
+add meshpoint (-18.6508, -33.1081, 16)
+add meshpoint (-17.3598, -33.8029, 16)
+add meshpoint (-15.9451, -34.4928, 16)
+add meshpoint (-14.5656, -35.0976, 16)
+add meshpoint (-13.2124, -35.6291, 16)
+add meshpoint (-11.7467, -36.1388, 16)
+add meshpoint (-10.4313, -36.5402, 16)
+add meshpoint (-8.84914, -36.9553, 16)
+add meshpoint (-7.53339, -37.2458, 16)
+add meshpoint (-6.12585, -37.503, 16)
+add meshpoint (-4.72812, -37.7047, 16)
+add meshpoint (-3.41165, -37.8465, 16)
+add meshpoint (-2.31445, -37.9295, 16)
+add meshpoint (-1.45742, -37.972, 16)
+add meshpoint (-0.60318, -37.9952, 16)
+add meshpoint (0.249058, -37.9992, 16)
+add meshpoint (1.18466, -37.9815, 16)
+add meshpoint (2.19547, -37.9365, 16)
+add meshpoint (3.17489, -37.8671, 16)
+add meshpoint (3.99356, -37.7896, 16)
+NP = 1566
+edge nr 137
+NP = 1566
+edge nr 138
+add meshpoint (16.1317, -34.4059, 16)
+add meshpoint (16.8256, -34.072, 16)
+add meshpoint (17.7432, -33.6033, 16)
+add meshpoint (18.8183, -33.0132, 16)
+add meshpoint (19.9471, -32.3437, 16)
+add meshpoint (21.2592, -31.4967, 16)
+add meshpoint (22.4688, -30.6456, 16)
+add meshpoint (23.5818, -29.7976, 16)
+add meshpoint (24.6042, -28.9591, 16)
+add meshpoint (25.5445, -28.1332, 16)
+add meshpoint (26.7497, -26.9899, 16)
+add meshpoint (27.857, -25.8454, 16)
+add meshpoint (28.6795, -24.9296, 16)
+add meshpoint (29.471, -23.9887, 16)
+add meshpoint (30.2534, -22.9941, 16)
+add meshpoint (31.0127, -21.9593, 16)
+add meshpoint (31.5697, -21.1507, 16)
+add meshpoint (31.952, -20.5686, 16)
+add meshpoint (32.2432, -20.1091, 16)
+add meshpoint (32.4863, -19.714, 16)
+add meshpoint (32.6802, -19.3909, 16)
+add meshpoint (32.8081, -19.1736, 16)
+add meshpoint (32.8996, -19.0162, 16)
+add meshpoint (32.9666, -18.8998, 16)
+add meshpoint (33.013, -18.8186, 16)
+add meshpoint (33.0494, -18.7547, 16)
+NP = 1592
+edge nr 139
+add meshpoint (33.1099, -18.6476, 16)
+NP = 1593
+edge nr 140
+NP = 1593
+edge nr 141
+NP = 1593
+edge nr 142
+NP = 1593
+edge nr 143
+NP = 1593
+edge nr 144
+add meshpoint (33.415, -18.6, 16)
+add meshpoint (33.3033, -18.6, 16)
+add meshpoint (33.2082, -18.6, 16)
+NP = 1596
+edge nr 145
+add meshpoint (33.5, -18.6, 17.8094)
+add meshpoint (33.5, -18.6, 17.5754)
+add meshpoint (33.5, -18.6, 17.267)
+add meshpoint (33.5, -18.6, 16.9825)
+add meshpoint (33.5, -18.6, 16.7483)
+add meshpoint (33.5, -18.6, 16.5656)
+add meshpoint (33.5, -18.6, 16.4156)
+add meshpoint (33.5, -18.6, 16.2836)
+add meshpoint (33.5, -18.6, 16.1582)
+add meshpoint (33.5, -18.6, 16.0603)
+NP = 1606
+edge nr 146
+add meshpoint (33.5, -18.115, 16)
+add meshpoint (33.5, -18.26, 16)
+add meshpoint (33.5, -18.3751, 16)
+add meshpoint (33.5, -18.4686, 16)
+add meshpoint (33.5, -18.5456, 16)
+NP = 1611
+edge nr 147
+add meshpoint (33.5, -17.9374, 16.2064)
+add meshpoint (33.5, -17.9374, 16.4671)
+add meshpoint (33.5, -17.9374, 16.783)
+add meshpoint (33.5, -17.9374, 17.1971)
+add meshpoint (33.5, -17.9374, 17.6392)
+NP = 1616
+edge nr 148
+NP = 1616
+edge nr 149
+NP = 1616
+edge nr 150
+add meshpoint (38, 0, 17.2076)
+add meshpoint (38, 0, 16.5432)
+NP = 1618
+edge nr 151
+add meshpoint (33.6212, -17.7091, 16)
+add meshpoint (33.7688, -17.4261, 16)
+add meshpoint (33.9442, -17.0819, 16)
+add meshpoint (34.1885, -16.5876, 16)
+add meshpoint (34.5237, -15.878, 16)
+add meshpoint (34.9237, -14.9779, 16)
+add meshpoint (35.3965, -13.8234, 16)
+add meshpoint (35.973, -12.2452, 16)
+add meshpoint (36.4088, -10.8812, 16)
+add meshpoint (36.709, -9.82094, 16)
+add meshpoint (36.9276, -8.96389, 16)
+add meshpoint (37.0709, -8.35174, 16)
+add meshpoint (37.1656, -7.91931, 16)
+add meshpoint (37.2298, -7.61199, 16)
+add meshpoint (37.2807, -7.35873, 16)
+add meshpoint (37.3149, -7.183, 16)
+add meshpoint (37.3417, -7.0425, 16)
+add meshpoint (37.3668, -6.9082, 16)
+add meshpoint (37.3842, -6.81323, 16)
+add meshpoint (37.3984, -6.73503, 16)
+NP = 1638
+edge nr 152
+NP = 1638
+edge nr 153
+add meshpoint (37.9524, -1.90126, 16)
+add meshpoint (37.9687, -1.54139, 16)
+add meshpoint (37.986, -1.03199, 16)
+add meshpoint (37.9967, -0.500207, 16)
+NP = 1642
+edge nr 154
+NP = 1642
+edge nr 155
+NP = 1642
+edge nr 156
+NP = 1642
+edge nr 157
+add meshpoint (33.5, 17.9374, 16.433)
+add meshpoint (33.5, 17.9374, 17.0271)
+add meshpoint (33.5, 17.9374, 17.5742)
+NP = 1645
+edge nr 158
+add meshpoint (37.9953, 0.598375, 16)
+add meshpoint (37.9719, 1.46035, 16)
+add meshpoint (37.9195, 2.47217, 16)
+add meshpoint (37.8573, 3.28972, 16)
+add meshpoint (37.7955, 3.93699, 16)
+add meshpoint (37.7303, 4.51948, 16)
+add meshpoint (37.6593, 5.0769, 16)
+add meshpoint (37.6041, 5.47103, 16)
+add meshpoint (37.5568, 5.78669, 16)
+add meshpoint (37.5257, 5.98525, 16)
+NP = 1655
+edge nr 159
+add meshpoint (37.477, 6.28286, 16)
+add meshpoint (37.4575, 6.39804, 16)
+add meshpoint (37.4415, 6.49084, 16)
+add meshpoint (37.4287, 6.56452, 16)
+NP = 1659
+edge nr 160
+add meshpoint (37.4113, 6.66266, 16)
+add meshpoint (37.4023, 6.7135, 16)
+add meshpoint (37.3891, 6.78644, 16)
+add meshpoint (37.3712, 6.88414, 16)
+add meshpoint (37.3476, 7.0114, 16)
+add meshpoint (37.3214, 7.14944, 16)
+add meshpoint (37.2917, 7.30276, 16)
+add meshpoint (37.2491, 7.51671, 16)
+add meshpoint (37.1967, 7.77225, 16)
+add meshpoint (37.1287, 8.09073, 16)
+add meshpoint (37.0271, 8.54354, 16)
+add meshpoint (36.9012, 9.07204, 16)
+add meshpoint (36.6868, 9.90354, 16)
+add meshpoint (36.3418, 11.1028, 16)
+add meshpoint (35.9273, 12.3785, 16)
+add meshpoint (35.4265, 13.7464, 16)
+add meshpoint (34.9074, 15.0158, 16)
+add meshpoint (34.4807, 15.9713, 16)
+add meshpoint (34.146, 16.6749, 16)
+add meshpoint (33.8948, 17.1797, 16)
+add meshpoint (33.6676, 17.6208, 16)
+NP = 1680
+edge nr 161
+NP = 1680
+edge nr 162
+NP = 1680
+edge nr 163
+NP = 1680
+edge nr 164
+add meshpoint (33.5, 18.344, 16)
+NP = 1681
+edge nr 165
+add meshpoint (33.5, 18.6, 17.7955)
+add meshpoint (33.5, 18.6, 17.5285)
+add meshpoint (33.5, 18.6, 17.2013)
+add meshpoint (33.5, 18.6, 16.8129)
+add meshpoint (33.5, 18.6, 16.4809)
+add meshpoint (33.5, 18.6, 16.2092)
+NP = 1687
+edge nr 166
+add meshpoint (33.1367, 18.6, 16.1983)
+add meshpoint (33.1367, 18.6, 16.4413)
+add meshpoint (33.1367, 18.6, 16.8018)
+add meshpoint (33.1367, 18.6, 17.2218)
+add meshpoint (33.1367, 18.6, 17.5676)
+add meshpoint (33.1367, 18.6, 17.8063)
+NP = 1693
+edge nr 167
+NP = 1693
+edge nr 168
+NP = 1693
+edge nr 169
+NP = 1693
+edge nr 170
+NP = 1693
+edge nr 171
+add meshpoint (-33.1367, 18.6, 16.4044)
+add meshpoint (-33.1367, 18.6, 16.8188)
+add meshpoint (-33.1367, 18.6, 17.2129)
+add meshpoint (-33.1367, 18.6, 17.5352)
+add meshpoint (-33.1367, 18.6, 17.7981)
+NP = 1698
+edge nr 172
+NP = 1698
+edge nr 173
+add meshpoint (1.93819, 37.9505, 16)
+add meshpoint (1.12501, 37.9833, 16)
+add meshpoint (0.0818007, 37.9999, 16)
+add meshpoint (-1.18141, 37.9816, 16)
+add meshpoint (-2.6526, 37.9073, 16)
+add meshpoint (-4.02488, 37.7862, 16)
+add meshpoint (-5.56222, 37.5907, 16)
+add meshpoint (-6.98221, 37.353, 16)
+add meshpoint (-8.32434, 37.077, 16)
+add meshpoint (-9.87885, 36.6934, 16)
+add meshpoint (-11.392, 36.2522, 16)
+add meshpoint (-12.9954, 35.7088, 16)
+add meshpoint (-14.2802, 35.2147, 16)
+add meshpoint (-15.6284, 34.6375, 16)
+add meshpoint (-16.8875, 34.0413, 16)
+add meshpoint (-18.0903, 33.4177, 16)
+add meshpoint (-19.3404, 32.7101, 16)
+add meshpoint (-20.6012, 31.931, 16)
+add meshpoint (-21.8032, 31.1227, 16)
+add meshpoint (-22.9276, 30.3039, 16)
+add meshpoint (-23.9916, 29.4687, 16)
+add meshpoint (-25.0414, 28.582, 16)
+add meshpoint (-26.0594, 27.657, 16)
+add meshpoint (-27.0549, 26.684, 16)
+add meshpoint (-28.0133, 25.676, 16)
+add meshpoint (-28.9331, 24.6348, 16)
+add meshpoint (-29.8012, 23.5773, 16)
+add meshpoint (-30.6261, 22.4954, 16)
+add meshpoint (-31.4414, 21.341, 16)
+add meshpoint (-32.0276, 20.4508, 16)
+add meshpoint (-32.4207, 19.8216, 16)
+add meshpoint (-32.7141, 19.3335, 16)
+add meshpoint (-32.9554, 18.9194, 16)
+NP = 1731
+edge nr 174
+NP = 1731
+edge nr 175
+NP = 1731
+edge nr 176
+NP = 1731
+edge nr 177
+add meshpoint (-24.0674, 18.6, 16)
+add meshpoint (-25.9618, 18.6, 16)
+add meshpoint (-27.6325, 18.6, 16)
+add meshpoint (-29.0232, 18.6, 16)
+add meshpoint (-30.112, 18.6, 16)
+add meshpoint (-30.9916, 18.6, 16)
+add meshpoint (-31.7167, 18.6, 16)
+add meshpoint (-32.2919, 18.6, 16)
+add meshpoint (-32.7544, 18.6, 16)
+NP = 1740
+edge nr 178
+add meshpoint (-22.5, 18.6, 3.48357)
+add meshpoint (-22.5, 18.6, 5.29513)
+add meshpoint (-22.5, 18.6, 7.48482)
+add meshpoint (-22.5, 18.6, 9.83324)
+add meshpoint (-22.5, 18.6, 12.3704)
+add meshpoint (-22.5, 18.6, 14.37)
+NP = 1746
+edge nr 179
+add meshpoint (-31.9862, 18.6, 2)
+add meshpoint (-30.0569, 18.6, 2)
+add meshpoint (-27.9577, 18.6, 2)
+add meshpoint (-25.8442, 18.6, 2)
+add meshpoint (-24.0116, 18.6, 2)
+NP = 1751
+edge nr 180
+add meshpoint (-33.5, 18.6, 17.7998)
+add meshpoint (-33.5, 18.6, 17.5528)
+add meshpoint (-33.5, 18.6, 17.1846)
+add meshpoint (-33.5, 18.6, 16.7259)
+add meshpoint (-33.5, 18.6, 16.2323)
+add meshpoint (-33.5, 18.6, 15.6812)
+add meshpoint (-33.5, 18.6, 15.0283)
+add meshpoint (-33.5, 18.6, 14.1906)
+add meshpoint (-33.5, 18.6, 13.0032)
+add meshpoint (-33.5, 18.6, 11.5598)
+add meshpoint (-33.5, 18.6, 9.69512)
+add meshpoint (-33.5, 18.6, 7.18)
+add meshpoint (-33.5, 18.6, 5.02182)
+add meshpoint (-33.5, 18.6, 3.37166)
+NP = 1765
+edge nr 181
+NP = 1765
+edge nr 182
+add meshpoint (-33.5, -17.9374, 16.592)
+add meshpoint (-33.5, -17.9374, 17.1648)
+add meshpoint (-33.5, -17.9374, 17.6348)
+NP = 1768
+edge nr 183
+add meshpoint (-33.5, 17.1809, 16)
+add meshpoint (-33.5, 16.2023, 16)
+add meshpoint (-33.5, 14.9965, 16)
+add meshpoint (-33.5, 13.5352, 16)
+add meshpoint (-33.5, 11.6303, 16)
+add meshpoint (-33.5, 9.72032, 16)
+add meshpoint (-33.5, 7.44185, 16)
+add meshpoint (-33.5, 5.30664, 16)
+add meshpoint (-33.5, 3.03708, 16)
+add meshpoint (-33.5, 0.890076, 16)
+add meshpoint (-33.5, -1.28165, 16)
+add meshpoint (-33.5, -3.45269, 16)
+add meshpoint (-33.5, -5.98972, 16)
+add meshpoint (-33.5, -8.23066, 16)
+add meshpoint (-33.5, -10.5372, 16)
+add meshpoint (-33.5, -12.6256, 16)
+add meshpoint (-33.5, -14.2418, 16)
+add meshpoint (-33.5, -15.5582, 16)
+add meshpoint (-33.5, -16.541, 16)
+add meshpoint (-33.5, -17.3055, 16)
+NP = 1788
+edge nr 184
+add meshpoint (-33.5, 17.9374, 16.6148)
+add meshpoint (-33.5, 17.9374, 17.1466)
+add meshpoint (-33.5, 17.9374, 17.6167)
+NP = 1791
+edge nr 185
+NP = 1791
+edge nr 186
+NP = 1791
+edge nr 187
+add meshpoint (-33.5, 15.6915, 2)
+add meshpoint (-33.5, 16.422, 2)
+add meshpoint (-33.5, 17.3175, 2)
+NP = 1794
+edge nr 188
+add meshpoint (-33.5, -14.5489, 2)
+add meshpoint (-33.5, -13.8974, 2)
+add meshpoint (-33.5, -13.0787, 2)
+add meshpoint (-33.5, -11.9754, 2)
+add meshpoint (-33.5, -10.5538, 2)
+add meshpoint (-33.5, -8.81712, 2)
+add meshpoint (-33.5, -6.70193, 2)
+add meshpoint (-33.5, -4.22682, 2)
+add meshpoint (-33.5, -1.18785, 2)
+add meshpoint (-33.5, 2.32967, 2)
+add meshpoint (-33.5, 5.38082, 2)
+add meshpoint (-33.5, 7.85987, 2)
+add meshpoint (-33.5, 9.88932, 2)
+add meshpoint (-33.5, 11.4622, 2)
+add meshpoint (-33.5, 12.7295, 2)
+add meshpoint (-33.5, 13.7674, 2)
+add meshpoint (-33.5, 14.5731, 2)
+NP = 1811
+edge nr 189
+add meshpoint (-33.5, -17.4104, 2)
+add meshpoint (-33.5, -16.4159, 2)
+add meshpoint (-33.5, -15.6417, 2)
+NP = 1814
+edge nr 190
+NP = 1814
+edge nr 191
+NP = 1814
+edge nr 192
+NP = 1814
+edge nr 193
+add meshpoint (-33.8418, 17.2839, 16)
+add meshpoint (-34.2739, 16.4103, 16)
+add meshpoint (-34.7914, 15.2825, 16)
+add meshpoint (-35.3311, 13.9898, 16)
+add meshpoint (-35.7962, 12.7526, 16)
+add meshpoint (-36.2575, 11.3752, 16)
+add meshpoint (-36.6318, 10.105, 16)
+add meshpoint (-36.9727, 8.77593, 16)
+add meshpoint (-37.268, 7.42255, 16)
+add meshpoint (-37.5236, 5.99815, 16)
+add meshpoint (-37.7106, 4.68106, 16)
+add meshpoint (-37.8577, 3.28573, 16)
+add meshpoint (-37.9513, 1.92377, 16)
+add meshpoint (-37.997, 0.479859, 16)
+add meshpoint (-37.9898, -0.878863, 16)
+add meshpoint (-37.932, -2.27224, 16)
+add meshpoint (-37.8114, -3.7809, 16)
+add meshpoint (-37.607, -5.45079, 16)
+add meshpoint (-37.3031, -7.24426, 16)
+add meshpoint (-36.9915, -8.69646, 16)
+add meshpoint (-36.6024, -10.211, 16)
+add meshpoint (-36.1684, -11.6554, 16)
+add meshpoint (-35.6851, -13.0604, 16)
+add meshpoint (-35.1754, -14.3768, 16)
+add meshpoint (-34.595, -15.7221, 16)
+add meshpoint (-34.1379, -16.6915, 16)
+add meshpoint (-33.7888, -17.3872, 16)
+NP = 1841
+edge nr 194
+NP = 1841
+edge nr 195
+NP = 1841
+edge nr 196
+add meshpoint (33.0172, -18.7, 16)
+add meshpoint (32.919, -18.7, 16)
+add meshpoint (32.7915, -18.7, 16)
+add meshpoint (32.6369, -18.7, 16)
+add meshpoint (32.4484, -18.7, 16)
+add meshpoint (32.2029, -18.7, 16)
+add meshpoint (31.9008, -18.7, 16)
+add meshpoint (31.5363, -18.7, 16)
+add meshpoint (31.0803, -18.7, 16)
+add meshpoint (30.5451, -18.7, 16)
+add meshpoint (29.9066, -18.7, 16)
+add meshpoint (29.111, -18.7, 16)
+add meshpoint (28.1186, -18.7, 16)
+add meshpoint (26.6489, -18.7, 16)
+add meshpoint (24.7339, -18.7, 16)
+add meshpoint (23.0247, -18.7, 16)
+add meshpoint (21.634, -18.7, 16)
+add meshpoint (20.1537, -18.7, 16)
+add meshpoint (18.2272, -18.7, 16)
+NP = 1860
+edge nr 197
+NP = 1860
+edge nr 198
+add meshpoint (23.3643, -23.5088, 16)
+add meshpoint (23.0976, -23.0525, 16)
+add meshpoint (22.7266, -22.7452, 16)
+add meshpoint (22.2455, -22.5709, 16)
+add meshpoint (21.7599, -22.57, 16)
+add meshpoint (21.2589, -22.7537, 16)
+add meshpoint (20.89, -23.0671, 16)
+add meshpoint (20.6348, -23.5113, 16)
+add meshpoint (20.55, -23.999, 16)
+add meshpoint (20.6306, -24.4766, 16)
+add meshpoint (20.8702, -24.9088, 16)
+add meshpoint (21.2468, -25.239, 16)
+add meshpoint (21.733, -25.4252, 16)
+add meshpoint (22.2203, -25.4332, 16)
+add meshpoint (22.6743, -25.2836, 16)
+add meshpoint (23.0843, -24.9628, 16)
+add meshpoint (23.3537, -24.5197, 16)
+NP = 1877
+edge nr 199
+add meshpoint (26.8549, -15.1, 2)
+add meshpoint (25.972, -15.1, 2)
+add meshpoint (24.745, -15.1, 2)
+add meshpoint (23.1336, -15.1, 2)
+add meshpoint (21.733, -15.1, 2)
+add meshpoint (20.4366, -15.1, 2)
+add meshpoint (18.9977, -15.1, 2)
+add meshpoint (17.7789, -15.1, 2)
+add meshpoint (16.8884, -15.1, 2)
+add meshpoint (16.1766, -15.1, 2)
+NP = 1887
+edge nr 200
+NP = 1887
+edge nr 201
+add meshpoint (26.7974, -15.1, 1)
+add meshpoint (25.9131, -15.1, 1)
+add meshpoint (24.7018, -15.1, 1)
+add meshpoint (23.2798, -15.1, 1)
+add meshpoint (22.074, -15.1, 1)
+add meshpoint (21.0137, -15.1, 1)
+add meshpoint (19.8945, -15.1, 1)
+add meshpoint (18.7151, -15.1, 1)
+add meshpoint (17.6985, -15.1, 1)
+add meshpoint (16.8563, -15.1, 1)
+add meshpoint (16.1628, -15.1, 1)
+NP = 1898
+edge nr 202
+add meshpoint (27.5, -15.1, 1.53009)
+NP = 1899
+edge nr 203
+add meshpoint (-21.4414, 15.1, 2)
+add meshpoint (-20.4186, 15.1, 2)
+add meshpoint (-19.2677, 15.1, 2)
+add meshpoint (-18.1566, 15.1, 2)
+add meshpoint (-16.984, 15.1, 2)
+add meshpoint (-15.9081, 15.1, 2)
+add meshpoint (-14.8342, 15.1, 2)
+add meshpoint (-13.695, 15.1, 2)
+add meshpoint (-12.6364, 15.1, 2)
+add meshpoint (-11.4972, 15.1, 2)
+add meshpoint (-10.3168, 15.1, 2)
+add meshpoint (-9.25373, 15.1, 2)
+add meshpoint (-8.07783, 15.1, 2)
+add meshpoint (-7.00522, 15.1, 2)
+add meshpoint (-5.92223, 15.1, 2)
+add meshpoint (-4.80765, 15.1, 2)
+add meshpoint (-3.71544, 15.1, 2)
+add meshpoint (-2.61008, 15.1, 2)
+add meshpoint (-1.44563, 15.1, 2)
+add meshpoint (-0.35346, 15.1, 2)
+add meshpoint (0.800659, 15.1, 2)
+add meshpoint (1.90317, 15.1, 2)
+add meshpoint (3.04596, 15.1, 2)
+add meshpoint (4.10066, 15.1, 2)
+add meshpoint (5.2399, 15.1, 2)
+add meshpoint (6.29847, 15.1, 2)
+add meshpoint (7.30371, 15.1, 2)
+add meshpoint (8.41422, 15.1, 2)
+add meshpoint (9.55536, 15.1, 2)
+add meshpoint (10.6915, 15.1, 2)
+add meshpoint (11.812, 15.1, 2)
+add meshpoint (12.9033, 15.1, 2)
+add meshpoint (14.0426, 15.1, 2)
+add meshpoint (15.1011, 15.1, 2)
+add meshpoint (16.2282, 15.1, 2)
+add meshpoint (17.3175, 15.1, 2)
+add meshpoint (18.4355, 15.1, 2)
+add meshpoint (19.509, 15.1, 2)
+add meshpoint (20.5716, 15.1, 2)
+add meshpoint (21.7055, 15.1, 2)
+add meshpoint (22.7592, 15.1, 2)
+add meshpoint (23.8985, 15.1, 2)
+add meshpoint (24.9522, 15.1, 2)
+add meshpoint (25.9898, 15.1, 2)
+add meshpoint (26.8622, 15.1, 2)
+NP = 1944
+edge nr 204
+add meshpoint (27.5, 14.5854, 2)
+add meshpoint (27.5, 13.7932, 2)
+add meshpoint (27.5, 12.7844, 2)
+add meshpoint (27.5, 11.558, 2)
+add meshpoint (27.5, 10.0548, 2)
+add meshpoint (27.5, 8.12294, 2)
+add meshpoint (27.5, 6.09392, 2)
+add meshpoint (27.5, 3.79433, 2)
+add meshpoint (27.5, 1.43442, 2)
+add meshpoint (27.5, -1.42062, 2)
+add meshpoint (27.5, -3.94395, 2)
+add meshpoint (27.5, -6.13079, 2)
+add meshpoint (27.5, -8.2182, 2)
+add meshpoint (27.5, -9.82515, 2)
+add meshpoint (27.5, -11.16, 2)
+add meshpoint (27.5, -12.2432, 2)
+add meshpoint (27.5, -13.1741, 2)
+add meshpoint (27.5, -13.9437, 2)
+add meshpoint (27.5, -14.5675, 2)
+NP = 1963
+edge nr 205
+NP = 1963
+edge nr 206
+NP = 1963
+edge nr 207
+add meshpoint (33.4199, -18.6, 2)
+add meshpoint (33.3087, -18.6, 2)
+add meshpoint (33.1773, -18.6, 2)
+add meshpoint (33.0217, -18.6, 2)
+add meshpoint (32.8312, -18.6, 2)
+add meshpoint (32.6011, -18.6, 2)
+add meshpoint (32.3316, -18.6, 2)
+add meshpoint (32, -18.6, 2)
+add meshpoint (31.6003, -18.6, 2)
+add meshpoint (31.0828, -18.6, 2)
+add meshpoint (30.2588, -18.6, 2)
+add meshpoint (29.2773, -18.6, 2)
+add meshpoint (28.2031, -18.6, 2)
+add meshpoint (26.9957, -18.6, 2)
+add meshpoint (25.528, -18.6, 2)
+add meshpoint (23.8164, -18.6, 2)
+add meshpoint (22.2997, -18.6, 2)
+add meshpoint (21.0721, -18.6, 2)
+add meshpoint (20.0308, -18.6, 2)
+add meshpoint (19.1473, -18.6, 2)
+add meshpoint (18.4348, -18.6, 2)
+add meshpoint (17.8457, -18.6, 2)
+add meshpoint (17.3369, -18.6, 2)
+add meshpoint (16.9205, -18.6, 2)
+add meshpoint (16.5872, -18.6, 2)
+add meshpoint (16.3615, -18.6, 2)
+add meshpoint (16.179, -18.6, 2)
+add meshpoint (16.0277, -18.6, 2)
+add meshpoint (15.9109, -18.6, 2)
+add meshpoint (15.8123, -18.6, 2)
+add meshpoint (15.7346, -18.6, 2)
+add meshpoint (15.6652, -18.6, 2)
+NP = 1995
+edge nr 208
+add meshpoint (33.5, 17.7184, 2)
+add meshpoint (33.5, 16.5807, 2)
+add meshpoint (33.5, 15.1886, 2)
+add meshpoint (33.5, 13.5178, 2)
+add meshpoint (33.5, 11.6748, 2)
+add meshpoint (33.5, 10.1543, 2)
+add meshpoint (33.5, 8.92022, 2)
+add meshpoint (33.5, 7.77903, 2)
+add meshpoint (33.5, 6.80097, 2)
+add meshpoint (33.5, 6.01083, 2)
+add meshpoint (33.5, 5.1083, 2)
+add meshpoint (33.5, 4.04981, 2)
+add meshpoint (33.5, 2.79843, 2)
+add meshpoint (33.5, 1.17132, 2)
+add meshpoint (33.5, -0.591173, 2)
+add meshpoint (33.5, -2.01854, 2)
+add meshpoint (33.5, -3.19578, 2)
+add meshpoint (33.5, -4.39381, 2)
+add meshpoint (33.5, -5.47994, 2)
+add meshpoint (33.5, -6.27868, 2)
+add meshpoint (33.5, -7.19507, 2)
+add meshpoint (33.5, -8.33779, 2)
+add meshpoint (33.5, -9.73063, 2)
+add meshpoint (33.5, -11.3733, 2)
+add meshpoint (33.5, -12.786, 2)
+add meshpoint (33.5, -13.9493, 2)
+add meshpoint (33.5, -14.9608, 2)
+add meshpoint (33.5, -15.7782, 2)
+add meshpoint (33.5, -16.4554, 2)
+add meshpoint (33.5, -16.9717, 2)
+add meshpoint (33.5, -17.3626, 2)
+add meshpoint (33.5, -17.6794, 2)
+add meshpoint (33.5, -17.9391, 2)
+add meshpoint (33.5, -18.1424, 2)
+add meshpoint (33.5, -18.2882, 2)
+add meshpoint (33.5, -18.3971, 2)
+add meshpoint (33.5, -18.4829, 2)
+add meshpoint (33.5, -18.5484, 2)
+NP = 2033
+edge nr 209
+NP = 2033
+edge nr 210
+add meshpoint (-22.5, 16.1356, 2)
+add meshpoint (-22.5, 17.3793, 2)
+NP = 2035
+edge nr 211
+add meshpoint (33.4379, -18.7, 2)
+add meshpoint (33.3591, -18.7, 2)
+add meshpoint (33.2645, -18.7, 2)
+add meshpoint (33.1432, -18.7, 2)
+add meshpoint (32.9751, -18.7, 2)
+add meshpoint (32.7703, -18.7, 2)
+add meshpoint (32.5209, -18.7, 2)
+add meshpoint (32.2303, -18.7, 2)
+add meshpoint (31.8761, -18.7, 2)
+add meshpoint (31.4421, -18.7, 2)
+add meshpoint (30.8029, -18.7, 2)
+add meshpoint (29.9359, -18.7, 2)
+add meshpoint (28.8568, -18.7, 2)
+add meshpoint (27.7577, -18.7, 2)
+add meshpoint (26.4031, -18.7, 2)
+add meshpoint (24.7683, -18.7, 2)
+add meshpoint (23.0905, -18.7, 2)
+add meshpoint (21.6933, -18.7, 2)
+add meshpoint (20.5495, -18.7, 2)
+add meshpoint (19.5641, -18.7, 2)
+add meshpoint (18.7572, -18.7, 2)
+add meshpoint (18.0926, -18.7, 2)
+add meshpoint (17.5515, -18.7, 2)
+add meshpoint (17.0887, -18.7, 2)
+add meshpoint (16.7096, -18.7, 2)
+add meshpoint (16.4473, -18.7, 2)
+add meshpoint (16.2435, -18.7, 2)
+add meshpoint (16.0772, -18.7, 2)
+add meshpoint (15.941, -18.7, 2)
+add meshpoint (15.8241, -18.7, 2)
+add meshpoint (15.7304, -18.7, 2)
+add meshpoint (15.6548, -18.7, 2)
+NP = 2067
+edge nr 212
+add meshpoint (33.5, -18.648, 2)
+NP = 2068
+edge nr 213
+NP = 2068
+edge nr 214
+NP = 2068
+edge nr 215
+add meshpoint (33.4357, -18.7, 16)
+add meshpoint (33.3557, -18.7, 16)
+add meshpoint (33.2496, -18.7, 16)
+add meshpoint (33.1537, -18.7, 16)
+NP = 2072
+edge nr 216
+NP = 2072
+edge nr 217
+NP = 2072
+edge nr 218
+NP = 2072
+edge nr 219
+add meshpoint (33.5, -18.7, 15.943)
+add meshpoint (33.5, -18.7, 15.8736)
+add meshpoint (33.5, -18.7, 15.7919)
+add meshpoint (33.5, -18.7, 15.6908)
+add meshpoint (33.5, -18.7, 15.5621)
+add meshpoint (33.5, -18.7, 15.4039)
+add meshpoint (33.5, -18.7, 15.2084)
+add meshpoint (33.5, -18.7, 14.972)
+add meshpoint (33.5, -18.7, 14.6952)
+add meshpoint (33.5, -18.7, 14.3539)
+add meshpoint (33.5, -18.7, 13.9419)
+add meshpoint (33.5, -18.7, 13.3546)
+add meshpoint (33.5, -18.7, 12.634)
+add meshpoint (33.5, -18.7, 11.7061)
+add meshpoint (33.5, -18.7, 10.4443)
+add meshpoint (33.5, -18.7, 8.86539)
+add meshpoint (33.5, -18.7, 7.41341)
+add meshpoint (33.5, -18.7, 6.28998)
+add meshpoint (33.5, -18.7, 5.32743)
+add meshpoint (33.5, -18.7, 4.53134)
+add meshpoint (33.5, -18.7, 3.89254)
+add meshpoint (33.5, -18.7, 3.42206)
+add meshpoint (33.5, -18.7, 3.05897)
+add meshpoint (33.5, -18.7, 2.76225)
+add meshpoint (33.5, -18.7, 2.55322)
+add meshpoint (33.5, -18.7, 2.39375)
+add meshpoint (33.5, -18.7, 2.2826)
+add meshpoint (33.5, -18.7, 2.19208)
+add meshpoint (33.5, -18.7, 2.11742)
+add meshpoint (33.5, -18.7, 2.05349)
+NP = 2102
+edge nr 220
+NP = 2102
+edge nr 221
+add meshpoint (15.6, -13.7844, 1)
+add meshpoint (15.6, -14.5147, 1)
+NP = 2104
+edge nr 222
+NP = 2104
+edge nr 223
+add meshpoint (4.6, -14.5108, 1)
+add meshpoint (4.6, -13.7934, 1)
+NP = 2106
+edge nr 224
+NP = 2106
+edge nr 225
+add meshpoint (-22.5, -21.3169, 16)
+NP = 2107
+edge nr 226
+add meshpoint (2.42907, -23.7, 16)
+add meshpoint (0.262504, -23.7, 16)
+add meshpoint (-2.08869, -23.7, 16)
+add meshpoint (-4.61761, -23.7, 16)
+add meshpoint (-7.30438, -23.7, 16)
+add meshpoint (-9.24615, -23.7, 16)
+add meshpoint (-10.8107, -23.7, 16)
+add meshpoint (-12.5767, -23.7, 16)
+add meshpoint (-14.8341, -23.7, 16)
+add meshpoint (-17.1125, -23.7, 16)
+add meshpoint (-19.8695, -23.7, 16)
+NP = 2118
+edge nr 227
+NP = 2118
+edge nr 228
+add meshpoint (3.03364, -26.1534, 16)
+add meshpoint (1.08779, -25.4294, 16)
+add meshpoint (-0.608006, -25.3609, 16)
+add meshpoint (-2.44934, -25.8527, 16)
+add meshpoint (-4.13422, -26.9816, 16)
+add meshpoint (-5.23692, -28.4017, 16)
+add meshpoint (-5.76081, -29.6528, 16)
+add meshpoint (-5.97365, -30.7683, 16)
+add meshpoint (-5.94246, -32.159, 16)
+add meshpoint (-5.47193, -33.7913, 16)
+add meshpoint (-4.47253, -35.3296, 16)
+add meshpoint (-3.4689, -36.2256, 16)
+add meshpoint (-2.52621, -36.7723, 16)
+add meshpoint (-1.73629, -37.0733, 16)
+add meshpoint (-0.96635, -37.2517, 16)
+add meshpoint (-0.178888, -37.3273, 16)
+add meshpoint (0.54051, -37.3056, 16)
+add meshpoint (1.31214, -37.1848, 16)
+add meshpoint (2.1627, -36.9267, 16)
+add meshpoint (3.13624, -36.4451, 16)
+add meshpoint (3.91333, -35.8782, 16)
+NP = 2139
+edge nr 229
+NP = 2139
+edge nr 230
+NP = 2139
+edge nr 231
+add meshpoint (-8.63942, -29.4987, 16)
+add meshpoint (-8.89258, -29.064, 16)
+add meshpoint (-9.2929, -28.7341, 16)
+add meshpoint (-9.74731, -28.5722, 16)
+add meshpoint (-10.246, -28.571, 16)
+add meshpoint (-10.7106, -28.736, 16)
+add meshpoint (-11.0919, -29.0459, 16)
+add meshpoint (-11.3445, -29.4569, 16)
+add meshpoint (-11.4485, -29.9335, 16)
+add meshpoint (-11.3875, -30.4211, 16)
+add meshpoint (-11.1477, -30.8862, 16)
+add meshpoint (-10.748, -31.2422, 16)
+add meshpoint (-10.2706, -31.4245, 16)
+add meshpoint (-9.78396, -31.4338, 16)
+add meshpoint (-9.27909, -31.2581, 16)
+add meshpoint (-8.89439, -30.9381, 16)
+add meshpoint (-8.63913, -30.5005, 16)
+NP = 2156
+edge nr 232
+NP = 2156
+edge nr 233
+NP = 2156
+edge nr 234
+add meshpoint (3.78874, -26.6775, 2)
+add meshpoint (2.47627, -25.8648, 2)
+add meshpoint (0.64548, -25.3648, 2)
+add meshpoint (-0.977903, -25.4102, 2)
+add meshpoint (-2.7877, -26.0169, 2)
+add meshpoint (-4.44093, -27.2954, 2)
+add meshpoint (-5.43619, -28.7907, 2)
+add meshpoint (-5.83105, -29.9162, 2)
+add meshpoint (-5.99333, -31.0472, 2)
+add meshpoint (-5.89902, -32.4261, 2)
+add meshpoint (-5.34831, -34.0495, 2)
+add meshpoint (-4.10761, -35.7035, 2)
+add meshpoint (-2.46011, -36.8025, 2)
+add meshpoint (-0.459392, -37.3124, 2)
+add meshpoint (1.43257, -37.1565, 2)
+add meshpoint (2.82735, -36.6221, 2)
+add meshpoint (3.80831, -35.9665, 2)
+NP = 2173
+edge nr 235
+NP = 2173
+edge nr 236
+NP = 2173
+edge nr 237
+NP = 2173
+edge nr 238
+NP = 2173
+edge nr 239
+add meshpoint (-22.5, -23.7, 12.6953)
+add meshpoint (-22.5, -23.7, 8.94945)
+add meshpoint (-22.5, -23.7, 5.06886)
+NP = 2176
+edge nr 240
+add meshpoint (3.56705, -23.7, 2)
+add meshpoint (2.36871, -23.7, 2)
+add meshpoint (0.924547, -23.7, 2)
+add meshpoint (-0.866677, -23.7, 2)
+add meshpoint (-2.98606, -23.7, 2)
+add meshpoint (-5.49676, -23.7, 2)
+add meshpoint (-7.59814, -23.7, 2)
+add meshpoint (-9.40819, -23.7, 2)
+add meshpoint (-10.9366, -23.7, 2)
+add meshpoint (-12.6983, -23.7, 2)
+add meshpoint (-14.9354, -23.7, 2)
+add meshpoint (-17.1935, -23.7, 2)
+add meshpoint (-19.9163, -23.7, 2)
+NP = 2189
+edge nr 241
+NP = 2189
+edge nr 242
+NP = 2189
+edge nr 243
+add meshpoint (3.5358, -18.6, 2)
+add meshpoint (2.29409, -18.6, 2)
+add meshpoint (0.776254, -18.6, 2)
+add meshpoint (-0.881985, -18.6, 2)
+add meshpoint (-2.55716, -18.6, 2)
+add meshpoint (-4.20551, -18.6, 2)
+add meshpoint (-5.8194, -18.6, 2)
+add meshpoint (-7.45976, -18.6, 2)
+add meshpoint (-9.13826, -18.6, 2)
+add meshpoint (-10.805, -18.6, 2)
+add meshpoint (-12.4151, -18.6, 2)
+add meshpoint (-14.0375, -18.6, 2)
+add meshpoint (-15.716, -18.6, 2)
+add meshpoint (-17.3945, -18.6, 2)
+add meshpoint (-19.0145, -18.6, 2)
+add meshpoint (-20.6338, -18.6, 2)
+NP = 2205
+edge nr 244
+add meshpoint (-22.5, -20.7971, 2)
+NP = 2206
+edge nr 245
+NP = 2206
+edge nr 246
+add meshpoint (4.03582, -15.1, 2)
+add meshpoint (3.201, -15.1, 2)
+add meshpoint (2.11899, -15.1, 2)
+add meshpoint (0.97831, -15.1, 2)
+add meshpoint (-0.0973153, -15.1, 2)
+add meshpoint (-1.25539, -15.1, 2)
+add meshpoint (-2.40307, -15.1, 2)
+add meshpoint (-3.54171, -15.1, 2)
+add meshpoint (-4.64876, -15.1, 2)
+add meshpoint (-5.79965, -15.1, 2)
+add meshpoint (-6.87105, -15.1, 2)
+add meshpoint (-7.91574, -15.1, 2)
+add meshpoint (-9.10424, -15.1, 2)
+add meshpoint (-10.2021, -15.1, 2)
+add meshpoint (-11.2861, -15.1, 2)
+add meshpoint (-12.437, -15.1, 2)
+add meshpoint (-13.5084, -15.1, 2)
+add meshpoint (-14.5732, -15.1, 2)
+add meshpoint (-15.7832, -15.1, 2)
+add meshpoint (-16.8624, -15.1, 2)
+add meshpoint (-17.9453, -15.1, 2)
+add meshpoint (-19.0934, -15.1, 2)
+add meshpoint (-20.1939, -15.1, 2)
+add meshpoint (-21.3216, -15.1, 2)
+NP = 2230
+edge nr 247
+add meshpoint (-22.5, -17.1655, 2)
+add meshpoint (-22.5, -16.063, 2)
+NP = 2232
+edge nr 248
+NP = 2232
+edge nr 249
+NP = 2232
+edge nr 250
+NP = 2232
+edge nr 251
+add meshpoint (-23.6222, -15.1, 2)
+add meshpoint (-24.9762, -15.1, 2)
+add meshpoint (-26.6529, -15.1, 2)
+add meshpoint (-28.6526, -15.1, 2)
+add meshpoint (-30.2744, -15.1, 2)
+add meshpoint (-31.3941, -15.1, 2)
+add meshpoint (-32.2408, -15.1, 2)
+add meshpoint (-32.9354, -15.1, 2)
+NP = 2240
+edge nr 252
+add meshpoint (-33.5, -15.1, 1.53009)
+NP = 2241
+edge nr 253
+add meshpoint (3.98584, -15.1, 1)
+add meshpoint (3.17252, -15.1, 1)
+add meshpoint (2.10405, -15.1, 1)
+add meshpoint (1.01021, -15.1, 1)
+add meshpoint (-0.245373, -15.1, 1)
+add meshpoint (-1.36176, -15.1, 1)
+add meshpoint (-2.60839, -15.1, 1)
+add meshpoint (-3.76926, -15.1, 1)
+add meshpoint (-4.9714, -15.1, 1)
+add meshpoint (-6.17677, -15.1, 1)
+add meshpoint (-7.33442, -15.1, 1)
+add meshpoint (-8.57688, -15.1, 1)
+add meshpoint (-9.69743, -15.1, 1)
+add meshpoint (-10.9656, -15.1, 1)
+add meshpoint (-12.0847, -15.1, 1)
+add meshpoint (-13.3348, -15.1, 1)
+add meshpoint (-14.4922, -15.1, 1)
+add meshpoint (-15.6978, -15.1, 1)
+add meshpoint (-16.8997, -15.1, 1)
+add meshpoint (-18.0608, -15.1, 1)
+add meshpoint (-19.3072, -15.1, 1)
+add meshpoint (-20.43, -15.1, 1)
+add meshpoint (-21.6982, -15.1, 1)
+add meshpoint (-22.815, -15.1, 1)
+add meshpoint (-24.1833, -15.1, 1)
+add meshpoint (-25.8217, -15.1, 1)
+add meshpoint (-27.7496, -15.1, 1)
+add meshpoint (-29.2656, -15.1, 1)
+add meshpoint (-30.4952, -15.1, 1)
+add meshpoint (-31.5176, -15.1, 1)
+add meshpoint (-32.3149, -15.1, 1)
+add meshpoint (-32.9607, -15.1, 1)
+NP = 2273
+edge nr 254
+NP = 2273
+edge nr 255
+add meshpoint (37.5, -6.68, 15.9474)
+add meshpoint (37.5, -6.68, 15.8829)
+add meshpoint (37.5, -6.68, 15.7858)
+add meshpoint (37.5, -6.68, 15.6582)
+add meshpoint (37.5, -6.68, 15.4846)
+add meshpoint (37.5, -6.68, 15.2734)
+add meshpoint (37.5, -6.68, 14.995)
+add meshpoint (37.5, -6.68, 14.715)
+add meshpoint (37.5, -6.68, 14.3713)
+add meshpoint (37.5, -6.68, 13.9549)
+add meshpoint (37.5, -6.68, 13.3696)
+add meshpoint (37.5, -6.68, 12.6431)
+add meshpoint (37.5, -6.68, 11.7078)
+add meshpoint (37.5, -6.68, 10.2201)
+add meshpoint (37.5, -6.68, 8.67086)
+add meshpoint (37.5, -6.68, 7.4918)
+add meshpoint (37.5, -6.68, 6.56302)
+add meshpoint (37.5, -6.68, 5.83639)
+add meshpoint (37.5, -6.68, 5.25611)
+add meshpoint (37.5, -6.68, 4.84004)
+NP = 2293
+edge nr 256
+add meshpoint (34, -6.68, 15.7169)
+add meshpoint (34, -6.68, 15.3617)
+add meshpoint (34, -6.68, 14.9286)
+add meshpoint (34, -6.68, 14.402)
+add meshpoint (34, -6.68, 13.7865)
+add meshpoint (34, -6.68, 13.035)
+add meshpoint (34, -6.68, 12.1085)
+add meshpoint (34, -6.68, 10.6041)
+add meshpoint (34, -6.68, 9.09665)
+add meshpoint (34, -6.68, 7.86811)
+add meshpoint (34, -6.68, 6.86074)
+add meshpoint (34, -6.68, 6.07659)
+add meshpoint (34, -6.68, 5.53357)
+add meshpoint (34, -6.68, 5.11924)
+add meshpoint (34, -6.68, 4.77813)
+NP = 2308
+edge nr 257
+NP = 2308
+edge nr 258
+add meshpoint (37.342, -6.68, 16)
+add meshpoint (37.2379, -6.68, 16)
+add meshpoint (37.1108, -6.68, 16)
+add meshpoint (36.9636, -6.68, 16)
+add meshpoint (36.7855, -6.68, 16)
+add meshpoint (36.5676, -6.68, 16)
+add meshpoint (36.2981, -6.68, 16)
+add meshpoint (35.958, -6.68, 16)
+add meshpoint (35.5501, -6.68, 16)
+add meshpoint (35.0421, -6.68, 16)
+add meshpoint (34.6237, -6.68, 16)
+add meshpoint (34.2769, -6.68, 16)
+NP = 2320
+edge nr 259
+NP = 2320
+edge nr 260
+NP = 2320
+edge nr 261
+NP = 2320
+edge nr 262
+NP = 2320
+edge nr 263
+NP = 2320
+edge nr 264
+NP = 2320
+edge nr 265
+add meshpoint (37.5, 5.98944, 16)
+add meshpoint (37.5, 5.79802, 16)
+add meshpoint (37.5, 5.56668, 16)
+add meshpoint (37.5, 5.21482, 16)
+add meshpoint (37.5, 4.78007, 16)
+add meshpoint (37.5, 4.22001, 16)
+add meshpoint (37.5, 3.65854, 16)
+add meshpoint (37.5, 2.97472, 16)
+add meshpoint (37.5, 2.13723, 16)
+add meshpoint (37.5, 1.23684, 16)
+add meshpoint (37.5, 0.559253, 16)
+add meshpoint (37.5, -0.021826, 16)
+add meshpoint (37.5, -0.629063, 16)
+add meshpoint (37.5, -1.16423, 16)
+add meshpoint (37.5, -1.60283, 16)
+add meshpoint (37.5, -1.9503, 16)
+NP = 2336
+edge nr 266
+NP = 2336
+edge nr 267
+NP = 2336
+edge nr 268
+add meshpoint (37.5, 6.62, 15.9465)
+add meshpoint (37.5, 6.62, 15.8715)
+add meshpoint (37.5, 6.62, 15.7795)
+add meshpoint (37.5, 6.62, 15.666)
+add meshpoint (37.5, 6.62, 15.5335)
+add meshpoint (37.5, 6.62, 15.3739)
+add meshpoint (37.5, 6.62, 15.1774)
+add meshpoint (37.5, 6.62, 14.9133)
+add meshpoint (37.5, 6.62, 14.5728)
+add meshpoint (37.5, 6.62, 14.1607)
+add meshpoint (37.5, 6.62, 13.5898)
+add meshpoint (37.5, 6.62, 12.6613)
+add meshpoint (37.5, 6.62, 11.5763)
+add meshpoint (37.5, 6.62, 10.2622)
+add meshpoint (37.5, 6.62, 8.66325)
+add meshpoint (37.5, 6.62, 7.111)
+add meshpoint (37.5, 6.62, 5.68044)
+NP = 2353
+edge nr 269
+NP = 2353
+edge nr 270
+add meshpoint (37.5, 6.56527, 16)
+add meshpoint (37.5, 6.49745, 16)
+add meshpoint (37.5, 6.40734, 16)
+add meshpoint (37.5, 6.28316, 16)
+NP = 2357
+edge nr 271
+NP = 2357
+edge nr 272
+NP = 2357
+edge nr 273
+add meshpoint (34, 6.62, 15.682)
+add meshpoint (34, 6.62, 15.2699)
+add meshpoint (34, 6.62, 14.7166)
+add meshpoint (34, 6.62, 14.1722)
+add meshpoint (34, 6.62, 13.5042)
+add meshpoint (34, 6.62, 12.6991)
+add meshpoint (34, 6.62, 11.6551)
+add meshpoint (34, 6.62, 10.3948)
+add meshpoint (34, 6.62, 8.95652)
+add meshpoint (34, 6.62, 7.7679)
+add meshpoint (34, 6.62, 6.7938)
+add meshpoint (34, 6.62, 6.0363)
+add meshpoint (34, 6.62, 5.51329)
+add meshpoint (34, 6.62, 5.10738)
+add meshpoint (34, 6.62, 4.77385)
+NP = 2372
+edge nr 274
+NP = 2372
+edge nr 275
+add meshpoint (34.3231, 6.62, 16)
+add meshpoint (34.7356, 6.62, 16)
+add meshpoint (35.2403, 6.62, 16)
+add meshpoint (35.6527, 6.62, 16)
+add meshpoint (35.9935, 6.62, 16)
+add meshpoint (36.2732, 6.62, 16)
+add meshpoint (36.5153, 6.62, 16)
+add meshpoint (36.7137, 6.62, 16)
+add meshpoint (36.8782, 6.62, 16)
+add meshpoint (37.0056, 6.62, 16)
+add meshpoint (37.1098, 6.62, 16)
+add meshpoint (37.1957, 6.62, 16)
+add meshpoint (37.2664, 6.62, 16)
+add meshpoint (37.3273, 6.62, 16)
+add meshpoint (37.3773, 6.62, 16)
+NP = 2387
+edge nr 276
+add meshpoint (37.4611, 6.62, 16)
+NP = 2388
+edge nr 277
+NP = 2388
+edge nr 278
+add meshpoint (34, 6.12, 15.715)
+add meshpoint (34, 6.12, 15.3065)
+add meshpoint (34, 6.12, 14.7766)
+add meshpoint (34, 6.12, 14.1319)
+add meshpoint (34, 6.12, 13.337)
+add meshpoint (34, 6.12, 12.3755)
+add meshpoint (34, 6.12, 11.2589)
+add meshpoint (34, 6.12, 9.89155)
+add meshpoint (34, 6.12, 8.52151)
+add meshpoint (34, 6.12, 7.46756)
+add meshpoint (34, 6.12, 6.67765)
+add meshpoint (34, 6.12, 6.04113)
+add meshpoint (34, 6.12, 5.51656)
+add meshpoint (34, 6.12, 5.1093)
+add meshpoint (34, 6.12, 4.77454)
+NP = 2403
+edge nr 279
+NP = 2403
+edge nr 280
+add meshpoint (34, 6.36885, 16)
+NP = 2404
+edge nr 281
+NP = 2404
+edge nr 282
+add meshpoint (33.5, 6.12, 15.682)
+add meshpoint (33.5, 6.12, 15.2699)
+add meshpoint (33.5, 6.12, 14.7166)
+add meshpoint (33.5, 6.12, 14.1722)
+add meshpoint (33.5, 6.12, 13.5042)
+add meshpoint (33.5, 6.12, 12.6991)
+add meshpoint (33.5, 6.12, 11.6551)
+add meshpoint (33.5, 6.12, 10.3948)
+add meshpoint (33.5, 6.12, 8.95652)
+add meshpoint (33.5, 6.12, 7.7679)
+add meshpoint (33.5, 6.12, 6.7938)
+add meshpoint (33.5, 6.12, 6.0363)
+add meshpoint (33.5, 6.12, 5.51329)
+add meshpoint (33.5, 6.12, 5.10738)
+add meshpoint (33.5, 6.12, 4.77385)
+NP = 2419
+edge nr 283
+NP = 2419
+edge nr 284
+add meshpoint (33.7629, 6.12, 16)
+NP = 2420
+edge nr 285
+NP = 2420
+edge nr 286
+NP = 2420
+edge nr 287
+add meshpoint (33.5, 6.38848, 16)
+add meshpoint (33.5, 6.70061, 16)
+add meshpoint (33.5, 7.08265, 16)
+add meshpoint (33.5, 7.5536, 16)
+add meshpoint (33.5, 8.10392, 16)
+add meshpoint (33.5, 8.78117, 16)
+add meshpoint (33.5, 9.60399, 16)
+add meshpoint (33.5, 10.6117, 16)
+add meshpoint (33.5, 11.7837, 16)
+add meshpoint (33.5, 13.2202, 16)
+add meshpoint (33.5, 14.5833, 16)
+add meshpoint (33.5, 15.6826, 16)
+add meshpoint (33.5, 16.5271, 16)
+add meshpoint (33.5, 17.1196, 16)
+add meshpoint (33.5, 17.5713, 16)
+NP = 2435
+edge nr 288
+NP = 2435
+edge nr 289
+NP = 2435
+edge nr 290
+add meshpoint (33.5, -6.18, 15.6876)
+add meshpoint (33.5, -6.18, 15.2827)
+add meshpoint (33.5, -6.18, 14.7451)
+add meshpoint (33.5, -6.18, 14.2058)
+add meshpoint (33.5, -6.18, 13.5595)
+add meshpoint (33.5, -6.18, 12.7749)
+add meshpoint (33.5, -6.18, 11.7836)
+add meshpoint (33.5, -6.18, 10.2188)
+add meshpoint (33.5, -6.18, 8.82441)
+add meshpoint (33.5, -6.18, 7.67341)
+add meshpoint (33.5, -6.18, 6.73068)
+add meshpoint (33.5, -6.18, 5.99831)
+add meshpoint (33.5, -6.18, 5.49417)
+add meshpoint (33.5, -6.18, 5.0962)
+add meshpoint (33.5, -6.18, 4.76983)
+NP = 2450
+edge nr 291
+add meshpoint (33.5, -17.7148, 16)
+add meshpoint (33.5, -17.4093, 16)
+add meshpoint (33.5, -17.034, 16)
+add meshpoint (33.5, -16.5835, 16)
+add meshpoint (33.5, -16.0584, 16)
+add meshpoint (33.5, -15.4183, 16)
+add meshpoint (33.5, -14.6432, 16)
+add meshpoint (33.5, -13.7064, 16)
+add meshpoint (33.5, -12.5191, 16)
+add meshpoint (33.5, -11.1084, 16)
+add meshpoint (33.5, -9.89299, 16)
+add meshpoint (33.5, -8.99937, 16)
+add meshpoint (33.5, -8.29627, 16)
+add meshpoint (33.5, -7.71517, 16)
+add meshpoint (33.5, -7.21048, 16)
+add meshpoint (33.5, -6.84074, 16)
+add meshpoint (33.5, -6.49955, 16)
+NP = 2467
+edge nr 292
+NP = 2467
+edge nr 293
+add meshpoint (33.5, -18.6, 15.9417)
+add meshpoint (33.5, -18.6, 15.8599)
+add meshpoint (33.5, -18.6, 15.7586)
+add meshpoint (33.5, -18.6, 15.6375)
+add meshpoint (33.5, -18.6, 15.4946)
+add meshpoint (33.5, -18.6, 15.3207)
+add meshpoint (33.5, -18.6, 15.1096)
+add meshpoint (33.5, -18.6, 14.851)
+add meshpoint (33.5, -18.6, 14.5514)
+add meshpoint (33.5, -18.6, 14.1878)
+add meshpoint (33.5, -18.6, 13.7139)
+add meshpoint (33.5, -18.6, 13.0708)
+add meshpoint (33.5, -18.6, 12.2743)
+add meshpoint (33.5, -18.6, 11.2011)
+add meshpoint (33.5, -18.6, 9.81393)
+add meshpoint (33.5, -18.6, 8.17926)
+add meshpoint (33.5, -18.6, 6.93243)
+add meshpoint (33.5, -18.6, 5.87741)
+add meshpoint (33.5, -18.6, 4.98713)
+add meshpoint (33.5, -18.6, 4.26964)
+add meshpoint (33.5, -18.6, 3.68362)
+add meshpoint (33.5, -18.6, 3.2726)
+add meshpoint (33.5, -18.6, 2.93188)
+add meshpoint (33.5, -18.6, 2.67793)
+add meshpoint (33.5, -18.6, 2.48337)
+add meshpoint (33.5, -18.6, 2.3258)
+add meshpoint (33.5, -18.6, 2.21453)
+add meshpoint (33.5, -18.6, 2.12405)
+add meshpoint (33.5, -18.6, 2.05328)
+NP = 2496
+edge nr 294
+NP = 2496
+edge nr 295
+NP = 2496
+edge nr 296
+add meshpoint (34, -6.18, 15.7252)
+add meshpoint (34, -6.18, 15.3297)
+add meshpoint (34, -6.18, 14.8199)
+add meshpoint (34, -6.18, 14.2084)
+add meshpoint (34, -6.18, 13.452)
+add meshpoint (34, -6.18, 12.4728)
+add meshpoint (34, -6.18, 11.1237)
+add meshpoint (34, -6.18, 9.57077)
+add meshpoint (34, -6.18, 8.2807)
+add meshpoint (34, -6.18, 7.32951)
+add meshpoint (34, -6.18, 6.58888)
+add meshpoint (34, -6.18, 5.98327)
+add meshpoint (34, -6.18, 5.48172)
+add meshpoint (34, -6.18, 5.08891)
+add meshpoint (34, -6.18, 4.7672)
+NP = 2511
+edge nr 297
+NP = 2511
+edge nr 298
+add meshpoint (33.7628, -6.18, 16)
+NP = 2512
+edge nr 299
+NP = 2512
+edge nr 300
+NP = 2512
+edge nr 301
+NP = 2512
+edge nr 302
+add meshpoint (34, -6.42718, 16)
+NP = 2513
+edge nr 303
+NP = 2513
+edge nr 304
+NP = 2513
+edge nr 305
+add meshpoint (-22.5, 20.0037, 16)
+NP = 2514
+edge nr 306
+NP = 2514
+edge nr 307
+add meshpoint (-21.0485, 21.3, 16)
+add meshpoint (-19.5915, 21.3, 16)
+add meshpoint (-18.2321, 21.3, 16)
+add meshpoint (-16.7892, 21.3, 16)
+add meshpoint (-15.3387, 21.3, 16)
+add meshpoint (-13.5465, 21.3, 16)
+add meshpoint (-11.258, 21.3, 16)
+add meshpoint (-9.23386, 21.3, 16)
+add meshpoint (-6.96113, 21.3, 16)
+add meshpoint (-4.97473, 21.3, 16)
+add meshpoint (-3.36431, 21.3, 16)
+add meshpoint (-1.69251, 21.3, 16)
+add meshpoint (0.0496643, 21.3, 16)
+NP = 2527
+edge nr 308
+NP = 2527
+edge nr 309
+add meshpoint (-8.64431, 30.5144, 16)
+add meshpoint (-8.89294, 30.9364, 16)
+add meshpoint (-9.2686, 31.252, 16)
+add meshpoint (-9.72109, 31.4229, 16)
+add meshpoint (-10.217, 31.4337, 16)
+add meshpoint (-10.6877, 31.2765, 16)
+add meshpoint (-11.0766, 30.9713, 16)
+add meshpoint (-11.3513, 30.5258, 16)
+add meshpoint (-11.4498, 30.0221, 16)
+add meshpoint (-11.3739, 29.5364, 16)
+add meshpoint (-11.1274, 29.0881, 16)
+add meshpoint (-10.7585, 28.7642, 16)
+add meshpoint (-10.2684, 28.575, 16)
+add meshpoint (-9.78118, 28.5666, 16)
+add meshpoint (-9.27665, 28.7433, 16)
+add meshpoint (-8.90425, 29.0504, 16)
+add meshpoint (-8.64433, 29.4855, 16)
+NP = 2544
+edge nr 310
+add meshpoint (0.890001, 28.2319, 16)
+add meshpoint (0.205414, 29.4097, 16)
+add meshpoint (-0.827399, 30.2851, 16)
+add meshpoint (-2.12732, 30.7723, 16)
+add meshpoint (-3.46032, 30.7947, 16)
+add meshpoint (-4.77112, 30.3539, 16)
+add meshpoint (-5.73912, 29.6168, 16)
+add meshpoint (-6.3521, 28.7907, 16)
+add meshpoint (-6.7402, 27.8116, 16)
+add meshpoint (-6.85344, 26.6111, 16)
+add meshpoint (-6.55799, 25.3152, 16)
+add meshpoint (-5.85536, 24.189, 16)
+add meshpoint (-4.77593, 23.3287, 16)
+add meshpoint (-3.52237, 22.8952, 16)
+add meshpoint (-2.05547, 22.9217, 16)
+add meshpoint (-0.8154, 23.402, 16)
+add meshpoint (0.232122, 24.3025, 16)
+add meshpoint (0.898383, 25.4709, 16)
+NP = 2562
+edge nr 311
+add meshpoint (-16.0336, 26.6601, 16)
+add meshpoint (-16.575, 27.5672, 16)
+add meshpoint (-17.3532, 28.2056, 16)
+add meshpoint (-18.3798, 28.5645, 16)
+add meshpoint (-19.4312, 28.5412, 16)
+add meshpoint (-20.4135, 28.1542, 16)
+add meshpoint (-21.1785, 27.4792, 16)
+add meshpoint (-21.6754, 26.5801, 16)
+add meshpoint (-21.8385, 25.5037, 16)
+add meshpoint (-21.6318, 24.502, 16)
+add meshpoint (-21.0797, 23.6041, 16)
+add meshpoint (-20.2942, 22.976, 16)
+add meshpoint (-19.3313, 22.6405, 16)
+add meshpoint (-18.2409, 22.6604, 16)
+add meshpoint (-17.3004, 23.0252, 16)
+add meshpoint (-16.5229, 23.6945, 16)
+add meshpoint (-16.0177, 24.5827, 16)
+NP = 2579
+edge nr 312
+add meshpoint (-22.5, 21.3, 14.2348)
+add meshpoint (-22.5, 21.3, 12.4882)
+add meshpoint (-22.5, 21.3, 10.7874)
+add meshpoint (-22.5, 21.3, 9.09801)
+add meshpoint (-22.5, 21.3, 7.3823)
+add meshpoint (-22.5, 21.3, 5.63741)
+add meshpoint (-22.5, 21.3, 3.74443)
+NP = 2586
+edge nr 313
+NP = 2586
+edge nr 314
+NP = 2586
+edge nr 315
+NP = 2586
+edge nr 316
+NP = 2586
+edge nr 317
+NP = 2586
+edge nr 318
+NP = 2586
+edge nr 319
+NP = 2586
+edge nr 320
+add meshpoint (-33.5, -14.5538, 1)
+add meshpoint (-33.5, -13.9091, 1)
+add meshpoint (-33.5, -13.1019, 1)
+add meshpoint (-33.5, -12.1254, 1)
+add meshpoint (-33.5, -10.9885, 1)
+add meshpoint (-33.5, -9.59185, 1)
+add meshpoint (-33.5, -7.89322, 1)
+add meshpoint (-33.5, -5.67747, 1)
+add meshpoint (-33.5, -2.94928, 1)
+add meshpoint (-33.5, 0.33751, 1)
+add meshpoint (-33.5, 3.6906, 1)
+add meshpoint (-33.5, 6.4808, 1)
+add meshpoint (-33.5, 8.63259, 1)
+add meshpoint (-33.5, 10.2356, 1)
+add meshpoint (-33.5, 11.52, 1)
+add meshpoint (-33.5, 12.6625, 1)
+add meshpoint (-33.5, 13.6996, 1)
+add meshpoint (-33.5, 14.514, 1)
+NP = 2604
+edge nr 321
+NP = 2604
+edge nr 322
+NP = 2604
+edge nr 323
+NP = 2604
+edge nr 324
+NP = 2604
+edge nr 325
+NP = 2604
+edge nr 326
+NP = 2604
+edge nr 327
+NP = 2604
+edge nr 328
+NP = 2604
+edge nr 329
+NP = 2604
+edge nr 330
+add meshpoint (27.5, 14.5215, 1)
+add meshpoint (27.5, 13.7309, 1)
+add meshpoint (27.5, 12.7347, 1)
+add meshpoint (27.5, 11.6188, 1)
+add meshpoint (27.5, 10.3928, 1)
+add meshpoint (27.5, 8.87903, 1)
+add meshpoint (27.5, 6.91987, 1)
+add meshpoint (27.5, 4.47733, 1)
+add meshpoint (27.5, 2.28455, 1)
+add meshpoint (27.5, -0.393023, 1)
+add meshpoint (27.5, -3.08339, 1)
+add meshpoint (27.5, -5.29397, 1)
+add meshpoint (27.5, -7.7187, 1)
+add meshpoint (27.5, -9.71053, 1)
+add meshpoint (27.5, -11.2279, 1)
+add meshpoint (27.5, -12.2922, 1)
+add meshpoint (27.5, -13.2057, 1)
+add meshpoint (27.5, -13.9596, 1)
+add meshpoint (27.5, -14.5741, 1)
+NP = 2623
+edge nr 331
+add meshpoint (-32.9508, 15.1, 1)
+add meshpoint (-32.2778, 15.1, 1)
+add meshpoint (-31.4685, 15.1, 1)
+add meshpoint (-30.5038, 15.1, 1)
+add meshpoint (-29.5051, 15.1, 1)
+add meshpoint (-28.0416, 15.1, 1)
+add meshpoint (-26.1445, 15.1, 1)
+add meshpoint (-24.1698, 15.1, 1)
+add meshpoint (-22.6231, 15.1, 1)
+add meshpoint (-21.3694, 15.1, 1)
+add meshpoint (-20.2134, 15.1, 1)
+add meshpoint (-19.0043, 15.1, 1)
+add meshpoint (-17.8038, 15.1, 1)
+add meshpoint (-16.6392, 15.1, 1)
+add meshpoint (-15.3941, 15.1, 1)
+add meshpoint (-14.2642, 15.1, 1)
+add meshpoint (-12.9876, 15.1, 1)
+add meshpoint (-11.8624, 15.1, 1)
+add meshpoint (-10.6126, 15.1, 1)
+add meshpoint (-9.45267, 15.1, 1)
+add meshpoint (-8.24753, 15.1, 1)
+add meshpoint (-7.04298, 15.1, 1)
+add meshpoint (-5.88246, 15.1, 1)
+add meshpoint (-4.63329, 15.1, 1)
+add meshpoint (-3.50748, 15.1, 1)
+add meshpoint (-2.23082, 15.1, 1)
+add meshpoint (-1.10157, 15.1, 1)
+add meshpoint (0.144162, 15.1, 1)
+add meshpoint (1.30812, 15.1, 1)
+add meshpoint (2.50923, 15.1, 1)
+add meshpoint (3.71781, 15.1, 1)
+add meshpoint (4.8743, 15.1, 1)
+add meshpoint (6.12749, 15.1, 1)
+add meshpoint (7.24928, 15.1, 1)
+add meshpoint (8.52594, 15.1, 1)
+add meshpoint (9.64739, 15.1, 1)
+add meshpoint (10.891, 15.1, 1)
+add meshpoint (12.0571, 15.1, 1)
+add meshpoint (13.2561, 15.1, 1)
+add meshpoint (14.4668, 15.1, 1)
+add meshpoint (15.6311, 15.1, 1)
+add meshpoint (16.7294, 15.1, 1)
+add meshpoint (17.9742, 15.1, 1)
+add meshpoint (19.0675, 15.1, 1)
+add meshpoint (20.011, 15.1, 1)
+add meshpoint (21.0362, 15.1, 1)
+add meshpoint (22.2832, 15.1, 1)
+add meshpoint (23.3956, 15.1, 1)
+add meshpoint (24.7011, 15.1, 1)
+add meshpoint (25.9321, 15.1, 1)
+add meshpoint (26.8102, 15.1, 1)
+NP = 2674
+edge nr 332
+NP = 2674
+edge nr 333
+NP = 2674
+edge nr 334
+NP = 2674
+edge nr 335
+NP = 2674
+edge nr 336
+NP = 2674
+edge nr 337
+NP = 2674
+edge nr 338
+NP = 2674
+edge nr 339
+NP = 2674
+edge nr 340
+NP = 2674
+edge nr 341
+NP = 2674
+edge nr 342
+add meshpoint (33.5, -18.648, 16)
+NP = 2675
+edge nr 343
+NP = 2675
+edge nr 344
+NP = 2675
+edge nr 345
+NP = 2675
+edge nr 346
+NP = 2675
+edge nr 347
+NP = 2675
+edge nr 348
+NP = 2675
+edge nr 349
+NP = 2675
+edge nr 350
+NP = 2675
+edge nr 351
+NP = 2675
+edge nr 352
+NP = 2675
+edge nr 353
+NP = 2675
+edge nr 354
+NP = 2675
+edge nr 355
+NP = 2675
+edge nr 356
+NP = 2675
+edge nr 357
+add meshpoint (-32.9643, 15.1, 2)
+add meshpoint (-32.3184, 15.1, 2)
+add meshpoint (-31.5286, 15.1, 2)
+add meshpoint (-30.5404, 15.1, 2)
+add meshpoint (-29.0968, 15.1, 2)
+add meshpoint (-27.2321, 15.1, 2)
+add meshpoint (-25.2707, 15.1, 2)
+add meshpoint (-23.726, 15.1, 2)
+NP = 2683
+edge nr 358
+NP = 2683
+edge nr 359
+NP = 2683
+edge nr 360
+NP = 2683
+edge nr 361
+NP = 2683
+edge nr 362
+NP = 2683
+edge nr 363
+NP = 2683
+edge nr 364
+add meshpoint (-33.5, 15.1, 1.53009)
+NP = 2684
+edge nr 365
+NP = 2684
+edge nr 366
+NP = 2684
+edge nr 367
+add meshpoint (23.45, -24, 15.4722)
+add meshpoint (23.45, -24, 14.9757)
+add meshpoint (23.45, -24, 14.4772)
+add meshpoint (23.45, -24, 13.9724)
+add meshpoint (23.45, -24, 13.4974)
+add meshpoint (23.45, -24, 13.0134)
+add meshpoint (23.45, -24, 12.494)
+add meshpoint (23.45, -24, 11.9924)
+add meshpoint (23.45, -24, 11.4908)
+add meshpoint (23.45, -24, 11.0157)
+add meshpoint (23.45, -24, 10.4941)
+add meshpoint (23.45, -24, 10.0124)
+add meshpoint (23.45, -24, 9.52859)
+add meshpoint (23.45, -24, 9.00915)
+add meshpoint (23.45, -24, 8.5041)
+add meshpoint (23.45, -24, 8.00583)
+add meshpoint (23.45, -24, 7.50752)
+add meshpoint (23.45, -24, 7.00111)
+add meshpoint (23.45, -24, 6.52604)
+add meshpoint (23.45, -24, 6.02438)
+add meshpoint (23.45, -24, 5.54546)
+add meshpoint (23.45, -24, 5.02106)
+add meshpoint (23.45, -24, 4.54599)
+add meshpoint (23.45, -24, 4.02104)
+add meshpoint (23.45, -24, 3.54127)
+add meshpoint (23.45, -24, 3.02446)
+add meshpoint (23.45, -24, 2.52773)
+NP = 2711
+edge nr 368
+NP = 2711
+edge nr 369
+NP = 2711
+edge nr 370
+add meshpoint (23.3635, -23.5067, 2)
+add meshpoint (23.0947, -23.0491, 2)
+add meshpoint (22.7208, -22.7418, 2)
+add meshpoint (22.2376, -22.5696, 2)
+add meshpoint (21.7488, -22.5719, 2)
+add meshpoint (21.2583, -22.7541, 2)
+add meshpoint (20.888, -23.0694, 2)
+add meshpoint (20.6394, -23.4987, 2)
+add meshpoint (20.5501, -23.9863, 2)
+add meshpoint (20.6275, -24.4678, 2)
+add meshpoint (20.8656, -24.9031, 2)
+add meshpoint (21.221, -25.223, 2)
+add meshpoint (21.7021, -25.4191, 2)
+add meshpoint (22.1943, -25.4369, 2)
+add meshpoint (22.6511, -25.2956, 2)
+add meshpoint (23.0813, -24.9661, 2)
+add meshpoint (23.3529, -24.5218, 2)
+NP = 2728
+edge nr 371
+add meshpoint (27.5, 15.1, 1.53009)
+NP = 2729
+edge nr 372
+NP = 2729
+edge nr 373
+NP = 2729
+edge nr 374
+NP = 2729
+edge nr 375
+NP = 2729
+edge nr 376
+NP = 2729
+edge nr 377
+NP = 2729
+edge nr 378
+NP = 2729
+edge nr 379
+NP = 2729
+edge nr 380
+NP = 2729
+edge nr 381
+NP = 2729
+edge nr 382
+NP = 2729
+edge nr 383
+NP = 2729
+edge nr 384
+add meshpoint (-8.55, -30, 15.5041)
+add meshpoint (-8.55, -30, 15.0038)
+add meshpoint (-8.55, -30, 14.4997)
+add meshpoint (-8.55, -30, 14.0248)
+add meshpoint (-8.55, -30, 13.539)
+add meshpoint (-8.55, -30, 13.0204)
+add meshpoint (-8.55, -30, 12.5428)
+add meshpoint (-8.55, -30, 12.0174)
+add meshpoint (-8.55, -30, 11.5425)
+add meshpoint (-8.55, -30, 11.0204)
+add meshpoint (-8.55, -30, 10.5395)
+add meshpoint (-8.55, -30, 10.0242)
+add meshpoint (-8.55, -30, 9.53509)
+add meshpoint (-8.55, -30, 9.02799)
+add meshpoint (-8.55, -30, 8.53069)
+add meshpoint (-8.55, -30, 8.03177)
+add meshpoint (-8.55, -30, 7.52769)
+add meshpoint (-8.55, -30, 7.0371)
+add meshpoint (-8.55, -30, 6.52469)
+add meshpoint (-8.55, -30, 6.04088)
+add meshpoint (-8.55, -30, 5.52029)
+add meshpoint (-8.55, -30, 5.04465)
+add meshpoint (-8.55, -30, 4.51729)
+add meshpoint (-8.55, -30, 4.04239)
+add meshpoint (-8.55, -30, 3.52233)
+add meshpoint (-8.55, -30, 2.99467)
+add meshpoint (-8.55, -30, 2.5113)
+NP = 2756
+edge nr 385
+NP = 2756
+edge nr 386
+NP = 2756
+edge nr 387
+add meshpoint (-8.63999, -29.4971, 2)
+add meshpoint (-8.89471, -29.0615, 2)
+add meshpoint (-9.29721, -28.7317, 2)
+add meshpoint (-9.75379, -28.5711, 2)
+add meshpoint (-10.255, -28.5726, 2)
+add meshpoint (-10.7192, -28.7409, 2)
+add meshpoint (-11.0995, -29.0546, 2)
+add meshpoint (-11.3493, -29.4692, 2)
+add meshpoint (-11.4491, -29.9483, 2)
+add meshpoint (-11.3826, -30.4368, 2)
+add meshpoint (-11.1353, -30.902, 2)
+add meshpoint (-10.7565, -31.237, 2)
+add meshpoint (-10.2786, -31.423, 2)
+add meshpoint (-9.79119, -31.4349, 2)
+add meshpoint (-9.28337, -31.2605, 2)
+add meshpoint (-8.89676, -30.9409, 2)
+add meshpoint (-8.6397, -30.5021, 2)
+NP = 2773
+edge nr 388
+add meshpoint (-8.55, 30, 15.502)
+add meshpoint (-8.55, 30, 15.0251)
+add meshpoint (-8.55, 30, 14.5215)
+add meshpoint (-8.55, 30, 14.0446)
+add meshpoint (-8.55, 30, 13.541)
+add meshpoint (-8.55, 30, 13.0599)
+add meshpoint (-8.55, 30, 12.5339)
+add meshpoint (-8.55, 30, 12.0304)
+add meshpoint (-8.55, 30, 11.5308)
+add meshpoint (-8.55, 30, 11.0499)
+add meshpoint (-8.55, 30, 10.53)
+add meshpoint (-8.55, 30, 10.0311)
+add meshpoint (-8.55, 30, 9.53928)
+add meshpoint (-8.55, 30, 9.03036)
+add meshpoint (-8.55, 30, 8.53077)
+add meshpoint (-8.55, 30, 8.02958)
+add meshpoint (-8.55, 30, 7.52367)
+add meshpoint (-8.55, 30, 7.03035)
+add meshpoint (-8.55, 30, 6.51657)
+add meshpoint (-8.55, 30, 6.02957)
+add meshpoint (-8.55, 30, 5.50807)
+add meshpoint (-8.55, 30, 5.02879)
+add meshpoint (-8.55, 30, 4.50096)
+add meshpoint (-8.55, 30, 4.024)
+add meshpoint (-8.55, 30, 3.49962)
+add meshpoint (-8.55, 30, 2.99923)
+add meshpoint (-8.55, 30, 2.51335)
+NP = 2800
+edge nr 389
+NP = 2800
+edge nr 390
+NP = 2800
+edge nr 391
+add meshpoint (-8.64444, 30.5147, 2)
+add meshpoint (-8.89343, 30.937, 2)
+add meshpoint (-9.26969, 31.2527, 2)
+add meshpoint (-9.72258, 31.4232, 2)
+add meshpoint (-10.2191, 31.4333, 2)
+add meshpoint (-10.6897, 31.2755, 2)
+add meshpoint (-11.0784, 30.9694, 2)
+add meshpoint (-11.3422, 30.5485, 2)
+add meshpoint (-11.4493, 30.0437, 2)
+add meshpoint (-11.3805, 29.5566, 2)
+add meshpoint (-11.1418, 29.1062, 2)
+add meshpoint (-10.7778, 28.7763, 2)
+add meshpoint (-10.2881, 28.5789, 2)
+add meshpoint (-9.80288, 28.5635, 2)
+add meshpoint (-9.29438, 28.7333, 2)
+add meshpoint (-8.91677, 29.0361, 2)
+add meshpoint (-8.64447, 29.4852, 2)
+NP = 2817
+edge nr 392
+add meshpoint (1.14, 26.84, 14.6462)
+add meshpoint (1.14, 26.84, 13.269)
+add meshpoint (1.14, 26.84, 11.8474)
+add meshpoint (1.14, 26.84, 10.5227)
+add meshpoint (1.14, 26.84, 9.04855)
+add meshpoint (1.14, 26.84, 7.63563)
+add meshpoint (1.14, 26.84, 6.24972)
+add meshpoint (1.14, 26.84, 4.77553)
+add meshpoint (1.14, 26.84, 3.45088)
+NP = 2826
+edge nr 393
+NP = 2826
+edge nr 394
+NP = 2826
+edge nr 395
+add meshpoint (0.888667, 28.2355, 2)
+add meshpoint (0.201174, 29.4147, 2)
+add meshpoint (-0.835923, 30.2901, 2)
+add meshpoint (-2.14029, 30.7747, 2)
+add meshpoint (-3.46291, 30.7943, 2)
+add meshpoint (-4.75679, 30.3617, 2)
+add meshpoint (-5.73152, 29.6247, 2)
+add meshpoint (-6.39889, 28.7045, 2)
+add meshpoint (-6.76623, 27.701, 2)
+add meshpoint (-6.85266, 26.5978, 2)
+add meshpoint (-6.56918, 25.3427, 2)
+add meshpoint (-5.87305, 24.2091, 2)
+add meshpoint (-4.79327, 23.3382, 2)
+add meshpoint (-3.53862, 22.898, 2)
+add meshpoint (-2.06839, 22.9191, 2)
+add meshpoint (-0.823907, 23.397, 2)
+add meshpoint (0.227935, 24.2974, 2)
+add meshpoint (0.897071, 25.4673, 2)
+NP = 2844
+edge nr 396
+add meshpoint (-15.84, 25.6, 14.9501)
+add meshpoint (-15.84, 25.6, 13.8689)
+add meshpoint (-15.84, 25.6, 12.8394)
+add meshpoint (-15.84, 25.6, 11.7853)
+add meshpoint (-15.84, 25.6, 10.7273)
+add meshpoint (-15.84, 25.6, 9.61931)
+add meshpoint (-15.84, 25.6, 8.50565)
+add meshpoint (-15.84, 25.6, 7.37286)
+add meshpoint (-15.84, 25.6, 6.32595)
+add meshpoint (-15.84, 25.6, 5.20688)
+add meshpoint (-15.84, 25.6, 4.1623)
+add meshpoint (-15.84, 25.6, 3.0424)
+NP = 2856
+edge nr 397
+NP = 2856
+edge nr 398
+NP = 2856
+edge nr 399
+add meshpoint (-16.008, 26.5898, 2)
+add meshpoint (-16.5121, 27.4924, 2)
+add meshpoint (-17.357, 28.2078, 2)
+add meshpoint (-18.3148, 28.5537, 2)
+add meshpoint (-19.3278, 28.5601, 2)
+add meshpoint (-20.2786, 28.2325, 2)
+add meshpoint (-21.107, 27.5649, 2)
+add meshpoint (-21.6339, 26.6928, 2)
+add meshpoint (-21.839, 25.6781, 2)
+add meshpoint (-21.6748, 24.6183, 2)
+add meshpoint (-21.1855, 23.7295, 2)
+add meshpoint (-20.345, 23.0048, 2)
+add meshpoint (-19.3577, 22.645, 2)
+add meshpoint (-18.2645, 22.6557, 2)
+add meshpoint (-17.3232, 23.0117, 2)
+add meshpoint (-16.5381, 23.6761, 2)
+add meshpoint (-16.0259, 24.5604, 2)
+NP = 2873
+edge nr 400
+NP = 2873
+edge nr 401
+NP = 2873
+edge nr 402
+NP = 2873
+edge nr 403
+NP = 2873
+edge nr 404
+NP = 2873
+mesh face 1
+
+0/156/147 map/can/use rule Free Triangle (1)
+0/0/0 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+558/464/42 map/can/use rule Right 60 (1)
+242/149/45 map/can/use rule Left 60 (1)
+608/398/328 map/can/use rule Right 120 (1)
+319/169/109 map/can/use rule Left 120 (1)
+92/36/10 map/can/use rule Left Right 120 (1)
+69/69/67 map/can/use rule Fill Triangle
+805/150/79 map/can/use rule Vis A Vis (1)
+0/0/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+0/335/315 map/can/use rule Free Triangle (1)
+0/0/0 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+1131/929/107 map/can/use rule Right 60 (1)
+557/370/158 map/can/use rule Left 60 (1)
+1224/773/597 map/can/use rule Right 120 (1)
+770/334/161 map/can/use rule Left 120 (1)
+357/156/38 map/can/use rule Left Right 120 (1)
+120/120/89 map/can/use rule Fill Triangle
+1895/194/101 map/can/use rule Vis A Vis (1)
+52/0/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+0/536/488 map/can/use rule Free Triangle (1)
+0/0/0 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+1699/1346/186 map/can/use rule Right 60 (1)
+885/604/257 map/can/use rule Left 60 (1)
+1730/1037/757 map/can/use rule Right 120 (1)
+1340/484/204 map/can/use rule Left 120 (1)
+625/250/61 map/can/use rule Left Right 120 (1)
+176/176/110 map/can/use rule Fill Triangle
+3250/327/126 map/can/use rule Vis A Vis (1)
+74/0/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+0/623/565 map/can/use rule Free Triangle (1)
+0/0/0 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+2403/1727/271 map/can/use rule Right 60 (1)
+1412/895/333 map/can/use rule Left 60 (1)
+2253/1147/801 map/can/use rule Right 120 (1)
+1881/565/222 map/can/use rule Left 120 (1)
+887/313/80 map/can/use rule Left Right 120 (1)
+281/281/131 map/can/use rule Fill Triangle
+5518/534/165 map/can/use rule Vis A Vis (1)
+261/3/0 map/can/use rule 2 h Vis A Vis (1)
+
+ 604 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+ 324 times used rule Right 60 (1)
+ 389 times used rule Left 60 (1)
+ 807 times used rule Right 120 (1)
+ 225 times used rule Left 120 (1)
+  87 times used rule Left Right 120 (1)
+ 190 times used rule Fill Triangle
+ 192 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 2
+
+0/275/232 map/can/use rule Free Triangle (1)
+0/0/0 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+486/449/53 map/can/use rule Right 60 (1)
+225/195/81 map/can/use rule Left 60 (1)
+575/452/304 map/can/use rule Right 120 (1)
+350/175/45 map/can/use rule Left 120 (1)
+174/148/20 map/can/use rule Left Right 120 (1)
+10/10/9 map/can/use rule Fill Triangle
+871/37/11 map/can/use rule Vis A Vis (1)
+41/0/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+0/499/435 map/can/use rule Free Triangle (1)
+0/0/0 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+957/779/152 map/can/use rule Right 60 (1)
+632/475/207 map/can/use rule Left 60 (1)
+1041/655/369 map/can/use rule Right 120 (1)
+812/365/101 map/can/use rule Left 120 (1)
+349/253/44 map/can/use rule Left Right 120 (1)
+65/65/30 map/can/use rule Fill Triangle
+2130/151/44 map/can/use rule Vis A Vis (1)
+75/0/0 map/can/use rule 2 h Vis A Vis (1)
+
+ 515 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+ 233 times used rule Right 60 (1)
+ 298 times used rule Left 60 (1)
+ 394 times used rule Right 120 (1)
+ 124 times used rule Left 120 (1)
+  61 times used rule Left Right 120 (1)
+  70 times used rule Fill Triangle
+  70 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 3
+  41 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+  41 times used rule Right 60 (1)
+  71 times used rule Left 60 (1)
+   4 times used rule Right 120 (1)
+  21 times used rule Left 120 (1)
+   5 times used rule Left Right 120 (1)
+ 221 times used rule Fill Triangle
+ 221 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 4
+  97 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+  49 times used rule Right 60 (1)
+  65 times used rule Left 60 (1)
+  45 times used rule Right 120 (1)
+  25 times used rule Left 120 (1)
+  12 times used rule Left Right 120 (1)
+  24 times used rule Fill Triangle
+  23 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 5
+  33 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+  37 times used rule Right 60 (1)
+  34 times used rule Left 60 (1)
+  92 times used rule Right 120 (1)
+  16 times used rule Left 120 (1)
+   5 times used rule Left Right 120 (1)
+  10 times used rule Fill Triangle
+   9 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 6
+  14 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+  15 times used rule Right 60 (1)
+  27 times used rule Left 60 (1)
+   7 times used rule Right 120 (1)
+   6 times used rule Left 120 (1)
+   2 times used rule Left Right 120 (1)
+  25 times used rule Fill Triangle
+  24 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 7
+   0 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+   4 times used rule Right 60 (1)
+   3 times used rule Left 60 (1)
+   0 times used rule Right 120 (1)
+   1 times used rule Left 120 (1)
+   1 times used rule Left Right 120 (1)
+  10 times used rule Fill Triangle
+   9 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 8
+  13 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+  16 times used rule Right 60 (1)
+  20 times used rule Left 60 (1)
+   0 times used rule Right 120 (1)
+   6 times used rule Left 120 (1)
+   1 times used rule Left Right 120 (1)
+  11 times used rule Fill Triangle
+  10 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 9
+   6 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+   6 times used rule Right 60 (1)
+  14 times used rule Left 60 (1)
+   4 times used rule Right 120 (1)
+   4 times used rule Left 120 (1)
+   1 times used rule Left Right 120 (1)
+   7 times used rule Fill Triangle
+   6 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 10
+  19 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+  13 times used rule Right 60 (1)
+  20 times used rule Left 60 (1)
+   8 times used rule Right 120 (1)
+   0 times used rule Left 120 (1)
+   1 times used rule Left Right 120 (1)
+  13 times used rule Fill Triangle
+  12 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 11
+  47 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+  37 times used rule Right 60 (1)
+  35 times used rule Left 60 (1)
+  22 times used rule Right 120 (1)
+   9 times used rule Left 120 (1)
+   7 times used rule Left Right 120 (1)
+  12 times used rule Fill Triangle
+  11 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 12
+  25 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+  17 times used rule Right 60 (1)
+  22 times used rule Left 60 (1)
+  24 times used rule Right 120 (1)
+  12 times used rule Left 120 (1)
+   7 times used rule Left Right 120 (1)
+   8 times used rule Fill Triangle
+   7 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 13
+   4 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+   6 times used rule Right 60 (1)
+  16 times used rule Left 60 (1)
+   1 times used rule Right 120 (1)
+   2 times used rule Left 120 (1)
+   1 times used rule Left Right 120 (1)
+  35 times used rule Fill Triangle
+  34 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 14
+  23 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+  22 times used rule Right 60 (1)
+  28 times used rule Left 60 (1)
+  35 times used rule Right 120 (1)
+  23 times used rule Left 120 (1)
+   9 times used rule Left Right 120 (1)
+  20 times used rule Fill Triangle
+  19 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 15
+   8 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+  12 times used rule Right 60 (1)
+   9 times used rule Left 60 (1)
+   6 times used rule Right 120 (1)
+   1 times used rule Left 120 (1)
+   1 times used rule Left Right 120 (1)
+  10 times used rule Fill Triangle
+   9 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 16
+   0 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+   8 times used rule Right 60 (1)
+   5 times used rule Left 60 (1)
+   0 times used rule Right 120 (1)
+   0 times used rule Left 120 (1)
+   2 times used rule Left Right 120 (1)
+  11 times used rule Fill Triangle
+  10 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 17
+   0 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+  12 times used rule Right 60 (1)
+   3 times used rule Left 60 (1)
+   0 times used rule Right 120 (1)
+   0 times used rule Left 120 (1)
+   2 times used rule Left Right 120 (1)
+  28 times used rule Fill Triangle
+  27 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 18
+   0 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+   6 times used rule Right 60 (1)
+   5 times used rule Left 60 (1)
+   0 times used rule Right 120 (1)
+   0 times used rule Left 120 (1)
+   2 times used rule Left Right 120 (1)
+  12 times used rule Fill Triangle
+  11 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 19
+   0 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+   9 times used rule Right 60 (1)
+   2 times used rule Left 60 (1)
+   0 times used rule Right 120 (1)
+   0 times used rule Left 120 (1)
+   1 times used rule Left Right 120 (1)
+  27 times used rule Fill Triangle
+  26 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 20
+  18 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+  14 times used rule Right 60 (1)
+  21 times used rule Left 60 (1)
+   7 times used rule Right 120 (1)
+  12 times used rule Left 120 (1)
+   2 times used rule Left Right 120 (1)
+  12 times used rule Fill Triangle
+  11 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 21
+  45 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+  50 times used rule Right 60 (1)
+  41 times used rule Left 60 (1)
+  48 times used rule Right 120 (1)
+  17 times used rule Left 120 (1)
+   5 times used rule Left Right 120 (1)
+  60 times used rule Fill Triangle
+  59 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 22
+  11 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+  14 times used rule Right 60 (1)
+  13 times used rule Left 60 (1)
+   0 times used rule Right 120 (1)
+   4 times used rule Left 120 (1)
+   1 times used rule Left Right 120 (1)
+   5 times used rule Fill Triangle
+   4 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 23
+   8 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+   9 times used rule Right 60 (1)
+  13 times used rule Left 60 (1)
+   9 times used rule Right 120 (1)
+   3 times used rule Left 120 (1)
+   1 times used rule Left Right 120 (1)
+   5 times used rule Fill Triangle
+   4 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 24
+  63 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+  37 times used rule Right 60 (1)
+  40 times used rule Left 60 (1)
+  52 times used rule Right 120 (1)
+  14 times used rule Left 120 (1)
+   8 times used rule Left Right 120 (1)
+  27 times used rule Fill Triangle
+  26 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 25
+  54 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+  43 times used rule Right 60 (1)
+  33 times used rule Left 60 (1)
+  23 times used rule Right 120 (1)
+  15 times used rule Left 120 (1)
+   5 times used rule Left Right 120 (1)
+  19 times used rule Fill Triangle
+  18 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 26
+   1 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+   4 times used rule Right 60 (1)
+   6 times used rule Left 60 (1)
+   0 times used rule Right 120 (1)
+   1 times used rule Left 120 (1)
+   1 times used rule Left Right 120 (1)
+   2 times used rule Fill Triangle
+   1 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 27
+   3 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+   6 times used rule Right 60 (1)
+   3 times used rule Left 60 (1)
+   0 times used rule Right 120 (1)
+   0 times used rule Left 120 (1)
+   1 times used rule Left Right 120 (1)
+   5 times used rule Fill Triangle
+   4 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 28
+  20 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+  39 times used rule Right 60 (1)
+  23 times used rule Left 60 (1)
+   7 times used rule Right 120 (1)
+  72 times used rule Left 120 (1)
+   0 times used rule Left Right 120 (1)
+  60 times used rule Fill Triangle
+  59 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 29
+  22 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+  25 times used rule Right 60 (1)
+  21 times used rule Left 60 (1)
+   4 times used rule Right 120 (1)
+  14 times used rule Left 120 (1)
+   3 times used rule Left Right 120 (1)
+   9 times used rule Fill Triangle
+   8 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 30
+  56 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+  42 times used rule Right 60 (1)
+  45 times used rule Left 60 (1)
+  21 times used rule Right 120 (1)
+  52 times used rule Left 120 (1)
+  14 times used rule Left Right 120 (1)
+  22 times used rule Fill Triangle
+  21 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 31
+   5 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+  22 times used rule Right 60 (1)
+  11 times used rule Left 60 (1)
+   1 times used rule Right 120 (1)
+  32 times used rule Left 120 (1)
+   0 times used rule Left Right 120 (1)
+  22 times used rule Fill Triangle
+  21 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 32
+  79 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+  50 times used rule Right 60 (1)
+  60 times used rule Left 60 (1)
+  10 times used rule Right 120 (1)
+  37 times used rule Left 120 (1)
+   5 times used rule Left Right 120 (1)
+  20 times used rule Fill Triangle
+  20 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 33
+   1 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+   3 times used rule Right 60 (1)
+   4 times used rule Left 60 (1)
+   0 times used rule Right 120 (1)
+   0 times used rule Left 120 (1)
+   0 times used rule Left Right 120 (1)
+  10 times used rule Fill Triangle
+   9 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 34
+
+0/97/95 map/can/use rule Free Triangle (1)
+0/0/0 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+558/340/76 map/can/use rule Right 60 (1)
+385/221/67 map/can/use rule Left 60 (1)
+616/129/76 map/can/use rule Right 120 (1)
+424/123/70 map/can/use rule Left 120 (1)
+219/46/13 map/can/use rule Left Right 120 (1)
+78/78/35 map/can/use rule Fill Triangle
+1374/142/50 map/can/use rule Vis A Vis (1)
+108/0/0 map/can/use rule 2 h Vis A Vis (1)
+
+  97 times used rule Free Triangle (1)
+   1 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+  84 times used rule Right 60 (1)
+  86 times used rule Left 60 (1)
+  76 times used rule Right 120 (1)
+  71 times used rule Left 120 (1)
+  13 times used rule Left Right 120 (1)
+  55 times used rule Fill Triangle
+  54 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 35
+   0 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+  20 times used rule Right 60 (1)
+  17 times used rule Left 60 (1)
+   0 times used rule Right 120 (1)
+   0 times used rule Left 120 (1)
+   0 times used rule Left Right 120 (1)
+  16 times used rule Fill Triangle
+  15 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 36
+ 111 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+  77 times used rule Right 60 (1)
+  72 times used rule Left 60 (1)
+  54 times used rule Right 120 (1)
+  73 times used rule Left 120 (1)
+  20 times used rule Left Right 120 (1)
+  24 times used rule Fill Triangle
+  23 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 37
+   5 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+   9 times used rule Right 60 (1)
+   9 times used rule Left 60 (1)
+   6 times used rule Right 120 (1)
+   0 times used rule Left 120 (1)
+   0 times used rule Left Right 120 (1)
+   6 times used rule Fill Triangle
+   5 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 38
+  83 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+  68 times used rule Right 60 (1)
+  63 times used rule Left 60 (1)
+  20 times used rule Right 120 (1)
+  29 times used rule Left 120 (1)
+   2 times used rule Left Right 120 (1)
+  28 times used rule Fill Triangle
+  28 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 39
+  51 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+  25 times used rule Right 60 (1)
+  37 times used rule Left 60 (1)
+  33 times used rule Right 120 (1)
+  35 times used rule Left 120 (1)
+  24 times used rule Left Right 120 (1)
+  10 times used rule Fill Triangle
+   9 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 40
+  11 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+  12 times used rule Right 60 (1)
+  11 times used rule Left 60 (1)
+   9 times used rule Right 120 (1)
+   8 times used rule Left 120 (1)
+   6 times used rule Left Right 120 (1)
+   3 times used rule Fill Triangle
+   2 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 41
+  22 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+  18 times used rule Right 60 (1)
+  24 times used rule Left 60 (1)
+  23 times used rule Right 120 (1)
+  14 times used rule Left 120 (1)
+   8 times used rule Left Right 120 (1)
+   4 times used rule Fill Triangle
+   3 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 42
+   5 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+   5 times used rule Right 60 (1)
+   8 times used rule Left 60 (1)
+  12 times used rule Right 120 (1)
+  16 times used rule Left 120 (1)
+   3 times used rule Left Right 120 (1)
+  13 times used rule Fill Triangle
+  12 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 43
+   9 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+  11 times used rule Right 60 (1)
+  13 times used rule Left 60 (1)
+  13 times used rule Right 120 (1)
+  16 times used rule Left 120 (1)
+   3 times used rule Left Right 120 (1)
+  15 times used rule Fill Triangle
+  14 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 44
+   1 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+   6 times used rule Right 60 (1)
+   5 times used rule Left 60 (1)
+   0 times used rule Right 120 (1)
+   0 times used rule Left 120 (1)
+   0 times used rule Left Right 120 (1)
+  30 times used rule Fill Triangle
+  29 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 45
+  38 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+  26 times used rule Right 60 (1)
+  35 times used rule Left 60 (1)
+  23 times used rule Right 120 (1)
+  22 times used rule Left 120 (1)
+   4 times used rule Left Right 120 (1)
+  16 times used rule Fill Triangle
+  15 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 46
+  12 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+  14 times used rule Right 60 (1)
+  14 times used rule Left 60 (1)
+   8 times used rule Right 120 (1)
+   3 times used rule Left 120 (1)
+   1 times used rule Left Right 120 (1)
+  17 times used rule Fill Triangle
+  16 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 47
+   0 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+   7 times used rule Right 60 (1)
+   3 times used rule Left 60 (1)
+   1 times used rule Right 120 (1)
+   0 times used rule Left 120 (1)
+   0 times used rule Left Right 120 (1)
+  12 times used rule Fill Triangle
+  11 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 48
+  41 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+  34 times used rule Right 60 (1)
+  36 times used rule Left 60 (1)
+  30 times used rule Right 120 (1)
+  26 times used rule Left 120 (1)
+   6 times used rule Left Right 120 (1)
+  12 times used rule Fill Triangle
+  11 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 49
+  42 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+  35 times used rule Right 60 (1)
+  32 times used rule Left 60 (1)
+  20 times used rule Right 120 (1)
+  19 times used rule Left 120 (1)
+   6 times used rule Left Right 120 (1)
+  13 times used rule Fill Triangle
+  12 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 50
+   1 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+   8 times used rule Right 60 (1)
+   3 times used rule Left 60 (1)
+   0 times used rule Right 120 (1)
+   1 times used rule Left 120 (1)
+   1 times used rule Left Right 120 (1)
+  12 times used rule Fill Triangle
+  11 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 51
+   0 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+   7 times used rule Right 60 (1)
+   6 times used rule Left 60 (1)
+   0 times used rule Right 120 (1)
+   0 times used rule Left 120 (1)
+   0 times used rule Left Right 120 (1)
+  11 times used rule Fill Triangle
+  10 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 52
+
+0/169/166 map/can/use rule Free Triangle (1)
+0/0/0 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+490/352/87 map/can/use rule Right 60 (1)
+387/265/100 map/can/use rule Left 60 (1)
+497/174/73 map/can/use rule Right 120 (1)
+493/215/102 map/can/use rule Left 120 (1)
+201/100/18 map/can/use rule Left Right 120 (1)
+44/44/20 map/can/use rule Fill Triangle
+1355/97/34 map/can/use rule Vis A Vis (1)
+83/2/0 map/can/use rule 2 h Vis A Vis (1)
+
+ 172 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+ 115 times used rule Right 60 (1)
+ 122 times used rule Left 60 (1)
+  75 times used rule Right 120 (1)
+ 106 times used rule Left 120 (1)
+  23 times used rule Left Right 120 (1)
+  43 times used rule Fill Triangle
+  42 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 53
+   0 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+  11 times used rule Right 60 (1)
+   4 times used rule Left 60 (1)
+   0 times used rule Right 120 (1)
+   1 times used rule Left 120 (1)
+   0 times used rule Left Right 120 (1)
+  10 times used rule Fill Triangle
+   9 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 54
+   3 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+   8 times used rule Right 60 (1)
+   7 times used rule Left 60 (1)
+   0 times used rule Right 120 (1)
+   0 times used rule Left 120 (1)
+   1 times used rule Left Right 120 (1)
+  11 times used rule Fill Triangle
+  10 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 55
+ 113 times used rule Free Triangle (1)
+   1 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+  87 times used rule Right 60 (1)
+  89 times used rule Left 60 (1)
+  15 times used rule Right 120 (1)
+  45 times used rule Left 120 (1)
+   7 times used rule Left Right 120 (1)
+  30 times used rule Fill Triangle
+  32 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 56
+  32 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+  18 times used rule Right 60 (1)
+  29 times used rule Left 60 (1)
+  39 times used rule Right 120 (1)
+  24 times used rule Left 120 (1)
+  10 times used rule Left Right 120 (1)
+   8 times used rule Fill Triangle
+   7 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 57
+   3 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+   8 times used rule Right 60 (1)
+   5 times used rule Left 60 (1)
+   2 times used rule Right 120 (1)
+   0 times used rule Left 120 (1)
+   2 times used rule Left Right 120 (1)
+   3 times used rule Fill Triangle
+   2 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 58
+  72 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+  77 times used rule Right 60 (1)
+  86 times used rule Left 60 (1)
+  63 times used rule Right 120 (1)
+  22 times used rule Left 120 (1)
+  11 times used rule Left Right 120 (1)
+  67 times used rule Fill Triangle
+  66 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 59
+   5 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+   6 times used rule Right 60 (1)
+   8 times used rule Left 60 (1)
+   0 times used rule Right 120 (1)
+   6 times used rule Left 120 (1)
+   0 times used rule Left Right 120 (1)
+   6 times used rule Fill Triangle
+   5 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 60
+   1 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+   2 times used rule Right 60 (1)
+   4 times used rule Left 60 (1)
+   0 times used rule Right 120 (1)
+   0 times used rule Left 120 (1)
+   1 times used rule Left Right 120 (1)
+   3 times used rule Fill Triangle
+   2 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 61
+   0 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+   2 times used rule Right 60 (1)
+   3 times used rule Left 60 (1)
+   0 times used rule Right 120 (1)
+   0 times used rule Left 120 (1)
+   1 times used rule Left Right 120 (1)
+   3 times used rule Fill Triangle
+   2 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 62
+  27 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+  23 times used rule Right 60 (1)
+  35 times used rule Left 60 (1)
+  10 times used rule Right 120 (1)
+  12 times used rule Left 120 (1)
+   2 times used rule Left Right 120 (1)
+  11 times used rule Fill Triangle
+  10 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 63
+   0 times used rule Free Triangle (1)
+   1 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+   4 times used rule Right 60 (1)
+   4 times used rule Left 60 (1)
+   0 times used rule Right 120 (1)
+   0 times used rule Left 120 (1)
+   0 times used rule Left Right 120 (1)
+   2 times used rule Fill Triangle
+   1 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 64
+  28 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+  23 times used rule Right 60 (1)
+  36 times used rule Left 60 (1)
+  13 times used rule Right 120 (1)
+  20 times used rule Left 120 (1)
+   2 times used rule Left Right 120 (1)
+  12 times used rule Fill Triangle
+  11 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 65
+   5 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+  11 times used rule Right 60 (1)
+   3 times used rule Left 60 (1)
+   1 times used rule Right 120 (1)
+   5 times used rule Left 120 (1)
+   0 times used rule Left Right 120 (1)
+   6 times used rule Fill Triangle
+   5 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 66
+   8 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+  13 times used rule Right 60 (1)
+  15 times used rule Left 60 (1)
+   8 times used rule Right 120 (1)
+   7 times used rule Left 120 (1)
+   0 times used rule Left Right 120 (1)
+  14 times used rule Fill Triangle
+  13 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 67
+   0 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+   8 times used rule Right 60 (1)
+   8 times used rule Left 60 (1)
+   1 times used rule Right 120 (1)
+   0 times used rule Left 120 (1)
+   2 times used rule Left Right 120 (1)
+  11 times used rule Fill Triangle
+  10 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 68
+  79 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+  53 times used rule Right 60 (1)
+  50 times used rule Left 60 (1)
+ 265 times used rule Right 120 (1)
+ 144 times used rule Left 120 (1)
+  45 times used rule Left Right 120 (1)
+  11 times used rule Fill Triangle
+  10 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 69
+   0 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+   8 times used rule Right 60 (1)
+   7 times used rule Left 60 (1)
+   0 times used rule Right 120 (1)
+   0 times used rule Left 120 (1)
+   2 times used rule Left Right 120 (1)
+  13 times used rule Fill Triangle
+  12 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 70
+   0 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+  10 times used rule Right 60 (1)
+   2 times used rule Left 60 (1)
+   0 times used rule Right 120 (1)
+   0 times used rule Left 120 (1)
+   2 times used rule Left Right 120 (1)
+  48 times used rule Fill Triangle
+  47 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 71
+   2 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+  12 times used rule Right 60 (1)
+  20 times used rule Left 60 (1)
+   0 times used rule Right 120 (1)
+   0 times used rule Left 120 (1)
+   0 times used rule Left Right 120 (1)
+  17 times used rule Fill Triangle
+  16 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 72
+  69 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+  44 times used rule Right 60 (1)
+  36 times used rule Left 60 (1)
+ 281 times used rule Right 120 (1)
+ 142 times used rule Left 120 (1)
+  46 times used rule Left Right 120 (1)
+  17 times used rule Fill Triangle
+  16 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 73
+  74 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+  40 times used rule Right 60 (1)
+  44 times used rule Left 60 (1)
+ 260 times used rule Right 120 (1)
+ 161 times used rule Left 120 (1)
+  51 times used rule Left Right 120 (1)
+  15 times used rule Fill Triangle
+  14 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 74
+  28 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+  28 times used rule Right 60 (1)
+  21 times used rule Left 60 (1)
+  90 times used rule Right 120 (1)
+  61 times used rule Left 120 (1)
+  16 times used rule Left Right 120 (1)
+  10 times used rule Fill Triangle
+   9 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 75
+  51 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+  34 times used rule Right 60 (1)
+  33 times used rule Left 60 (1)
+  89 times used rule Right 120 (1)
+  77 times used rule Left 120 (1)
+  21 times used rule Left Right 120 (1)
+  12 times used rule Fill Triangle
+  11 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 76
+   2 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+   3 times used rule Right 60 (1)
+   5 times used rule Left 60 (1)
+   0 times used rule Right 120 (1)
+   8 times used rule Left 120 (1)
+   7 times used rule Left Right 120 (1)
+   2 times used rule Fill Triangle
+   1 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 77
+   3 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+   4 times used rule Right 60 (1)
+   8 times used rule Left 60 (1)
+   0 times used rule Right 120 (1)
+   7 times used rule Left 120 (1)
+   6 times used rule Left Right 120 (1)
+   1 times used rule Fill Triangle
+   0 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 78
+   3 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+   4 times used rule Right 60 (1)
+   8 times used rule Left 60 (1)
+   0 times used rule Right 120 (1)
+   7 times used rule Left 120 (1)
+   6 times used rule Left Right 120 (1)
+   1 times used rule Fill Triangle
+   0 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 79
+   3 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+   4 times used rule Right 60 (1)
+   9 times used rule Left 60 (1)
+   2 times used rule Right 120 (1)
+  10 times used rule Left 120 (1)
+   6 times used rule Left Right 120 (1)
+   1 times used rule Fill Triangle
+   0 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+mesh face 80
+   3 times used rule Free Triangle (1)
+   0 times used rule Free Triangle (5)
+   0 times used rule Free Triangle (10)
+   0 times used rule Free Triangle (20)
+   5 times used rule Right 60 (1)
+   8 times used rule Left 60 (1)
+   0 times used rule Right 120 (1)
+   7 times used rule Left 120 (1)
+   5 times used rule Left Right 120 (1)
+   1 times used rule Fill Triangle
+   0 times used rule Vis A Vis (1)
+   0 times used rule 2 h Vis A Vis (1)
+fail, f = 0.772206 f0 = 0.772206
+fail, f = 0.772206 f0 = 0.772206
+fail, f = 0.815088 f0 = 0.815088
+fail, f = 0.772206 f0 = 0.772206
+fail, f = 0.815088 f0 = 0.815088
+fail, f = 0.772206 f0 = 0.772206
+fail, f = 0.815088 f0 = 0.815088
+fail, f = 0.552104 f0 = 0.552104
+fail, f = 0.552104 f0 = 0.552104
+fail, f = 1.2951 f0 = 1.2951
+fail, f = 1.2951 f0 = 1.2951
+fail, f = 1.2951 f0 = 1.2951
+fail, f = 1.2951 f0 = 1.2951
+fail, f = 1.18764 f0 = 1.18764
+fail, f = 0.584443 f0 = 0.584443
+fail, f = 0.584443 f0 = 0.584443
+fail, f = 0.4941 f0 = 0.4941
+fail, f = 0.4941 f0 = 0.4941
+fail, f = 0.480134 f0 = 0.480134
+fail, f = 0.480134 f0 = 0.480134
+fail, f = 0.791157 f0 = 0.791157
+fail, f = 0.791157 f0 = 0.791157
+fail, f = 0.791157 f0 = 0.791157
+fail, f = 0.791157 f0 = 0.791157
+fail, f = 0.739582 f0 = 0.739582
+fail, f = 0.739582 f0 = 0.739582
+fail, f = 0.739582 f0 = 0.739582
+fail, f = 0.739582 f0 = 0.739582
+fail, f = 0.528131 f0 = 0.528131
+fail, f = 0.49296 f0 = 0.49296
+fail, f = 0.49296 f0 = 0.49296
+fail, f = 0.49296 f0 = 0.49296
+fail, f = 0.584556 f0 = 0.584556
+fail, f = 0.584556 f0 = 0.584556
+fail, f = 0.59654 f0 = 0.59654
+fail, f = 0.584556 f0 = 0.584556
+fail, f = 0.59654 f0 = 0.59654
+fail, f = 0.584556 f0 = 0.584556
